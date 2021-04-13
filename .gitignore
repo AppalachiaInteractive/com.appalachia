@@ -1,8 +1,8 @@
-koc/
-KOC/
+com.appalachia.koc.*
+com.appalachia.koc.*/*
 .venv
+.env
 .private
-*/.venv/*
 */.private/*
 
 # ====== #
