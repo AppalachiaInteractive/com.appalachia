@@ -1,8 +1,10 @@
 echo 'Setting up repository...'
 cd "${0%/*}"
 
-base=basename "$PWD"
+base="$(basename "$PWD")"
 
+echo $base
+rm README.md
 echo "# $base" >> README.md
 git init
 git add README.md
