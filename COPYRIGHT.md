@@ -1,6 +1,6 @@
 COPYRIGHT
 
-All contributions by Chris Schubert: Copyright (c) 2020-2021, Appalachia Interactive, LLC. All rights reserved.
+All contributions by Chris Schubert or via com.appalachia projects: Copyright (c) 2020-2021, Appalachia Interactive, LLC. All rights reserved.
 
 All other contributions: Copyright (c) 2020, the respective contributors. All rights reserved.
 

@@ -1,15 +1,17 @@
 import os
 import git
 
-default_version="0.1.0"
+default_version='0.1.0'
 
 types = [
-    'Internal',
-    'Internal (Permissive)',
+    'KOC',
+    'AI',
+    'AI (Permissive)',
     'Third Party',
     'Unity'
 ]
 license_options = [
+    'AGPL',
     'AGPL',
     'MIT',
     'UCL',
@@ -165,49 +167,53 @@ def execute():
 
     print(package_token.value)        
 
-    if package_token.value == 'Internal':
-        #com.appalachiainteractive.koc.audio
+    if package_token.value == 'KOC':
+        #com.appalachia.koc.audio
         if len(parts) != 4:
             raise ValueError(package_token.value)
         tokens['author'].value = 'Appalachia Interactive'
-        tokens['package'].value = parts[3]
-        suffix = parts[3].replace('-', ' ').title().replace(' ', '')
-        tokens['display'].value = f'Internal.{suffix}'
-        if package_token.value == 'Internal (Permissive)':
-            tokens['license'].value = 'MIT'
-        else:
-            tokens['license'].value = 'AGPL'
+        tokens['package'].value = tail
+        suffix = parts[4].replace('-', ' ').title().replace(' ', '')
+        tokens['display'].value = f'Appalachia Interactive - KOC - {suffix}'
+        tokens['license'].value = 'AGPL'
 
-    elif package_token.value == 'Internal (Permissive)':
-        #com.appalachiainteractive.audio
+    elif package_token.value == 'AI':
+        #com.appalachia.audio
         if len(parts) != 3:
             raise ValueError(package_token.value)
         tokens['author'].value = 'Appalachia Interactive'
-        tokens['package'].value = parts[3]
+        tokens['package'].value = tail
         suffix = parts[3].replace('-', ' ').title().replace(' ', '')
-        tokens['display'].value = f'Internal.{suffix}'
-        if package_token.value == 'Internal (Permissive)':
-            tokens['license'].value = 'MIT'
-        else:
-            tokens['license'].value = 'AGPL'
+        tokens['display'].value = f'Appalachia Interactive - {suffix}'
+        tokens['license'].value = 'AGPL'
+
+    elif package_token.value == 'AI (Permissive)':
+        #com.appalachia.audio
+        if len(parts) != 3:
+            raise ValueError(package_token.value)
+        tokens['author'].value = 'Appalachia Interactive'
+        tokens['package'].value = tail
+        suffix = parts[3].replace('-', ' ').title().replace(' ', '')
+        tokens['display'].value = f'Appalachia Interactive - {suffix}'
+        tokens['license'].value = 'MIT'
 
     elif package_token.value == 'Third Party':        
-        # com.koc.third-party.amplify.shader-editor
+        # com.appalachia.third-party.amplify.shader-editor
         if len(parts) != 5:
             raise ValueError(package_token.value)
         
         tokens['author'].value = parts[3].replace('-', ' ').title()
-        tokens['package'].value = parts[4]
-        tokens['display'].value = parts[4].replace('-', ' ').title()
+        tokens['package'].value = tail
+        tokens['display'].value = f'{parts[3]} - {parts[4]}'.replace('-', ' ').title()
         tokens['license'].value = 'ASEULA'
 
     elif package_token.value == 'Unity':
-        # com.koc.unity.cinemachine
+        # com.appalachia.unity.cinemachine
         if len(parts) != 4:
             raise ValueError(package_token.value)
         tokens['author'].value = 'Unity Technologies'
-        tokens['package'].value = parts[3]
-        tokens['display'].value = parts[3].replace('-', ' ').title()
+        tokens['package'].value = tail
+        tokens['display'].value = f'Unity Technologies - {parts[3]}'.replace('-', ' ').title()
         tokens['license'].value = 'UCL'
 
     else: 
