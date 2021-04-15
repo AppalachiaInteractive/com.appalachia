@@ -1,10 +1,7 @@
-cd "${0%/*}"
-
 echo 'Setting up repository...'
-python ./setup.py
+python "${0%/*}"/repo-setup.py
 if [ $? -eq 0 ]
 then
-    rm setup.py
     rm -- "$0"
     echo 'Repository setup complete...'
 else
