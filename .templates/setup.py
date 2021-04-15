@@ -31,6 +31,12 @@ internal_license_options = [
     'MIT'
 ]
 
+unity_license_options = [
+    'MIT',
+    'UCL',
+    'ASEULA'
+]
+
 external_license_options = [
     'AGPL',
     'GPL',
@@ -451,7 +457,9 @@ def package_unitytechnologies(package, parts):
         raise ValueError(package)
 
     tokens['author'].value = 'Unity Technologies'
-    tokens['license'].value = 'UCL'
+    
+    license_index = get_license(unity_license_options)
+    tokens['license'].value = unity_license_options[license_index]
 
 
 def package_assetstore(package, parts):   
