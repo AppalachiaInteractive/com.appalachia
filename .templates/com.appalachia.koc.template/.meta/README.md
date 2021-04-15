@@ -1,5 +1,0 @@
-# !!display!!
-
-### !!package!!
-
-!!description!!

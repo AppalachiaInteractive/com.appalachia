@@ -1,11 +1,9 @@
-koc
-koc/*
-unity3d
-unity3d/*
-.venv
-.env
+setup.py
+setup.sh
 .dist
+.venv
 .private
+*/.venv/*
 */.private/*
 
 # ====== #
