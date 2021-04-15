@@ -15,8 +15,11 @@ if [[ "$1" == "patch" || "$1" == "minor" || "$1" == "major" || "$1" == "prepatch
     | sed 's/[",]//g' \
     | tr -d '[[:space:]]')
 
-    rm -f .dist/*
-    rmdir .dist
+    if [ -d .dist ] ; then
+        rm -f .dist/*
+        rmdir .dist
+    fi
+
     
     if [ $? -ne 0 ]; then
         exit $?        
@@ -51,11 +54,11 @@ if [[ "$1" == "patch" || "$1" == "minor" || "$1" == "major" || "$1" == "prepatch
     #use release notes from a file
     echo "Sending to github as release"
 
-    if [[ "$1" == "minor" || "$1" == "major" ]]; then
+    #if [[ "$1" == "minor" || "$1" == "major" ]]; then
         gh release create v$package_version .dist/*.tgz -F CHANGELOG.md
-    else
-        gh release create v$package_version .dist/*.tgz
-    fi
+    #else
+        #gh release create v$package_version .dist/*.tgz
+    #fi
 
     if [ $? -ne 0 ]; then
         exit $?        
