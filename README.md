@@ -6,7 +6,8 @@ Add the `.ai` folder to the PATH, and then run `ai.sh`.  From there, you'll see 
 At its core, the menu below is built dynamically, based on scripts populated within the `.ai/cmd` directory.  Without much modification of `ai.sh` (maybe changing the header ;) ), you can set up your own simple scripting environment that gives you easy access to commands/subcommands without having to build executables or maintain a master menu.  Arguments are forwarded to commands as you would expect.
 
 ```
-> ai.sh
+$ ai.sh
+
 ________________________________________________________________________________
 |     _     ____   ____    _     _         _     ____  _   _  ___     _        |
 |    / \   |  _ \ |  _ \  / \   | |       / \   / ___|| | | ||_ _|   / \       |
@@ -30,5 +31,15 @@ ________________________________________________________________________________
 >  ai.sh login npm
 >  ai.sh servers
 >  ai.sh servers verdaccio
+```
+```
+$ ai.sh login github
+
+github.com
+  ✓ Logged in to github.com as ChristopherSchubert (C:\Users\Chris\.config\gh/hosts.yml)
+  ✓ Git operations for github.com configured to use https protocol.
+  ✓ Token: *******************
 
 ```
+
+For the above to work, there is a `login` directory added to the `cmd` directory.  This creates a `command family`.  Then any shell scripts placed within that `login` directory become subcommands.  
