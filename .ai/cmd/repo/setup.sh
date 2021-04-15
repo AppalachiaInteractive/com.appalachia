@@ -1,5 +1,5 @@
 echo 'Setting up repository...'
-python "${0%/*}"/repo-setup.py
+python "${0%/*}"/setup.py
 if [ $? -eq 0 ]
 then
     rm -- "$0"

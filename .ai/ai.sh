@@ -32,7 +32,6 @@ if [ $? -ne 0 ]; then
     fi
 fi
 
-
 export AI_SCRIPT_HOME; export AI_HOME; export AI_COMMAND_HOME; export AI_PACKAGE_HOME; export AI_SERVERS_HOME
 
 print_border()
@@ -42,21 +41,11 @@ print_border()
 print_header()
 {
     if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]"; fi
-    echo '________________________________________________________________________________'
-    echo '|     _     ____   ____    _     _         _     ____  _   _  ___     _        |'
-    echo '|    / \   |  _ \ |  _ \  / \   | |       / \   / ___|| | | ||_ _|   / \       |'
-    echo '|   / _ \  | |_) || |_) |/ _ \  | |      / _ \ | |    | |_| | | |   / _ \      |'
-    echo '|  / ___ \ |  __/ |  __// ___ \ | |___  / ___ \| |___ |  _  | | |  / ___ \     |'
-    echo '| /_/   \_\|_|    |_|  /_/   \_\|_____|/_/   \_\\____||_| |_||___|/_/   \_\    |'
-    echo '|  ___  _   _  _____  _____  ____      _     ____  _____  ___ __     __ _____  |'
-    echo '| |_ _|| \ | ||_   _|| ____||  _ \    / \   / ___||_   _||_ _|\ \   / /| ____| |'
-    echo '|  | | |  \| |  | |  |  _|  | |_) |  / _ \ | |      | |   | |  \ \ / / |  _|   |'
-    echo '|  | | | |\  |  | |  | |___ |  _ <  / ___ \| |___   | |   | |   \ V /  | |___  |'
-    echo '| |___||_| \_|  |_|  |_____||_| \_\/_/   \_\\____|  |_|  |___|   \_/   |_____| |'
-    echo '|______________________________________________________________________________|'
+    if [ -f $AI_SCRIPT_HOME/header.txt ] ; then
+        cat $AI_SCRIPT_HOME/header.txt
+    fi
+    # https://patorjk.com/software/taag/#p=display&h=1&v=0&f=Small&t=APPALACHIA%0AINTERACTIVE
     echo ''
-                        
-    #https://patorjk.com/software/taag/#p=display&h=1&v=0&f=Small&t=APPALACHIA%0AINTERACTIVE
 }
 get_subcommand_directories()
 {

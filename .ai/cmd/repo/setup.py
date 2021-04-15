@@ -1,4 +1,4 @@
-import os, shutil
+import os, shutil, subprocess
 import git
 
 DRY_RUN=False
@@ -17,14 +17,17 @@ categories = [
     'Unity Project',
     'Unity Package'
 ]
+root_dir = 'com.appalachia'
 
 category_templates = [
-    'com.appalachia/.templates/com.appalachia',
-    'com.appalachia/.templates/com.appalachia.unity3d',
-    'com.appalachia/.templates/com.appalachia.unity3d.package'
+    f'{root_dir}/.templates/com.appalachia',
+    f'{root_dir}/.templates/com.appalachia.unity3d',
+    f'{root_dir}/.templates/com.appalachia.unity3d.package'
 ]
 
-license_dir = 'com.appalachia/.licenses'
+command_dir = f'{root_dir}/.ai/cmd'
+
+license_dir = f'{root_dir}/.licenses'
 internal_license_options = [
     'NONE',
     'AGPL',
@@ -80,7 +83,10 @@ tokens = {
     'license' : TokenReplacementSet('Enter the license of the package'),
     'author' : TokenReplacementSet('Enter the author of the package'),
     }
-    
+
+def get_home():    
+    home = os.getenv("HOME")
+    return home
 
 def remove_file(path, include_meta=True):
     if DRY_RUN:
@@ -119,6 +125,7 @@ def should_quit(parameter):
 
 
 def do_ask(message):
+    print()
     parameter = ''
     while True:
         parameter = input("{0}:  ".format(message))
@@ -139,6 +146,7 @@ def do_ask(message):
 
 
 def do_parameter(message, validation):
+    print()
     parameter = ''
     while True:
         parameter = input("{0}:  ".format(message))
@@ -153,6 +161,7 @@ def do_parameter(message, validation):
 
 
 def do_selection(options, message):
+    print()
     mini, maxi = 1, len(options)
     while True:
         for index, option in enumerate(options):
@@ -217,7 +226,7 @@ def get_license(license_options):
 
 
 def get_package(directory):
-    home = os.getenv("HOME")
+    home = get_home()
     absolute = os.path.abspath(directory)
     package = (absolute.replace(home, '')
         .replace('Assets','').replace('internal','').replace('experimental','')
@@ -283,7 +292,7 @@ def process_license(is_internal):
     print('Updating license to use {0}'.format(license_type))
 
     license_file = os.path.join(
-        os.getenv("HOME"),
+        get_home(),
         license_dir, 
         'internal' if is_internal else 'external', 
         'LICENSE_{0}.md'.format(license_type))
@@ -314,80 +323,23 @@ def process_repository(directory, package):
         return
     try:
         repo = git.Repo(directory)
-        assert repo.bare
-    except git.InvalidGitRepositoryError:
-        pass
-    
-    print("Creating repository...")
-    repo = git.Repo.init(directory)                     # git init
-
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print("Adding README.md to index...")
-    repo.index.add('README.md')                         # git add 'README.md'
-    
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print('Committing changes...')
-    repo.index.commit('Added Readme.MD')  #git commit -m "initializing organization repository"
-
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print('Creating main branch...')
-    main = repo.create_head('main')                      # git branch -M main
-
-    if not do_ask("Done.  Proceed?"):
-        return
-        
-    print('Setting main branch active...')
-    if repo.active_branch != main:
-        repo.active_branch.checkout()
-
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print('Configuring remote...')
-    origin = repo.create_remote('origin', remote_url) # git remote add origin $remote_url
-    
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    if not origin.exists():
-        can_create = do_ask(f'The origin at [{remote_url}] does not exist.  Can you create it?')
+    except git.InvalidGitRepositoryError:  
+        can_create = do_ask(f'The remote "origin" at [{remote_url}] does not exist.  Should we create it?')
 
         if not can_create:
             return
-    
-    print('Confirming origin...')
-    assert origin.exists()
-    assert origin == repo.remotes.origin == repo.remotes['origin']
-    
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print('Seting main tracking branch...')
-    repo.heads.main.set_tracking_branch(origin.refs.main)
-
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print("Adding files to index...")
-    repo.index.add(os.getcwd())                       # git add .
-    
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print('Committing changes...')
-    repo.index.commit('initializing organization repository')  #git commit -m "initializing organization repository"
-
-    if not do_ask("Done.  Proceed?"):
-        return
-
-    print('Pushing changes...')
-    origin.push()                                               # git push -u origin main
+        
+        public = do_ask("Is this repository public?")
+        
+        command = 'sh {0} "AppalachiaInteractive/{1}" {2} "{3}"'.format(
+            os.path.join(get_home(), command_dir, "repo", "create.sh"),
+            package, 
+            'public' if public else 'private', 
+            tokens['description'].value)
+        
+        print(command)
+        subprocess.run(command, shell=True)
+   
     
 def get_clean_part(value):    
     return value.replace('-', ' ').replace('3d','3D').title()
@@ -401,14 +353,14 @@ def package_appalachiainteractive(package, parts):
         #com.appalachia.technology.library
         tech = get_clean_part(parts[2])
         libr = get_clean_part(parts[3])
-        tokens['display'].value = f'{tech} {libr}'
+        tokens['display'].value = f'{libr} for {tech}'
     elif len(parts) == 5:
         #com.appalachia.project.technology.library
         proj = get_clean_part(parts[2])
         tech = get_clean_part(parts[3])
         libr = get_clean_part(parts[4])
         tokens['project'].value = proj
-        tokens['display'].value = f'{proj} - {tech} {libr}'
+        tokens['display'].value = f'{proj} - {libr} for {tech}'
     else:
         raise ValueError(package)
 
@@ -421,11 +373,11 @@ def package_appalachiainteractive(package, parts):
 def package_thirdparty(package, parts):
     if len(parts) == 5:
         #com.appalachia.technology.author.library
-        tech = get_clean_part(parts[3])
-        auth = get_clean_part(parts[4])
-        libr = get_clean_part(parts[5])
+        tech = get_clean_part(parts[2])
+        auth = get_clean_part(parts[3])
+        libr = get_clean_part(parts[4])
         tokens['author'].value = auth
-        tokens['display'].value = f'{tech} {libr}'
+        tokens['display'].value = f'{libr} for {tech}'
     elif len(parts) == 6:
         #com.appalachia.project.technology.author.library
         proj = get_clean_part(parts[2])
@@ -434,7 +386,7 @@ def package_thirdparty(package, parts):
         libr = get_clean_part(parts[5])
         tokens['project'].value = proj
         tokens['author'].value = auth
-        tokens['display'].value = f'{proj} - {tech} {libr}'
+        tokens['display'].value = f'{proj} - {libr} for {tech}'
     else:
         raise ValueError(package)
     
@@ -452,7 +404,7 @@ def package_unitytechnologies(package, parts):
         proj = get_clean_part(parts[2])
         libr = get_clean_part(parts[5])
         tokens['project'].value = proj
-        tokens['display'].value = f'{proj} - {libr}'
+        tokens['display'].value = f'{proj} - {libr} for {tech}'
     else:
         raise ValueError(package)
 
@@ -469,7 +421,7 @@ def package_assetstore(package, parts):
         auth = get_clean_part(parts[4])
         libr = get_clean_part(parts[5])
         tokens['author'].value = auth
-        tokens['display'].value = f'{tech} {libr}'
+        tokens['display'].value = f'{libr} for {tech}'
     elif len(parts) == 6:
         #com.appalachia.project.unity3d.author.library
         proj = get_clean_part(parts[2])
@@ -478,7 +430,7 @@ def package_assetstore(package, parts):
         libr = get_clean_part(parts[5])
         tokens['project'].value = proj
         tokens['author'].value = auth
-        tokens['display'].value = f'{proj} - {tech} {libr}'
+        tokens['display'].value = f'{proj} - {libr} for {tech}'
     else:
         raise ValueError(package)
 
