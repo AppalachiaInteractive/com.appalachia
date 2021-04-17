@@ -46,6 +46,6 @@ echo "$content" >> $file_name
 sed -i '/| 0\./d' $file_name
 
 echo "Changelog updates completed."
-echo "------------------------- $file_name -------------------------"
-cat $file_name
-echo "------------------------- $file_name -------------------------"
+#echo "------------------------- $file_name -------------------------"
+#cat $file_name
+#echo "------------------------- $file_name -------------------------"

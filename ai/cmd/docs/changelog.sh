@@ -34,7 +34,7 @@ for i in "${!tag_commits[@]}"; do
 done
 
 echo '```' > $file_name
-echo "`ai.sh print \""$header"\" \""$font"\" --horizontal-layout fitted | head -n -1 `" >> $file_name
+echo "`ai.sh print \""$header"\" \""$font"\" --horizontal-layout fitted | head -n -2 `" >> $file_name
 echo '```' >> $file_name
 
 echo "## Unreleased" >> $file_name
@@ -44,6 +44,6 @@ echo "$content"  >> $file_name
 sed -i '/| 0\./d' $file_name
 
 echo "Changelog updates completed."
-echo "------------------------- $file_name -------------------------"
-cat $file_name
-echo "------------------------- $file_name -------------------------"
+#echo "------------------------- $file_name -------------------------"
+#cat $file_name
+#echo "------------------------- $file_name -------------------------"
