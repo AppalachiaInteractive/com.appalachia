@@ -26,7 +26,7 @@ for i in "${!tag_commits[@]}"; do
     #echo "$tag_commit"
     #echo "$tag_display"
 
-    replace='<br> \n ## Tag: v'"$tag_display"'\n'"$table_header\n$tag_commit"
+    replace='\n\n ## Tag: v'"$tag_display"'\n'"$table_header\n$tag_commit"
     #echo "$replace"
 
     content=$(echo "$content" | sed "s/$tag_commit/$replace/g")

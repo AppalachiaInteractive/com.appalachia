@@ -55,12 +55,8 @@ if [[ "$1" == "patch" || "$1" == "minor" || "$1" == "major" || "$1" == "prepatch
     #use release notes from a file
     echo "Sending to github as release"
 
-    #if [[ "$1" == "minor" || "$1" == "major" ]]; then
-        gh release create v$package_version .dist/*.tgz -F CHANGELOG.md
-    #else
-        #gh release create v$package_version .dist/*.tgz
-    #fi
-
+    gh release create v$package_version .dist/*.tgz -F RELEASELOG.md
+    
     if [ $? -ne 0 ]; then
         exit $?        
     fi 
