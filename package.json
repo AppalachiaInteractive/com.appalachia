@@ -26,11 +26,6 @@
   "scripts": {
     "preversion": "sh ~/com.appalachia/ai/ai.sh package preversion",
     "version": "sh ~/com.appalachia/ai/ai.sh package version",
-    "postversion": "sh ~/com.appalachia/ai/ai.sh package postversion",
-    "prepack": "sh ~/com.appalachia/ai/ai.sh package prepack",
-    "postpack": "sh ~/com.appalachia/ai/ai.sh package postpack",
-    "prepublishOnly": "sh ~/com.appalachia/ai/ai.sh package prepublishOnly",
-    "publish": "sh ~/com.appalachia/ai/ai.sh package publish",
-    "postpublish": "sh ~/com.appalachia/ai/ai.sh package postpublish"
+    "postversion": "sh ~/com.appalachia/ai/ai.sh package postversion"
   }
 }
