@@ -1,6 +1,6 @@
 shopt -s nullglob
 
-DEBUG=1
+DEBUG=0
 opwd=$(pwd)
 AI_SCRIPT_HOME="${0%/*}"
 AI_HOME=$(cd $AI_SCRIPT_HOME; cd ..; pwd; cd "$opwd")
