@@ -1,6 +1,7 @@
 release_header="# Released Changes\n\n"
 file_name="RELEASELOG.md"
 header='RELEASE'
+unheader='STAGED'
 font='Sub-Zero'
 
 echo "Starting release log updates..."
@@ -13,9 +14,21 @@ else
     previous_tag=$(git describe --abbrev=0)
 fi
 
-previous_tag_hash=$(git rev-list -n 1 $previous_tag)
-commit_after_previous=$(git log --reverse --ancestry-path $previous_tag_hash..main | head -n 1 | cut -d \  -f 2)
-content=$(git log --pretty='| %h | %as | %an | %s |' $commit_after_previous..HEAD)
+if [ "$tag" == "" ] ; then
+    tag="Unreleased"; previous_tag="None"
+    header=$unheader
+    echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"
+    
+    content=$(git log --pretty='| %h | %as | %an | %s |')
+else
+    echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"
+
+    previous_tag_hash=$(git rev-list -n 1 $previous_tag)
+    commit_after_previous=$(git log --reverse --ancestry-path $previous_tag_hash..main | head -n 1 | cut -d \  -f 2)
+    content=$(git log --pretty='| %h | %as | %an | %s |' $commit_after_previous..HEAD)
+fi
+
+echo "Starting release log updates..."
 
 table_header="| Hash | Date | Author | Changes |\n|------|------|--------|---------|"
 table_header_a=$'| Hash | Date | Author | Changes |\n|------|------|--------|---------|'

@@ -1,6 +1,6 @@
 shopt -s nullglob
 
-DEBUG=0
+DEBUG=1
 opwd=$(pwd)
 AI_SCRIPT_HOME="${0%/*}"
 AI_HOME=$(cd $AI_SCRIPT_HOME; cd ..; pwd; cd "$opwd")
@@ -246,6 +246,7 @@ process_commands()
                             exit $?
                         fi
                     done
+                    exit 0
                 fi           
             else #[ $# -gt 0 ] ; then
             #            $#=1  x   $1    $#=2  x  $1  $2...
@@ -253,7 +254,7 @@ process_commands()
 
                 # ai/cmd/do/run.sh exists
                 if [ -f "$f/$1.sh" ] ; then
-                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] ai/cmd/do/run.sh exists"; fi
+                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] "'[ $# -gt 0 ] ai/cmd/do/run.sh exists'; fi
                     script=$1
                     shift; if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [SHIFT] [$# args] | "'$@'": [$@]"; fi
                     #            $#=0  x  x      $#=1  x  x   $1...
@@ -264,7 +265,7 @@ process_commands()
                 # ai/cmd/do/do.sh exists - run just this script
                 elif [ -f "$f/$command_family.sh" ] ; then
 
-                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] ai/cmd/do/do.sh exists"; fi
+                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] "'[ $# -gt 0 ] ai/cmd/do/do.sh exists'; fi
 
                     "$f/$command_family.sh" "$@"
                     return $?

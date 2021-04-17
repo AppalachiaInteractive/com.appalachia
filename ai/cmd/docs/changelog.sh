@@ -34,7 +34,7 @@ for i in "${!tag_commits[@]}"; do
 done
 
 echo '```' > $file_name
-echo "`ai.sh print "$header" "$font" --horizontal-layout fitted | head -n -1 `" >> $file_name
+echo "`ai.sh print \""$header"\" \""$font"\" --horizontal-layout fitted | head -n -1 `" >> $file_name
 echo '```' >> $file_name
 
 echo "## Unreleased" >> $file_name
