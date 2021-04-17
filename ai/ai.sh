@@ -179,58 +179,97 @@ print_commands()
     echo ''
 }
 process_commands()
-{
+{    
     if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]"; fi
+    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [$# args] | "'$@'": [$@]"; fi
+    
 
     get_commands commands
     get_command_families command_families
 
+    # $#=1 $1    $#=2  $1  $2    $#=3  $1 $2  $3...
+    # ai.sh do   ai.sh do run    ai.sh do run args
+
     target_command=$1
+    shift; if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [SHIFT] [$# args] | "'$@'": [$@]"; fi
+    # $#=0 x     $#=1  x   $1    $#=2  x  $1  $2...
+    # ai.sh do   ai.sh do run    ai.sh do run args
 
     for f in ${commands[@]}
     do
         if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}] [COMMAND] $f"; fi
         clean_command cmd $f 
-        if [ "$target_command" == "$cmd" ]; then            
-            if [ "$#" -ne 1 ]; then
-                shift
+        if [ "$target_command" == "$cmd" ]; then       
+
+            if [ "$#" -ne 0 ]; then
+            #            $#=1  x   $1    $#=2  x  $1  $2...
+            #            ai.sh do run    ai.sh do run args     
+            #            do.sh run       do.sh run args     
                 $f "$@"
                 return $?
             else
-                $f
+            # $#=0 x  
+            # ai.sh do
+                $f # do.sh
                 return $?
             fi
         fi
     done
     
-    for f in ${command_families[@]}
+    for f in "${command_families[@]}"
     do
         if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}] [FAMILY] $f"; fi
         
         clean_command command_family $f 
 
-        if [ "$target_command" == "$command_family" ]; then     
+        if [ "$target_command" == "$command_family" ] ; then     
 
-            if [ "$#" -eq 1 ]; then
+            if [ $# -eq 0 ]; then
+            # $#=0 x  
+            # ai.sh do
 
-                get_subcommands subcommands $f
-                for subcommand in ${subcommands[@]}
-                do
-                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}] [FAMILY] $f [SUBCOMMAND] $subcommand"; fi
-                    $subcommand
-                    if [ $? -ne 0 ]; then
-                        exit $?
-                    fi
-                done
-                return $?
+                # ai/cmd/do/do.sh exists - run just this script
+                if [ -f "$f/$command_family.sh" ] ; then
+                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] ai/cmd/do/do.sh - run all scripts in do folder"; fi
+                    if [ $DEBUG -eq 1 ] ; then echo "[${FUNCNAME[0]}] [FAMILY] $f [COMMAND] $command_family.sh"; fi
+                    "$f/$command_family.sh"
+                    return $?
 
-            else  
-                shift
-                script=$1
-                shift
-                $f/$script.sh "$@"
-                return $?
-                
+                else # ai/cmd/do/*.sh - run all scripts in do folder
+                    get_subcommands subcommands $f
+                    for subcommand in "${subcommands[@]}"
+                    do
+                        if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] ai/cmd/do/*.sh - run all scripts in do folder"; fi
+                        if [ $DEBUG -eq 1 ] ; then echo "[${FUNCNAME[0]}] [FAMILY] $f [SUBCOMMAND] $subcommand"; fi
+                        "$subcommand"
+                        if [ $? -ne 0 ] ; then
+                            exit $?
+                        fi
+                    done
+                fi           
+            else #[ $# -gt 0 ] ; then
+            #            $#=1  x   $1    $#=2  x  $1  $2...
+            #            ai.sh do run    ai.sh do run args
+
+                # ai/cmd/do/run.sh exists
+                if [ -f "$f/$1.sh" ] ; then
+                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] ai/cmd/do/run.sh exists"; fi
+                    script=$1
+                    shift; if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [SHIFT] [$# args] | "'$@'": [$@]"; fi
+                    #            $#=0  x  x      $#=1  x  x   $1...
+                    #            ai.sh do run    ai.sh do run args
+                    "$f/$script.sh" "$@"
+                    return $?
+
+                # ai/cmd/do/do.sh exists - run just this script
+                elif [ -f "$f/$command_family.sh" ] ; then
+
+                    if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]: [PATH] ai/cmd/do/do.sh exists"; fi
+
+                    "$f/$command_family.sh" "$@"
+                    return $?
+                fi
+
             fi
         fi
     done

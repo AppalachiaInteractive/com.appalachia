@@ -1,7 +1,7 @@
 changelog_header="# Change Log\n\n"
 file_name="CHANGELOG.md"
-header='CHANGES'
-font='Rowan Cap'
+header='Changes'
+font='3D-ASCII'
 
 echo "Starting changelog updates..."
 
@@ -12,8 +12,8 @@ table_header_a=$'| Hash | Date | Author | Changes |\n|------|------|--------|---
 #echo '------------------------- "$content"'
 #echo "$content"
 
-readarray tag_commits < <(git log --tags --no-walk --pretty='| %h' | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g')
-readarray tag_displays < <(git log --tags --no-walk --pretty='%d' | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g')
+readarray tag_commits < <( git log --tags --no-walk --pretty='| %h' | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
+readarray tag_displays < <( git log --tags --no-walk --pretty='%d'   | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
 
 #printf '%s\n' "${tag_commits[@]}"
 #printf '%s\n' "${tag_displays[@]}"
@@ -34,7 +34,7 @@ for i in "${!tag_commits[@]}"; do
 done
 
 echo '```' > $file_name
-echo "`ai.sh header print "$header" "$font" --horizontal-layout fitted`" >> $file_name
+echo "`ai.sh print "$header" "$font" --horizontal-layout fitted | head -n -1 `" >> $file_name
 echo '```' >> $file_name
 
 echo "## Unreleased" >> $file_name

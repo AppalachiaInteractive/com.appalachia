@@ -1,9 +1,12 @@
-if [ $# -ne 1 ] ; then
+if [ $# -lt 1 ] ; then
     echo 'Need to provide a test string.  Just use `showoff` or `fonts` if you want to see the options.'
     exit 1
 fi
 
 readarray -t fonts < "${0%/*}/fonts.txt"
+
+message=$1
+shift
 
 i=0
 for font in "${fonts[@]}"
@@ -13,8 +16,7 @@ do
     echo '----------------------------------------------------------------'
     echo '------------------------'  "$clean_font"
     echo '----------------------------------------------------------------'
-    figlet "$1" -f "$clean_font" --horizontal-layout 'fitted'
-
+    figlet "$message" -f "$clean_font" $@
     i=`expr $i + 1`
     
     if [ $i -eq 10 ] ; then
