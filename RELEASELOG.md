@@ -11,14 +11,14 @@
 # Unreleased
 | Hash | Date | Author | Changes |
 |------|------|--------|---------|
-| c70536a | 2021-04-17 | Chris Schubert | Fixing debug value in ai.sh.  TODO: will need to figure out how to scale script configruation |
+| c70536a | 2021-04-17 | Chris Schubert | Fixing debug value in appa.  TODO: will need to figure out how to scale script configruation |
 | 0ef87ff | 2021-04-17 | Chris Schubert | Fixing termination of process_command loop in ai and better formatting for unreleased version |
 | b1325ff | 2021-04-17 | Chris Schubert | Fixing line breaks in changelog generation |
 | 54bad4e | 2021-04-17 | Chris Schubert | Redesigning command structure and updating `header` command to `print` |
 | ada5ac6 | 2021-04-17 | Chris Schubert | Fixing shell execution setup for npm, explicitly using bash to allow process substitution. |
 | 598d510 | 2021-04-16 | Chris Schubert | Changes to command structure and licensing, header printing working |
 | ef1961e | 2021-04-15 | Chris Schubert | Automatically creating github repo for new projects |
-| 815d6db | 2021-04-15 | Chris Schubert | Fully integrating npm publish to ai.sh |
+| 815d6db | 2021-04-15 | Chris Schubert | Fully integrating npm publish to appa |
 | 1f4e1eb | 2021-04-15 | Chris Schubert | Specifying license as GPU Affero v3 |
 | b8f6046 | 2021-04-15 | Chris Schubert | Adding example invocation |
 | dfe818f | 2021-04-15 | Chris Schubert | Improving documentation a bit on the purpose of the repo. |

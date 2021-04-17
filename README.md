@@ -13,26 +13,26 @@
 ## Appalachia Interactive
 ### com.appalachia development environment
 
-Add the `ai` folder to the PATH, and then run `ai.sh`.  From there, you'll see the possible commands and can begin to understand the tool.
+Add the `appa` folder to the PATH, and then run `appa`.  From there, you'll see the possible commands and can begin to understand the tool.
 
-At its core, the menu below is built dynamically, based on scripts populated within the `ai/cmd` directory.  Without much modification of `ai.sh` (maybe changing the header ;) ), you can set up your own simple scripting environment that gives you easy access to commands/subcommands without having to build executables or maintain a master menu.  Arguments are forwarded to commands as you would expect.
+At its core, the menu below is built dynamically, based on scripts populated within the `appa/cmd` directory.  Without much modification of `appa` (maybe changing the header ;) ), you can set up your own simple scripting environment that gives you easy access to commands/subcommands without having to build executables or maintain a master menu.  Arguments are forwarded to commands as you would expect.
 
 ```
-$ ai.sh
+$ appa
 
->  ai.sh init
->  ai.sh pip
->  ai.sh repo-publish
->  ai.sh repo-setup
->  ai.sh testcmd
->  ai.sh login
->  ai.sh login github
->  ai.sh login npm
->  ai.sh servers
->  ai.sh servers verdaccio
+>  appa init
+>  appa pip
+>  appa repo-publish
+>  appa repo-setup
+>  appa testcmd
+>  appa login
+>  appa login github
+>  appa login npm
+>  appa servers
+>  appa servers verdaccio
 ```
 ```
-$ ai.sh login github
+$ appa login github
 
 github.com
   ✓ Logged in to github.com as ChristopherSchubert (C:\Users\Chris\.config\gh/hosts.yml)

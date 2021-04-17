@@ -20,14 +20,14 @@
     "type": "git"
   },
   "scripts": {
-    "preversion": "sh ~/com.appalachia/ai/ai.sh package preversion",
-    "version": "sh ~/com.appalachia/ai/ai.sh package version",
-    "postversion": "sh ~/com.appalachia/ai/ai.sh package postversion",
-    "prepack": "sh ~/com.appalachia/ai/ai.sh package prepack",
-    "postpack": "sh ~/com.appalachia/ai/ai.sh package postpack",
-    "prepublishOnly": "sh ~/com.appalachia/ai/ai.sh package prepublishOnly",
-    "publish": "sh ~/com.appalachia/ai/ai.sh package publish",
-    "postpublish": "sh ~/com.appalachia/ai/ai.sh package postpublish"
+    "preversion": "sh ~/com.appalachia/appa/appa package preversion",
+    "version": "sh ~/com.appalachia/appa/appa package version",
+    "postversion": "sh ~/com.appalachia/appa/appa package postversion",
+    "prepack": "sh ~/com.appalachia/appa/appa package prepack",
+    "postpack": "sh ~/com.appalachia/appa/appa package postpack",
+    "prepublishOnly": "sh ~/com.appalachia/appa/appa package prepublishOnly",
+    "publish": "sh ~/com.appalachia/appa/appa package publish",
+    "postpublish": "sh ~/com.appalachia/appa/appa package postpublish"
   }
 }
 
