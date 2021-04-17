@@ -16,6 +16,14 @@ fi
 
 python -m pip check -q
 
+for x in "$AI_HOME/node_modules/.bin"; do
+  case ":$PATH:" in
+    *":$x:"*) :;; # already there
+    *) PATH="$x:$PATH";;
+  esac
+done
+
+
 if [ $? -ne 0 ]; then    
     if [ -d "./.venv" ] ; then
         if [ -f "requirements.txt"] ; then
@@ -41,10 +49,9 @@ print_border()
 print_header()
 {
     if [ $DEBUG -eq 1 ]; then echo "[${FUNCNAME[0]}]"; fi
-    if [ -f $AI_SCRIPT_HOME/header.txt ] ; then
-        cat $AI_SCRIPT_HOME/header.txt
-    fi
-    # https://patorjk.com/software/taag/#p=display&h=1&v=0&f=Small&t=APPALACHIA%0AINTERACTIVE
+   
+    figlet 'APPALACHIA' -f '3D-ASCII'
+    figlet 'INTERACTIVE' -f '3D-ASCII'
     echo ''
 }
 get_subcommand_directories()
@@ -187,7 +194,7 @@ process_commands()
         if [ "$target_command" == "$cmd" ]; then            
             if [ "$#" -ne 1 ]; then
                 shift
-                $f "$*"
+                $f "$@"
                 return $?
             else
                 $f
@@ -219,7 +226,9 @@ process_commands()
 
             else  
                 shift
-                $f/$1.sh "$*"
+                script=$1
+                shift
+                $f/$script.sh "$@"
                 return $?
                 
             fi
@@ -230,13 +239,11 @@ process_commands()
     exit 1    
 }
 
-echo ''
-
 commands=($AI_COMMAND_HOME/*)
 
 if [ "$#" -eq 0 ]; then
     print_header
     print_commands 
 else
-    process_commands $@
+    process_commands "$@"
 fi

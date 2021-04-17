@@ -1,25 +1,29 @@
-# Appalachia Interactive
-## com.appalachia development environment
+```
+ ________  ________  ________  ________  ___       ________  ________  ___  ___  ___  ________
+|\   __  \|\   __  \|\   __  \|\   __  \|\  \     |\   __  \|\   ____\|\  \|\  \|\  \|\   __  \
+\ \  \|\  \ \  \|\  \ \  \|\  \ \  \|\  \ \  \    \ \  \|\  \ \  \___|\ \  \\\  \ \  \ \  \|\  \
+ \ \   __  \ \   ____\ \   ____\ \   __  \ \  \    \ \   __  \ \  \    \ \   __  \ \  \ \   __  \
+  \ \  \ \  \ \  \___|\ \  \___|\ \  \ \  \ \  \____\ \  \ \  \ \  \____\ \  \ \  \ \  \ \  \ \  \
+   \ \__\ \__\ \__\    \ \__\    \ \__\ \__\ \_______\ \__\ \__\ \_______\ \__\ \__\ \__\ \__\ \__\
+    \|__|\|__|\|__|     \|__|     \|__|\|__|\|_______|\|__|\|__|\|_______|\|__|\|__|\|__|\|__|\|__|
+ ___  ________   _________  _______   ________  ________  ________ _________  ___  ___      ___ _______
+|\  \|\   ___  \|\___   ___\\  ___ \ |\   __  \|\   __  \|\   ____\\___   ___\\  \|\  \    /  /|\  ___ \
+\ \  \ \  \\ \  \|___ \  \_\ \   __/|\ \  \|\  \ \  \|\  \ \  \___\|___ \  \_\ \  \ \  \  /  / | \   __/|
+ \ \  \ \  \\ \  \   \ \  \ \ \  \_|/_\ \   _  _\ \   __  \ \  \       \ \  \ \ \  \ \  \/  / / \ \  \_|/__
+  \ \  \ \  \\ \  \   \ \  \ \ \  \_|\ \ \  \\  \\ \  \ \  \ \  \____   \ \  \ \ \  \ \    / /   \ \  \_|\ \
+   \ \__\ \__\\ \__\   \ \__\ \ \_______\ \__\\ _\\ \__\ \__\ \_______\  \ \__\ \ \__\ \__/ /     \ \_______\
+    \|__|\|__| \|__|    \|__|  \|_______|\|__|\|__|\|__|\|__|\|_______|   \|__|  \|__|\|__|/       \|_______|
 
-Add the `.ai` folder to the PATH, and then run `ai.sh`.  From there, you'll see the possible commands and can begin to understand the tool.
+```
+## Appalachia Interactive
+### com.appalachia development environment
 
-At its core, the menu below is built dynamically, based on scripts populated within the `.ai/cmd` directory.  Without much modification of `ai.sh` (maybe changing the header ;) ), you can set up your own simple scripting environment that gives you easy access to commands/subcommands without having to build executables or maintain a master menu.  Arguments are forwarded to commands as you would expect.
+Add the `ai` folder to the PATH, and then run `ai.sh`.  From there, you'll see the possible commands and can begin to understand the tool.
+
+At its core, the menu below is built dynamically, based on scripts populated within the `ai/cmd` directory.  Without much modification of `ai.sh` (maybe changing the header ;) ), you can set up your own simple scripting environment that gives you easy access to commands/subcommands without having to build executables or maintain a master menu.  Arguments are forwarded to commands as you would expect.
 
 ```
 $ ai.sh
-
-________________________________________________________________________________
-|     _     ____   ____    _     _         _     ____  _   _  ___     _        |
-|    / \   |  _ \ |  _ \  / \   | |       / \   / ___|| | | ||_ _|   / \       |
-|   / _ \  | |_) || |_) |/ _ \  | |      / _ \ | |    | |_| | | |   / _ \      |
-|  / ___ \ |  __/ |  __// ___ \ | |___  / ___ \| |___ |  _  | | |  / ___ \     |
-| /_/   \_\|_|    |_|  /_/   \_\|_____|/_/   \_\\____||_| |_||___|/_/   \_\    |
-|  ___  _   _  _____  _____  ____      _     ____  _____  ___ __     __ _____  |
-| |_ _|| \ | ||_   _|| ____||  _ \    / \   / ___||_   _||_ _|\ \   / /| ____| |
-|  | | |  \| |  | |  |  _|  | |_) |  / _ \ | |      | |   | |  \ \ / / |  _|   |
-|  | | | |\  |  | |  | |___ |  _ <  / ___ \| |___   | |   | |   \ V /  | |___  |
-| |___||_| \_|  |_|  |_____||_| \_\/_/   \_\\____|  |_|  |___|   \_/   |_____| |
-|______________________________________________________________________________|
 
 >  ai.sh init
 >  ai.sh pip

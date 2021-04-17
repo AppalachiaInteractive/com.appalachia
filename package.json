@@ -1,22 +1,26 @@
 {
-  "name": "!!package!!",
-  "displayName": "!!display!!",
-  "version": "!!version!!",
-  "unity": "2020.3",
-  "description": "!!description!!",
+  "name": "com.appalachia",
+  "private": true,
+  "displayName": "Appalachia Interactive development environment",
+  "version": "1.0.0",
+  "description": "Development environment for Appalachia Interactive",
   "keywords": [
     "Scripts",
-    "Tool"
+    "Tool",
+    "Environment",
+    "Appalachia"
   ],
   "category": "Tool",
-  "license": "!!licenseid!!",
+  "license": "AGPL-3.0-or-later",
   "author": {
-    "name": "!!author!!"
+    "name": "Appalachia Interactive"
   },
   "dependencies": {
+    "figlet": "^1.5.0",
+    "figlet-cli": "^0.1.1"
   },
   "repository": {
-    "url": "https://github.com/AppalachiaInteractive/!!package!!.git",
+    "url": "https://github.com/AppalachiaInteractive/com.appalachia.git",
     "type": "git"
   },
   "scripts": {
@@ -30,5 +34,3 @@
     "postpublish": "sh ~/com.appalachia/ai/ai.sh package postpublish"
   }
 }
-
-

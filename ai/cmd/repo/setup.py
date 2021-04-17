@@ -25,13 +25,15 @@ category_templates = [
     f'{root_dir}/.templates/com.appalachia.unity3d.package'
 ]
 
-command_dir = f'{root_dir}/.ai/cmd'
+command_dir = f'{root_dir}/ai/cmd'
 
 license_dir = f'{root_dir}/.licenses'
 internal_license_options = [
     'NONE',
     'AGPL',
-    'MIT'
+    'MIT',
+    'CC',
+    'CCFREE'
 ]
 
 unity_license_options = [
@@ -48,19 +50,36 @@ external_license_options = [
     'APL',
     'MPL',
     'UCL',
-    'ASEULA'
+    'ASEULA',
 ]
 
 license_notes = {
-    'NONE' : 'None - This work will not be explicitly licensed, which releases no rights to the work to the public.',
-    'AGPL' : 'GNU AGPLv3 - Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.',
-    'GPL' : 'GNU GPLv3 - Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.',
-    'LGPL' : 'GNU LGPLv3 - Permissions of this copyleft license are conditioned on making available complete source code of licensed works and modifications under the same license or the GNU GPLv3.',
-    'MIT' : 'MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices.',
-    'APL' : 'Apache License 2.0 - A permissive license whose main conditions require preservation of copyright and license notices.',
-    'MPL' : 'Mozilla Public License 2.0 - Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license.',
-    'UCL' : 'Unity Companion License - For open-source projects created by Unity Technologies ApS.',
+    'NONE'   : 'None - This work will not be explicitly licensed, which releases no rights to the work to the public.',
+    'AGPL'   : 'GNU AGPLv3 - Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.',
+    'GPL'    : 'GNU GPLv3 - Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.',
+    'LGPL'   : 'GNU LGPLv3 - Permissions of this copyleft license are conditioned on making available complete source code of licensed works and modifications under the same license or the GNU GPLv3.',
+    'MIT'    : 'MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices.',
+    'APL'    : 'Apache License 2.0 - A permissive license whose main conditions require preservation of copyright and license notices.',
+    'MPL'    : 'Mozilla Public License 2.0 - Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license.',
+    'UCL'    : 'Unity Companion License - For open-source projects created by Unity Technologies ApS.',
     'ASEULA' : 'Asset Store End User License Agreement - For assets purchased on the Unity Asset Store',
+    'CC'     : 'Creative Commons Attribution Non Commercial Share Alike 4.0 International',
+    'CCFREE' : 'Creative Commons Attribution Share Alike 4.0 International',
+       
+}
+
+license_identifiers = {
+    'NONE'   : 'UNLICENSED',
+    'AGPL'   : 'AGPL-3.0-or-later' ',
+    'GPL'    : 'GPL-3.0-only',
+    'LGPL'   : 'LGPL-3.0-only',
+    'MIT'    : 'MIT',
+    'APL'    : 'Apache-2.0'',
+    'MPL'    : 'MPL-2.0',
+    'UCL'    : 'SEE LICENSE IN LICENSE.MD',
+    'ASEULA' : 'SEE LICENSE IN LICENSE.MD',
+    'CC'     : 'CC-BY-NC-SA-4.0',
+    'CCFREE' : 'CC-BY-SA-4.0',
 }
 
 token_files = [
@@ -81,6 +100,7 @@ tokens = {
     'version' : TokenReplacementSet('Enter the intitial ersion of the package'),
     'description' : TokenReplacementSet('Enter a description of the package'),
     'license' : TokenReplacementSet('Enter the license of the package'),
+    'licenseid' : TokenReplacementSet('Enter the license identifier of the package'),
     'author' : TokenReplacementSet('Enter the author of the package'),
     }
 
@@ -221,7 +241,8 @@ def get_directory():
 def get_license(license_options):    
     
     license_index  = do_selection_until_confirmed('Is {0} the intended license?', license_notes, license_options, 'Enter the license')
-      
+    
+    tokens['licenseid'].value = license_identifiers[license_options[license_index]]
     return license_index
 
 
@@ -308,7 +329,7 @@ def process_license(is_internal):
 def process_workspace(package):
     print('Renaming workspace...')
     workspace_file = 'workspace.code-workspace'
-    target_file = workspace_file.replace('workspace', package)
+    target_file = workspace_file.replace('workspace.', '{0}.'.format(package))
     
     rename_file(workspace_file, target_file, True)
 
@@ -349,7 +370,7 @@ def package_appalachiainteractive(package, parts):
         #com.appalachia.library
         libr = get_clean_part(parts[2])
         tokens['display'].value = f'{libr}'
-    if len(parts) == 4:
+    elif len(parts) == 4:
         #com.appalachia.technology.library
         tech = get_clean_part(parts[2])
         libr = get_clean_part(parts[3])
@@ -397,7 +418,7 @@ def package_thirdparty(package, parts):
 def package_unitytechnologies(package, parts):
     if len(parts) == 5:
         #com.appalachia.unity3d.unity.library
-        libr = get_clean_part(parts[5])
+        libr = get_clean_part(parts[4])
         tokens['display'].value = f'{libr}'
     elif len(parts) == 6:
         #com.appalachia.project.unity3d.unity.library
@@ -417,9 +438,9 @@ def package_unitytechnologies(package, parts):
 def package_assetstore(package, parts):   
     if len(parts) == 5:
         #com.appalachia.unity3d.author.library
-        tech = get_clean_part(parts[3])
-        auth = get_clean_part(parts[4])
-        libr = get_clean_part(parts[5])
+        tech = get_clean_part(parts[2])
+        auth = get_clean_part(parts[3])
+        libr = get_clean_part(parts[4])
         tokens['author'].value = auth
         tokens['display'].value = f'{libr} for {tech}'
     elif len(parts) == 6:
@@ -503,20 +524,20 @@ def execute():
     if category == 'General':    
         process_token_replacements()  
         process_license(package_type == 'Appalachia Interactive')
-        process_repository(directory, package)
         process_workspace(package)
+        process_repository(directory, package)
 
     elif category == 'Unity Project':
         process_token_replacements()  
         process_license(package_type == 'Appalachia Interactive')
-        process_repository(directory, package)
         process_workspace(package)
+        process_repository(directory, package)
 
     elif category == 'Unity Package':
         process_token_replacements()  
         process_license(package_type == 'Appalachia Interactive')
-        process_repository(directory, package)
         process_workspace(package)
+        process_repository(directory, package)
 
     return
 
