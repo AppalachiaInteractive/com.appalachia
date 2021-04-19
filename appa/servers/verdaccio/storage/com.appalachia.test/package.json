@@ -1,0 +1,75 @@
+{
+	"name": "com.appalachia.test",
+	"versions": {
+		"0.2.5": {
+			"name": "com.appalachia.test",
+			"displayName": "Test",
+			"version": "0.2.5",
+			"unity": "2020.3",
+			"description": "A scratch repository for testing Appalachia Interactive VI & DevOps workflows.",
+			"keywords": [
+				"Scripts",
+				"Tool",
+				"Appalachia",
+				"AppalachiaInteractive"
+			],
+			"category": "Tool",
+			"license": "MIT",
+			"author": {
+				"name": "Appalachia Interactive"
+			},
+			"dependencies": {},
+			"repository": {
+				"url": "git+https://github.com/AppalachiaInteractive/com.appalachia.test.git",
+				"type": "git"
+			},
+			"scripts": {
+				"preversion": "bash ~/com.appalachia/appa/appa.sh package preversion",
+				"version": "bash ~/com.appalachia/appa/appa.sh package version",
+				"postversion": "bash ~/com.appalachia/appa/appa.sh package postversion",
+				"prepack": "bash ~/com.appalachia/appa/appa.sh package prepack",
+				"postpack": "bash ~/com.appalachia/appa/appa.sh package postpack",
+				"prepublishOnly": "bash ~/com.appalachia/appa/appa.sh package prepublishOnly",
+				"publish": "bash ~/com.appalachia/appa/appa.sh package publish",
+				"postpublish": "bash ~/com.appalachia/appa/appa.sh package postpublish"
+			},
+			"_resolved": "",
+			"_integrity": "",
+			"_from": "file:.dist\\com.appalachia.test-0.2.5.tgz",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/AppalachiaInteractive/com.appalachia.test/issues"
+			},
+			"homepage": "https://github.com/AppalachiaInteractive/com.appalachia.test#readme",
+			"_id": "com.appalachia.test@0.2.5",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-NS1O4bBAVFE4iLey6Kl/kB7qf0a91VDypW9XFtSVxeEUZU0cV8OiSiUShCBVtVsYBWo2f+KFFxJ6X8YfGsXxDw==",
+				"shasum": "5678565c0185531cbf0cba176d38e0bbebe1d256",
+				"tarball": "http://localhost:4873/com.appalachia.test/-/com.appalachia.test-0.2.5.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2021-04-19T20:50:37.999Z",
+		"created": "2021-04-19T20:50:37.999Z",
+		"0.2.5": "2021-04-19T20:50:37.999Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.2.5"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"com.appalachia.test-0.2.5.tgz": {
+			"shasum": "5678565c0185531cbf0cba176d38e0bbebe1d256",
+			"version": "0.2.5"
+		}
+	},
+	"_rev": "3-25ccb6ed94149435",
+	"_id": "com.appalachia.test",
+	"readme": "```\r\n                          .      .\r\n _. _ ._ _     _.._ ._  _.| _. _.|_ * _.\r\n(_.(_)[ | ) * (_][_)[_)(_]|(_](_.[ )|(_]\r\n  __             |  |  __\r\n_/  |_  ____   _______/  |_\r\n\\   __\\/ __ \\ /  ___/\\   __\\\r\n |  | \\  ___/ \\___ \\  |  |\r\n |__|  \\___  >____  > |__|\r\n           \\/     \\/\r\n```\r\n\r\n# Test\r\n## com.appalachia.test\r\n### Created by Appalachia Interactive\r\n\r\nA scratch repository for testing Appalachia Interactive CI & DevOps workflows.\r\n"
+}

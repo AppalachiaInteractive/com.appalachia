@@ -20,14 +20,14 @@ categories = [
 root_dir = 'com.appalachia'
 
 category_templates = [
-    f'{root_dir}/.templates/com.appalachia',
-    f'{root_dir}/.templates/com.appalachia.unity3d',
-    f'{root_dir}/.templates/com.appalachia.unity3d.package'
+    f'{root_dir}/appa/.templates/com.appalachia',
+    f'{root_dir}/appa/.templates/com.appalachia.unity3d',
+    f'{root_dir}/appa/.templates/com.appalachia.unity3d.package'
 ]
 
 command_dir = f'{root_dir}/appa/cmd'
 
-license_dir = f'{root_dir}/.licenses'
+license_dir = f'{root_dir}/appa/.templates/.licenses'
 internal_license_options = [
     'NONE',
     'AGPL',
@@ -70,11 +70,11 @@ license_notes = {
 
 license_identifiers = {
     'NONE'   : 'UNLICENSED',
-    'AGPL'   : 'AGPL-3.0-or-later' ',
+    'AGPL'   : 'AGPL-3.0-or-later',
     'GPL'    : 'GPL-3.0-only',
     'LGPL'   : 'LGPL-3.0-only',
     'MIT'    : 'MIT',
-    'APL'    : 'Apache-2.0'',
+    'APL'    : 'Apache-2.0',
     'MPL'    : 'MPL-2.0',
     'UCL'    : 'SEE LICENSE IN LICENSE.MD',
     'ASEULA' : 'SEE LICENSE IN LICENSE.MD',

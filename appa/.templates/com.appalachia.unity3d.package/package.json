@@ -20,14 +20,14 @@
     "type": "git"
   },
   "scripts": {
-    "preversion": "sh ~/com.appalachia/appa/appa package preversion",
-    "version": "sh ~/com.appalachia/appa/appa package version",
+    "preversion": "bash ~/com.appalachia/appa/appa package preversion",
+    "version": "bash ~/com.appalachia/appa/appa package version",
     "postversion": "sh ~/com.appalachia/appa/appa package postversion",
-    "prepack": "sh ~/com.appalachia/appa/appa package prepack",
-    "postpack": "sh ~/com.appalachia/appa/appa package postpack",
-    "prepublishOnly": "sh ~/com.appalachia/appa/appa package prepublishOnly",
-    "publish": "sh ~/com.appalachia/appa/appa package publish",
-    "postpublish": "sh ~/com.appalachia/appa/appa package postpublish"
+    "prepack": "bash ~/com.appalachia/appa/appa package prepack",
+    "postpack": "bash ~/com.appalachia/appa/appa package postpack",
+    "prepublishOnly": "bash ~/com.appalachia/appa/appa package prepublishOnly",
+    "publish": "bash ~/com.appalachia/appa/appa package publish",
+    "postpublish": "bash ~/com.appalachia/appa/appa package postpublish"
   }
 }
 
