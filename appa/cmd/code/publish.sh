@@ -46,17 +46,18 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
     cd ..
 
     package=`ls "$output_folder" | head -n 1`
+    package_path="./$output_folder/$package"
 
     echo "Publishing..."
 
-    npm publish "./$output_folder/$package" --registry "http://localhost:4873"
+    npm publish "$package_path" --registry "http://localhost:4873"
     
     if [ $? -ne 0 ] ; then exit $?; fi;
     
     #use release notes from a file
     echo "Sending to github as release..."
 
-    gh release create v$package_version "./$output_folder/*.tgz" -F RELEASELOG.md
+    gh release create v$package_version "$package_path" -F RELEASELOG.md
     
     if [ $? -ne 0 ] ; then exit $?; fi;
 
