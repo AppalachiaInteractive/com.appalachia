@@ -30,4 +30,4 @@ if [ $result -ne 0 ] ; then
     exit $result
 fi
 
-appa repo publish "$2"
+appa code publish "$2"

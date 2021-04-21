@@ -18,12 +18,10 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
     | tr -d '[[:space:]]')
 
     if [ -d .dist ] ; then
-        rm -f .dist/*
-        rmdir .dist
+        rm -rf .dist
     fi   
     if [ -d dist ] ; then
-        rm -f dist/*
-        rmdir dist
+        rm -rf dist
     fi
 
     output_folder='dist'
@@ -49,24 +47,24 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
 
     package=`ls "$output_folder" | head -n 1`
 
-    echo "Publishing"
+    echo "Publishing..."
 
-    npm publish "$output_folder/$package" --registry "http://localhost:4873"
+    npm publish "./$output_folder/$package" --registry "http://localhost:4873"
     
     if [ $? -ne 0 ] ; then exit $?; fi;
     
     #use release notes from a file
-    echo "Sending to github as release"
+    echo "Sending to github as release..."
 
-    gh release create v$package_version "$output_folder/*.tgz" -F RELEASELOG.md
+    gh release create v$package_version "./$output_folder/*.tgz" -F RELEASELOG.md
     
     if [ $? -ne 0 ] ; then exit $?; fi;
 
-    echo "Destroying tarballs"
+    echo "Destroying distribution tarballs.."
     
-    rm -f "$output_folder/*"
-    rmdir "$output_folder"
+    rm -rf "$output_folder"
 
+    echo 'Publishing complete!'
 
 else
     echo "Choose [patch, minor, major, prepatch, preminor, premajor, prerelease]"

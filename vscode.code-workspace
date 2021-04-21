@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "appa",
+			"path": "vscode\\appa"
+		},
+		{
+			"name": "extension_manager",
+			"path": "vscode\\extension_manager"
+		}
+	],
+	"settings": {}
+}
