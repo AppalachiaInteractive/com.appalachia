@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$APPA_DEBUG_ENTRY" == "1" ] ; then echo "$0"; fi
+source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
 if [ $# -lt 1 ] ; then
     echo 'Need to provide a test string.  Just use `showoff` or `fonts` if you want to see the options.'

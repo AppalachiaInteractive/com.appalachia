@@ -8,6 +8,8 @@ print_header()
 {
     if [ "$APPA_DEBUG" == "1" ] ; then echo "[${FUNCNAME[0]}]"; fi
    
-    figlet $'APPALACHIA \r\n INTERACTIVE' -f 'Sub-Zero' --horizontal-layout fitted --vertical-layout fitted
+    echo "${C_HEADER}"
+    figlet $'APPALACHIA\r\nINTERACTIVE' -f 'Sub-Zero' --horizontal-layout fitted --vertical-layout fitted
+    echo "${C_RST}"
     echo ''
 }

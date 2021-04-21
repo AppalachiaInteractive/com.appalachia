@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$APPA_DEBUG_ENTRY" == "1" ] ; then echo "$0"; fi
+source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
 
 
@@ -29,7 +29,7 @@ else
     echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"
 
     previous_tag_hash=$(git rev-list -n 1 $previous_tag)
-    commit_after_previous=$(git log --reverse --ancestry-path $previous_tag_hash..main | head -n 1 | cut -d \  -f 2)
+    commit_after_previous=$(git log --reverse --ancestry-path $previous_tag_hash..HEAD | head -n 1 | cut -d \  -f 2)
     content=$(git log --pretty='| %h | %as | %an | %s |' $commit_after_previous..HEAD)
 fi
 

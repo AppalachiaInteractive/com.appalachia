@@ -1,8 +1,9 @@
-#Directory-Based Hierarchical Licensing
+# Directory-Based Hierarchical Licensing
 
 This project and its respective files and directories contains many license, copyright, trademark, and other legal notices (from here on referred to as `NOTICES`).
 
 `NOTICES` can be identified by their file names.  They will contain one of the following case-insensitive identifiers:
+
 - `LICENSE`
 - `NOTICE`
 - `LEGAL`

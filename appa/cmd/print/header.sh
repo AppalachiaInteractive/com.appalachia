@@ -1,6 +1,5 @@
 #!/bin/bash
-if [ "$APPA_DEBUG_ENTRY" == "1" ] ; then echo "$0"; fi
-
+source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
 
 if [ $# -lt 3 ] ; then
@@ -10,18 +9,19 @@ if [ $# -lt 3 ] ; then
     exit 3
 fi
 
+font="Contessa"
 header=$1; shift;
 subtitle=$1; shift;
 subtitle_font=$1; shift;
 
 if [ $# -eq 0 ] ; then
-    appa print "$header" "Contessa" "$@"
+    appa print "$header" "$font" "$@"
     appa print "$subtitle" "$subtitle_font" "$@"
 elif [ $# -eq 1 ] ; then
-    appa print "$header" "Contessa" "$1"
+    appa print "$header" "$font" "$1"
     appa print "$subtitle" "$subtitle_font" "$1"
 else
-    appa print "$header" "Contessa" "$1"; shift
+    appa print "$header" "$font" "$1"; shift
     appa print "$subtitle" "$subtitle_font" "$1"
 fi
 

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-if [ "$APPA_DEBUG" == "1" ] ; then echo "[ARGS] [#: $#] $@"; fi
 shopt -s nullglob
 
 source_env()
@@ -20,7 +19,6 @@ check_node
 check_python
 
 if [ "$#" -eq 0 ] ; then
-    if [ "$APPA_DEBUG" == "1" ] ; then echo "[ARGS] [#: $#] $@"; fi
     print_header
     print_commands 
 else

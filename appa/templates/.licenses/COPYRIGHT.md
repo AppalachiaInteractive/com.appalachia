@@ -1,4 +1,4 @@
-COPYRIGHT
+# COPYRIGHT
 
 All contributions on behalf of Appalachia Interactive, or via com.appalachia projects: Copyright (c) 2020-2021, Appalachia Interactive, LLC. All rights reserved.
 

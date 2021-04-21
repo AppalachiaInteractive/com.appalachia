@@ -1,17 +1,14 @@
 #!/bin/bash
-if [ "$APPA_DEBUG_ENTRY" == "1" ] ; then echo "$0"; fi
-
-
+source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
 echo "Attempting to publish..."
 
-echo $1
-if [[ "$1" == "patch" || "$1" == "minor" || "$1" == "major" || "$1" == "prepatch" || "$1" == "preminor" || "$1" == "premajor" || "$1" == "prerelease" ]] ; then
-    npm version $1
+bump="$1"
+shift
+if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" == "prepatch" || "$bump" == "preminor" || "$bump" == "premajor" || "$bump" == "prerelease" ]] ; then
+    npm version $bump
     
-    if [ $? -ne 0 ] ; then
-        exit $?        
-    fi
+    if [ $? -ne 0 ] ; then exit $?; fi;
 
     package_version=$(cat package.json \
     | grep version \
@@ -23,52 +20,52 @@ if [[ "$1" == "patch" || "$1" == "minor" || "$1" == "major" || "$1" == "prepatch
     if [ -d .dist ] ; then
         rm -f .dist/*
         rmdir .dist
+    fi   
+    if [ -d dist ] ; then
+        rm -f dist/*
+        rmdir dist
     fi
 
+    output_folder='dist'
+
+    if [ -d "$output_folder" ] ; then
+        rm -f "$output_folder/*"
+        rmdir "$output_folder"
+    fi
+
+    if [ $? -ne 0 ] ; then exit $?; fi;
+
+    mkdir "$output_folder"
     
-    if [ $? -ne 0 ] ; then
-        exit $?        
-    fi
+    if [ $? -ne 0 ] ; then exit $?; fi;
 
-    mkdir .dist
-    
-    if [ $? -ne 0 ] ; then
-        exit $?        
-    fi
-
-    cd .dist
+    cd "$output_folder"
 
     npm pack ..
 
-    if [ $? -ne 0 ] ; then
-        exit $?        
-    fi
+    if [ $? -ne 0 ] ; then exit $?; fi;
 
     cd ..
 
-    package=`ls .dist | head -n 1`
+    package=`ls "$output_folder" | head -n 1`
 
     echo "Publishing"
 
-    npm publish .dist/$package --registry "http://localhost:4873"
+    npm publish "$output_folder/$package" --registry "http://localhost:4873"
     
-    if [ $? -ne 0 ] ; then
-        exit $?        
-    fi 
+    if [ $? -ne 0 ] ; then exit $?; fi;
     
     #use release notes from a file
     echo "Sending to github as release"
 
-    gh release create v$package_version .dist/*.tgz -F RELEASELOG.md
+    gh release create v$package_version "$output_folder/*.tgz" -F RELEASELOG.md
     
-    if [ $? -ne 0 ] ; then
-        exit $?        
-    fi 
+    if [ $? -ne 0 ] ; then exit $?; fi;
 
     echo "Destroying tarballs"
     
-    rm -f .dist/*
-    rmdir .dist
+    rm -f "$output_folder/*"
+    rmdir "$output_folder"
 
 
 else

@@ -20,14 +20,14 @@ categories = [
 root_dir = 'com.appalachia'
 
 category_templates = [
-    f'{root_dir}/appa/.templates/com.appalachia',
-    f'{root_dir}/appa/.templates/com.appalachia.unity3d',
-    f'{root_dir}/appa/.templates/com.appalachia.unity3d.package'
+    f'{root_dir}/appa/templates/com.appalachia',
+    f'{root_dir}/appa/templates/com.appalachia.unity3d',
+    f'{root_dir}/appa/templates/com.appalachia.unity3d.package'
 ]
 
 command_dir = f'{root_dir}/appa/cmd'
 
-license_dir = f'{root_dir}/appa/.templates/.licenses'
+license_dir = f'{root_dir}/appa/templates/.licenses'
 internal_license_options = [
     'NONE',
     'AGPL',

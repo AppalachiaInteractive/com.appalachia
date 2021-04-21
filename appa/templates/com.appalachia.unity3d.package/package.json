@@ -19,6 +19,9 @@
     "url": "https://github.com/AppalachiaInteractive/!!package!!.git",
     "type": "git"
   },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
   "scripts": {
     "preversion": "bash ~/com.appalachia/appa/appa package preversion",
     "version": "bash ~/com.appalachia/appa/appa package version",

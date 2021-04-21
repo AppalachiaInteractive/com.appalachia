@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$APPA_DEBUG_ENTRY" == "1" ] ; then echo "$0"; fi
+source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
 
 
@@ -19,8 +19,8 @@ if [ "$APPA_DEBUG" == "1" ] ; then
     echo "$content"
 fi
 
-readarray tag_commits < <( git log --tags --no-walk --pretty='| %h' | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
-readarray tag_displays < <( git log --tags --no-walk --pretty='%d'   | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
+readarray tag_commits < <( git log --tags --no-walk --pretty='| %h' | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/master//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
+readarray tag_displays < <( git log --tags --no-walk --pretty='%d'   | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/master//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
 
 if [ "$APPA_DEBUG" == "1" ] ; then 
     printf '%s\n' "${tag_commits[@]}"
