@@ -1,3 +1,6 @@
+Copyright © `2021` `Appalachia Interactive`  
+Licensed under:
+
 GNU Affero General Public License
 =================================
 

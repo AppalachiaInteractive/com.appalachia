@@ -1,5 +1,9 @@
+Copyright © `!!year!!` `!!author!!`  
+Licensed under:
+
 Mozilla Public License Version 2.0
 ==================================
+
 
 ### 1. Definitions
 

@@ -1,3 +1,4 @@
+.bin/*.ini
 .dist
 .env
 .private
@@ -10,10 +11,10 @@ dist
 dotnet
 koc
 node
+python
+servers/
 unity3d
 vscode
-.bin/*.ini
-appa/servers/
 
 node_modules
 */node_modules

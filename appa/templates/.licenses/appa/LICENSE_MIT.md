@@ -1,4 +1,4 @@
-Copyright © `!!year!!` `!!author!!`  
+Copyright © `2021` `Appalachia Interactive`  
 Licensed under:
 
 The MIT License (MIT)

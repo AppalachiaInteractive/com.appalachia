@@ -3,7 +3,7 @@ source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
 
 echo 'Setting up repository...'
-python "${0%/*}"/setup.py
+python "$APPA_HOME/python/temp-py/main.py"
 if [ $? -eq 0 ]
 then
     #rm -- "$0"

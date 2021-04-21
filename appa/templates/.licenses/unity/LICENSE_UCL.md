@@ -1,8 +1,8 @@
-Unity Companion License ("License")
+Copyright © `2020` `Unity Technologies ApS`  
+Licensed under:
 
-v1.3
-
- 
+Unity Companion License ("License"), v1.3
+=====================
 
 Unity Technologies ApS (“Unity”) grants to you a worldwide, non-exclusive, no-charge, and royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, and distribute the work of authorship that accompanies this License (“Work”), subject to the following terms and conditions: 
 

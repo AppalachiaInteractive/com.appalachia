@@ -1,4 +1,10 @@
+Copyright © `!!year!!` `!!author!!`  
+Licensed under:
+
+
 Asset Store End User License Agreement
+=====================
+
 1. Parties to the Agreement/The Subject Matter of the Agreement
 1.1
 
