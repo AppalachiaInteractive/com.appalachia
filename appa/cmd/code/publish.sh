@@ -4,6 +4,11 @@ source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 echo "Attempting to publish..."
 
 bump="$1"
+
+python -m appapy publish $bump
+
+exit $?
+
 shift
 if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" == "prepatch" || "$bump" == "preminor" || "$bump" == "premajor" || "$bump" == "prerelease" ]] ; then
     npm version $bump
@@ -17,21 +22,13 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
     | sed 's/[",]//g' \
     | tr -d '[[:space:]]')
 
-    if [ -d .dist ] ; then
-        rm -rf .dist
-    fi   
-    if [ -d dist ] ; then
-        rm -rf dist
-    fi
-
     output_folder='dist'
-
-    if [ -d "$output_folder" ] ; then
-        rm -f "$output_folder/*"
-        rmdir "$output_folder"
-    fi
-
-    if [ $? -ne 0 ] ; then exit $?; fi;
+    for folder in .dist dist "$output_folder" ; do
+        if [ -d "$folder" ] ; then
+            rm -f "$folder/*"
+            rmdir "$folder"
+        fi
+    done
 
     mkdir "$output_folder"
     
@@ -61,9 +58,9 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
     
     if [ $? -ne 0 ] ; then exit $?; fi;
 
-    echo "Destroying distribution tarballs.."
+    #echo "Destroying distribution tarballs.."
     
-    rm -rf "$output_folder"
+    #rm -rf "$output_folder"
 
     echo 'Publishing complete!'
 

@@ -1,8 +1,6 @@
 #!/bin/bash
 source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
-
-
 release_header="# Released Changes\n\n"
 file_name="RELEASELOG.md"
 header='RELEASE'
@@ -11,16 +9,22 @@ font='Sub-Zero'
 
 echo "Starting release log updates..."
 
-if [ $# -lt 1 ] ; then
-    tag=$(git describe --abbrev=0)  
+tag="$npm_package_version"; 
+previous_tag=$(git describe --abbrev=0)
+
+if [ "$tag" == "" ] && [ $# -ge 1 ] ; then
+    tag="$1"; 
     previous_tag=$(git describe --abbrev=0 $tag^)
-else
-    tag=$npm_package_version
-    previous_tag=$(git describe --abbrev=0)
 fi
 
 if [ "$tag" == "" ] ; then
-    tag="Unreleased"; previous_tag="None"
+    tag=$(git describe --abbrev=0); 
+    previous_tag=$(git describe --abbrev=0 $tag^)
+fi
+
+if [ "$tag" == "" ] ; then
+    tag="Unreleased"; 
+    previous_tag="None"
     header=$unheader
     echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"
     
@@ -39,8 +43,8 @@ table_header="| Hash | Date | Author | Changes |\n|------|------|--------|------
 table_header_a=$'| Hash | Date | Author | Changes |\n|------|------|--------|---------|'
 
 if [ "$APPA_DEBUG" == "1" ] ; then 
-    echo '------------------------- "$content"' fi
-    echo "$content" fi
+    echo '------------------------- "$content"'
+    echo "$content"
 fi
 
 echo '```' > $file_name

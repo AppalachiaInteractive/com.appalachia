@@ -1,2 +1,2 @@
 #!/bin/bash
-$0.sh "$@"
+source $0.sh "$@"

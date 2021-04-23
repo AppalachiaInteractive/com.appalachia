@@ -97,4 +97,4 @@ VSCode/*
 Documentation~/api/*
 Documentation~/manual/changelog.*
 
-/*/*.uasset
+/*/*.uasset.venv

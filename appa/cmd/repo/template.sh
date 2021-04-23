@@ -1,13 +1,15 @@
 #!/bin/bash
 source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
 
+echo "${C_NOTE}Setting up repository...${C_RST}"
 
-echo 'Setting up repository...'
-python "$APPA_HOME/python/temp_py/com.appalachia.python.temp_py/main.py"
-if [ $? -eq 0 ]
+python -m appapy templating
+res=$?
+if [ $res -eq 0 ]
 then
     #rm -- "$0"
-    echo 'Repository setup complete...'
+    echo "${C_SUC}Repository setup complete...${C_RST}"
 else
-    echo 'Issue setting up repository...'
+    echo "${C_ERR}Issue setting up repository...${C_RST}"
+    exit $res
 fi

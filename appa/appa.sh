@@ -5,7 +5,6 @@ shopt -s nullglob
 source_env()
 {    
     source "${0%/*}/config/default.sh"
-    if [ -d "./.venv" ] ; then source ./.venv/Scripts/activate; else source $APPA_HOME/.venv/Scripts/activate; fi;
 }
 source_functions()
 {  

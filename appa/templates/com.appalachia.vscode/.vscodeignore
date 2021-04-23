@@ -1,3 +1,5 @@
+*/.private/*
+private
 # Ignore vscode settings for development
 .vscode/**
 
@@ -13,21 +15,15 @@ node_modules
 out/**
 
 # Ignore vsce output
-*.vsix
+# *.vsix
 
 # Ignore development files
 .editorconfig
 .gitignore
-**/tsconfig.json
-**/tslint.json
+tsconfig.json
+tslint.json
 webpack.config.js
 **/*.map
-**/*.ts
 
 # Ignore i18n language files
 i18n/**
-
-
-vsc-extension-quickstart.md
-
-

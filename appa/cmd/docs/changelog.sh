@@ -19,8 +19,8 @@ if [ "$APPA_DEBUG" == "1" ] ; then
     echo "$content"
 fi
 
-readarray tag_commits < <( git log --tags --no-walk --pretty='| %h' | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/master//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
-readarray tag_displays < <( git log --tags --no-walk --pretty='%d'   | sed -e 's/(//g' -e 's/)//g' -e 's/tag://g' -e 's/HEAD//g' -e 's/master//g' -e 's/main//g' -e 's/,//g' -e 's/->//g' -e 's/origin//g' -e 's|/||g' -e 's/  / /g' -e 's/  / /g' -e 's/  / /g' -e 's/\t//g' -e 's/ v/ /g' )
+readarray tag_commits < <(git log --tags --no-walk --pretty='| %h'|sed -e 's/v//g')
+readarray tag_displays < <(git log --tags --no-walk --pretty='%d'|sed -e 's/ (//g' -e 's/HEAD -> //g' -e 's/main, //g' -e 's/master, //g' -e 's/tag: v//g' -e 's/)//g')
 
 if [ "$APPA_DEBUG" == "1" ] ; then 
     printf '%s\n' "${tag_commits[@]}"
@@ -28,9 +28,11 @@ if [ "$APPA_DEBUG" == "1" ] ; then
 fi
 
 for i in "${!tag_commits[@]}"; do 
-    
-    tag_commit=`echo "${tag_commits[$i]}" | xargs`
-    tag_display=`echo "${tag_displays[$i]}" | xargs`
+CLEANED=${COMMAND//[$'\t\r\n']} && CLEANED=${CLEANED%%*( )}
+
+    tag_commit="${tag_commits[$i]//[$'\t\r\n']}" && tag_commit="${tag_commit%%*( )}" && tag_commit="${tag_commit##*( )}"
+    tag_display="${tag_displays[$i]//[$'\t\r\n']}" && tag_display="${tag_display%%*( )}" && tag_display="${tag_display##*( )}"
+
 
     if [ "$APPA_DEBUG" == "1" ] ; then 
         echo "$tag_commit"

@@ -156,7 +156,7 @@ process_commands()
     if [ -f "$f" ] ; then
         if [ "$APPA_DEBUG" == "1" ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[COMMAND]${C_RST} ${C_VAL}$target_command${C_RST}"; fi
         
-        $f "$@"
+        source $f "$@"
         exit $?
     fi
     
@@ -175,7 +175,7 @@ process_commands()
             if [ -f "$d/$command_family.sh" ] ; then
                 if [ "$APPA_DEBUG" == "1" ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST}: ${C_NOTE}[PATH]${C_RST} ${C_VAL}ai/cmd/do/do.sh - run all scripts in do folder${C_RST}"; fi
                 if [ "$APPA_DEBUG" == "1" ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[FAMILY]${C_RST} $d ${C_NOTE}[COMMAND]${C_RST} ${C_VAL}$command_family.sh${C_RST}"; fi
-                "$d/$command_family.sh"
+                source "$d/$command_family.sh"
                 return $?
 
             else # ai/cmd/do/*.sh - run all scripts in do folder
@@ -184,7 +184,7 @@ process_commands()
                 do
                     if [ "$APPA_DEBUG" == "1" ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST}: ${C_NOTE}[PATH]${C_RST} ${C_VAL}ai/cmd/do/*.sh - run all scripts in do folder${C_RST}"; fi
                     if [ $APPA_DEBUG -eq 1 ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[FAMILY]${C_RST} $d ${C_NOTE}[SUBCOMMAND]${C_RST} ${C_VAL}$subcommand${C_RST}T"; fi
-                    "$subcommand"
+                    source "$subcommand"
                     if [ $? -ne 0 ] ; then
                         exit $?
                     fi
@@ -202,7 +202,7 @@ process_commands()
                 shift; if [ "$APPA_DEBUG" == "1" ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST}: ${C_NOTE}[SHIFT]${C_RST} ${C_ARGS}[$# args] | "'$@'": [$@]"; fi
                 #            $#=0  x  x      $#=1  x  x   $1...
                 #            appa do run    appa do run args
-                "$d/$script.sh" "$@"
+                source "$d/$script.sh" "$@"
                 return $?
 
             # ai/cmd/do/do.sh exists - run just this script
@@ -210,7 +210,7 @@ process_commands()
 
                 if [ "$APPA_DEBUG" == "1" ] ; then echo "${C_FUNC}[${FUNCNAME[0]}]${C_RST}: ${C_NOTE}[PATH]${C_RST} "${C_VAL}'[ $# -gt 0 ] '"ai/cmd/do/do.sh exists${C_RST}"; fi
 
-                "$d/$command_family.sh" "$@"
+                source "$d/$command_family.sh" "$@"
                 return $?
             fi
         fi
