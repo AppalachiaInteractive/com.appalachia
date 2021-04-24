@@ -6,7 +6,8 @@ if [ $# -lt 1 ] ; then
     exit 1
 fi
 
-readarray -t fonts < "${0%/*}/fonts.txt"
+script_root="${0%/*}"
+readarray -t fonts < "${script_root}/fonts.txt"
 
 message=$1
 shift
@@ -14,13 +15,13 @@ shift
 i=0
 for font in "${fonts[@]}"
 do 
-    clean_font="$(echo $font || sed "s/\n//g")"
+    clean_font="$(echo "$font" || sed "s/\n//g")"
 
     echo '----------------------------------------------------------------'
     echo '------------------------'  "$clean_font"
     echo '----------------------------------------------------------------'
     figlet "$message" -f "$clean_font" "$@"
-    i=`expr $i + 1`
+    i=$((i+1))
     
     if [ $i -eq 10 ] ; then
         i=0
