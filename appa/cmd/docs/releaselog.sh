@@ -29,6 +29,12 @@ if [ "$tag" == "" ] ; then
     echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"
     
     content=$(git log --pretty='| %h | %as | %an | %s |')
+    
+elif [ "$previous_tag" == "" ] ; then
+    previous_tag="None"
+    echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"    
+    content=$(git log --pretty='| %h | %as | %an | %s |')
+    
 else
     echo "Tag: [$tag]  | Previous Tag: [$previous_tag]"
 

@@ -6,6 +6,6 @@ venv_dir="${REPO_HOME}/.venv"
 
 python -m venv "${venv_dir}"
 
-appa venv activate
+source appa.sh venv activate
 
 success "Created virtual environment!"

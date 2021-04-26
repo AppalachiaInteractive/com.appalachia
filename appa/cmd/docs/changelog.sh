@@ -44,7 +44,7 @@ echo '```' > $file_name
 echo "`appa print \""$header"\" \""$font"\" --horizontal-layout fitted | head -n -2 `" >> $file_name
 echo '```' >> $file_name
 
-echo "## Unreleased" >> $file_name
+echo "## Releasing" >> $file_name
 echo "$table_header_a" >> $file_name
 echo "$content"  >> $file_name
 

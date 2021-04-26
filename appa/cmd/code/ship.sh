@@ -32,6 +32,6 @@ if [ $result -ne 0 ] ; then
     exit $result
 fi
 
-appa code publish "$2"
+source appa.sh code publish "$2"
 
 success 'Shipped!'

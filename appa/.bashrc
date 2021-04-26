@@ -25,3 +25,4 @@ precmd()
 
 source "${APPA_SCRIPT_HOME}/bash-preexec.sh"
 source "${APPA_SCRIPT_HOME}/wakatime.sh"
+source "${APPA_SCRIPT_HOME}/.bashprofile"

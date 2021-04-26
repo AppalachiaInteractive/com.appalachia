@@ -5,66 +5,27 @@ attempt "Attempting to publish..."
 
 bump="$1"
 
+original_pwd="$PWD"
+
+echo "${original_pwd}"
+
+note 'Moving to python path directory to activate environment...'
+
+cd "${PYTHONPATH}"
+note 'Invoking environment change...'
+source appa.sh venv activate
+
+cd "${original_pwd}"
+note 'Executing...'
 python -m appapy publish $bump
+res=$?
+
+
+
+if [ $res -eq 0 ] ; then
+    success 'Published successfully!'
+else
+    error 'Failed to publish!'
+fi
 
 exit $?
-
-shift
-if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" == "prepatch" || "$bump" == "preminor" || "$bump" == "premajor" || "$bump" == "prerelease" ]] ; then
-    npm version $bump
-    
-    if [ $? -ne 0 ] ; then exit $?; fi;
-
-    package_version=$(cat package.json \
-    | grep version \
-    | head -1 \
-    | awk -F: '{ print $2 }' \
-    | sed 's/[",]//g' \
-    | tr -d '[[:space:]]')
-
-    output_folder='dist'
-    for folder in .dist dist "$output_folder" ; do
-        if [ -d "$folder" ] ; then
-            rm -f "$folder/*"
-            rmdir "$folder"
-        fi
-    done
-
-    mkdir "$output_folder"
-    
-    if [ $? -ne 0 ] ; then exit $?; fi;
-
-    cd "$output_folder"
-
-    npm pack ..
-
-    if [ $? -ne 0 ] ; then exit $?; fi;
-
-    cd ..
-
-    package=`ls "$output_folder" | head -n 1`
-    package_path="./$output_folder/$package"
-
-    attempt "Publishing..."
-
-    npm publish "$package_path" --registry "http://localhost:4873"
-    
-    if [ $? -ne 0 ] ; then exit $?; fi;
-    
-    #use release notes from a file
-    attempt "Sending to github as release..."
-
-    gh release create v$package_version "$package_path" -F RELEASELOG.md
-    
-    if [ $? -ne 0 ] ; then exit $?; fi;
-
-    #echo "Destroying distribution tarballs.."
-    
-    #rm -rf "$output_folder"
-
-    success 'Publishing complete!'
-
-else
-    argserror "Choose [patch, minor, major, prepatch, preminor, premajor, prerelease]"
-    exit 1
-fi
