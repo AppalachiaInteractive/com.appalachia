@@ -98,3 +98,4 @@ Documentation~/api/*
 Documentation~/manual/changelog.*
 
 /*/*.uasset.venv
+bash-preexec

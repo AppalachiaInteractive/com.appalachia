@@ -1,0 +1,30 @@
+#!/bin/bash
+
+source_configs()
+{  
+    mapfile -t configs < <(find "${root}/appa/configs" -mindepth 1 -type f -name '*.sh')
+    
+    for config in "${configs[@]}"; 
+    do 
+        # echo "$config"
+        source "${config}" "$@"; 
+    done;
+
+    # note "COLORS:  ${APPA_CONFIG_COLORS-NOT LOADED}"
+    # note "DEFAULT: ${APPA_CONFIG_DEFAULT-NOT LOADED}"
+    # note "NPM:     ${APPA_CONFIG_NPM-NOT LOADED}"
+}
+
+source_functions()
+{  
+    mapfile -t functions < <(find "${APPA_FUNCTIONS_HOME}" -mindepth 1 -type f -name '*.sh')
+    
+    for function in "${functions[@]}"; 
+    do 
+        # echo_func "$function"
+        source  "${function}" "$@"; 
+    done;
+}
+
+source_configs "$@"
+source_functions "$@"

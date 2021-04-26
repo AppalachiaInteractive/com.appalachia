@@ -1,7 +1,7 @@
 #!/bin/bash
-source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
+source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-echo "Attempting to publish..."
+attempt "Attempting to publish..."
 
 bump="$1"
 
@@ -45,14 +45,14 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
     package=`ls "$output_folder" | head -n 1`
     package_path="./$output_folder/$package"
 
-    echo "Publishing..."
+    attempt "Publishing..."
 
     npm publish "$package_path" --registry "http://localhost:4873"
     
     if [ $? -ne 0 ] ; then exit $?; fi;
     
     #use release notes from a file
-    echo "Sending to github as release..."
+    attempt "Sending to github as release..."
 
     gh release create v$package_version "$package_path" -F RELEASELOG.md
     
@@ -62,9 +62,9 @@ if [[ "$bump" == "patch" || "$bump" == "minor" || "$bump" == "major" || "$bump" 
     
     #rm -rf "$output_folder"
 
-    echo 'Publishing complete!'
+    success 'Publishing complete!'
 
 else
-    echo "Choose [patch, minor, major, prepatch, preminor, premajor, prerelease]"
+    argserror "Choose [patch, minor, major, prepatch, preminor, premajor, prerelease]"
     exit 1
 fi

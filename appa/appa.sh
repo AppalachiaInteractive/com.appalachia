@@ -2,20 +2,13 @@
 
 shopt -s nullglob
 
-source_env()
-{    
-    source "${0%/*}/config/default.sh"
-}
-source_functions()
-{  
-    functions=(`find "$APPA_FUNCTIONS_HOME" -mindepth 1 -type f -name '*.sh'`)
-    for function in ${functions[@]}; do source "$function"; done;
-}
+root="${HOME}/com.appalachia"
+source "${root}/appa/.apparc"
 
-source_env
-source_functions
 check_node
 check_python
+
+debug "${config_file}"
 
 if [ "$#" -eq 0 ] ; then
     print_header

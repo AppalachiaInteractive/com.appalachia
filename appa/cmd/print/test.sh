@@ -1,13 +1,12 @@
 #!/bin/bash
-source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
+source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 if [ $# -lt 1 ] ; then
-    echo 'Need to provide a test string.  Just use `showoff` or `fonts` if you want to see the options.'
+    argserror 'Need to provide a test string.  Just use `showoff` or `fonts` if you want to see the options.'
     exit 1
 fi
 
-script_root="${0%/*}"
-readarray -t fonts < "${script_root}/fonts.txt"
+readarray -t fonts < "${0%/*}/fonts.txt"
 
 message=$1
 shift
@@ -17,9 +16,9 @@ for font in "${fonts[@]}"
 do 
     clean_font="$(echo "$font" || sed "s/\n//g")"
 
-    echo '----------------------------------------------------------------'
-    echo '------------------------'  "$clean_font"
-    echo '----------------------------------------------------------------'
+    note '----------------------------------------------------------------'
+    note '------------------------'"$clean_font"
+    note '----------------------------------------------------------------'
     figlet "$message" -f "$clean_font" "$@"
     i=$((i+1))
     

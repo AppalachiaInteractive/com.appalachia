@@ -2,14 +2,14 @@
 
 print_border()
 {
-    echo '________________________________________________________________________________'
+    echo "________________________________________________________________________________"
 }
 print_header()
 {
-    if [ "$APPA_DEBUG" == "1" ] ; then echo "[${FUNCNAME[0]}]"; fi
+    if [ "${APPA_DEBUG}" == "1" ] ; then echo "[${FUNCNAME[0]}]"; fi
    
-    echo "${C_HEADER}"
+    echo -e "${C_HEADER}"
     figlet $'APPALACHIA\r\nINTERACTIVE' -f 'Sub-Zero' --horizontal-layout fitted --vertical-layout fitted
-    echo "${C_RST}"
-    echo ''
+    echo -e "${C_RST}"
+    echo
 }

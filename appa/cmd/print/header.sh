@@ -1,11 +1,11 @@
 #!/bin/bash
-source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
+source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 
 if [ $# -lt 3 ] ; then
-    echo 'Provide [header], [subtitle], [subtitle font] -or-'
-    echo 'Provide [header], [subtitle], [subtitle font], ["options"] -or-'
-    echo 'Provide [header], [subtitle], [subtitle font], ["header options"], ["subtitle options"]'
+    argserror 'Provide [header], [subtitle], [subtitle font] -or-'
+    argserror 'Provide [header], [subtitle], [subtitle font], ["options"] -or-'
+    argserror 'Provide [header], [subtitle], [subtitle font], ["header options"], ["subtitle options"]'
     exit 3
 fi
 

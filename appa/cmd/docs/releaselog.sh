@@ -1,5 +1,5 @@
 #!/bin/bash
-source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
+source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 release_header="# Released Changes\n\n"
 file_name="RELEASELOG.md"
@@ -7,7 +7,7 @@ header='RELEASE'
 unheader='STAGED'
 font='Sub-Zero'
 
-echo "Starting release log updates..."
+attempt "Starting release log updates..."
 
 tag="$npm_package_version"; 
 previous_tag=$(git describe --abbrev=0)
@@ -42,7 +42,7 @@ echo "Starting release log updates..."
 table_header="| Hash | Date | Author | Changes |\n|------|------|--------|---------|"
 table_header_a=$'| Hash | Date | Author | Changes |\n|------|------|--------|---------|'
 
-if [ "$APPA_DEBUG" == "1" ] ; then 
+if [ "${APPA_DEBUG}" == "1" ] ; then 
     echo '------------------------- "$content"'
     echo "$content"
 fi
@@ -57,7 +57,7 @@ echo "$content" >> $file_name
 sed -i '/| 0\./d' $file_name
 
 echo "Changelog updates completed."
-if [ "$APPA_DEBUG" == "1" ] ; then 
+if [ "${APPA_DEBUG}" == "1" ] ; then 
     echo "------------------------- $file_name -------------------------"
     cat $file_name
     echo "------------------------- $file_name -------------------------"

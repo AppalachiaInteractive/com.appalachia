@@ -1,5 +1,5 @@
 #!/bin/bash
-source "$APPA_FUNCTIONS_HOME/cmd_start.sh"
+source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 package="$REPO_HOME"/package.json
 

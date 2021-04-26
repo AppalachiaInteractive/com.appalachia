@@ -2,7 +2,7 @@
 
 check_node()
 {
-    for x in "$APPA_NODE_HOME/.bin"; do
+    for x in "${APPA_NODE_HOME}/.bin"; do
     case ":$PATH:" in
         *":$x:"*) :;; # already there
         *) PATH="$x:$PATH";;
@@ -20,10 +20,10 @@ check_python()
                 python -m pip freeze > requirements.txt
             fi
         else        
-            if [ -f "$APPA_HOME/requirements.txt" ] ; then
-                python -m pip install  $APPA_HOME/requirements.txt 
+            if [ -f "${APPA_HOME}/requirements.txt" ] ; then
+                python -m pip install "${APPA_HOME}/requirements.txt"
             else 
-                python -m pip freeze > $APPA_HOME/requirements.txt
+                python -m pip freeze > "${APPA_HOME}/requirements.txt"
             fi
         fi
     fi
