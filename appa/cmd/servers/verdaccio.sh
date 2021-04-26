@@ -5,11 +5,11 @@ root="$APPA_SERVERS_HOME/verdaccio"
 config="$root/verdaccio.yaml"
 command="verdaccio --config $config"
 
-if [ "$APPA_DEBUG" == "1"] ] ; then echo "[ROOT   ] $root"; fi
-if [ "$APPA_DEBUG" == "1"] ] ; then echo echo "[CONFIG ] $config"; fi
-if [ "$APPA_DEBUG" == "1"] ] ; then echo echo "[COMMAND] $command"; fi
+if [ "$APPA_DEBUG" == "1" ] ; then echo "[ROOT   ] $root"; fi
+if [ "$APPA_DEBUG" == "1" ] ; then echo "[CONFIG ] $config"; fi
+if [ "$APPA_DEBUG" == "1" ] ; then echo "[COMMAND] $command"; fi
 
-cd "$root"
+cd "$root" || exit
 $command &
 pid=$! 
 sleep 5 
