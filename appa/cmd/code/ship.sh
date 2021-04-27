@@ -8,6 +8,11 @@ fi
 
 attempt 'Attempting to ship...'
 
+if [ "$REPO_HOME" == "${HOME}/com.appalachia" ] ; then
+    error 'Check your directory...'
+    exit 1
+fi
+
 git add .
 result=$?
 

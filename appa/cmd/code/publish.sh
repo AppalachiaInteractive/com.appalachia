@@ -3,10 +3,16 @@ source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 attempt "Attempting to publish..."
 
+win_home=$(echo "${HOME}/com.appalachia"|sed -e 's_/c/_C:/_g')
+
+if [ "$REPO_HOME" == "${win_home}" ] ; then
+    error 'Check your directory...'
+    exit 1
+fi
+
 bump="$1"
 
 original_pwd="$PWD"
-
 echo "${original_pwd}"
 
 note 'Moving to python path directory to activate environment...'

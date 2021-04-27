@@ -66,8 +66,8 @@ C_WARN="${ST_UNDERLINE}${FG_YELLOW}${BG_DEFAULT}"
 error() { cecho "fXr" "${1}"; }
 C_ERR="${ST_BLINK}${FG_DEFAULT}${BG_RED}";
 
-note() { cecho "dMx" "${1}"; }
-C_NOTE="${ST_DIM}${FG_MAGENTA}${BG_DEFAULT}";
+note() { cecho "Mx" "${1}"; }
+C_NOTE="${FG_MAGENTA}${BG_DEFAULT}";
 
 success() { cecho "sGx" "${1}"; }
 
@@ -92,6 +92,8 @@ C_ARGS="${ST_BOLD}${FG_WHITE}${BG_BLUE}";
 argserror() { cecho "sXr" "${1}"; }
 C_ARGSERR="${ST_BOLD}${FG_DEFAULT}${BG_RED}";
 
+highlight() { cecho "sYx" "${1}"; }
+C_HIGHLIGHT="${ST_BOLD}${FG_YELLOW}${BG_DEFAULT}";
 
 
 C_RST="${RESET}";

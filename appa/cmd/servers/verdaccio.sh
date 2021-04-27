@@ -13,5 +13,5 @@ cd "$root" || exit
 $command &
 pid=$! 
 sleep 5 
-echo "[Verdaccio] running as PID $pid"
+success "[Verdaccio] running as PID $pid"
 ps -p $pid

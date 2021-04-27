@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\unity3d\\unity\\Assets\\cinemachine"
+		},
+		{
+			"path": "..\\unity3d\\unity\\Assets\\nav-mesh-components"
+		},
+		{
+			"path": "..\\unity3d\\unity\\Assets\\postprocessing"
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "node\\html-diff"
+			"path": "..\\servers\\verdaccio"
 		}
 	],
 	"settings": {}
