@@ -1,7 +1,6 @@
 #!/bin/bash
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-changelog_header="# Change Log\n\n"
 file_name="CHANGELOG.md"
 header='Changes'
 font='3D-ASCII'
@@ -36,12 +35,13 @@ for i in "${!tag_commits[@]}"; do
     
     debug "Replacement: [$replace]"    
 
-    content=$(echo "$content" | sed "s/$tag_commit/$replace/g")
+    #content=$(echo "$content" | sed "s/$tag_commit/$replace/g")
+    content="${content/$tag_commit/$replace}"
 
 done
 
 echo '```' > $file_name
-echo "`appa print \""$header"\" \""$font"\" --horizontal-layout fitted | head -n -2 `" >> $file_name
+echo "$(appa print \""$header"\" \""$font"\" --horizontal-layout fitted | head -n -2 )" >> $file_name
 echo '```' >> $file_name
 
 echo "## Releasing" >> $file_name
