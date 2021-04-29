@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "..\\unity3d\\internal.ci\\Assets\\packaging"
+		},
+		{
+			"path": "..\\unity3d\\internal.ci.common\\Assets\\semver"
+		}
+	]
+}

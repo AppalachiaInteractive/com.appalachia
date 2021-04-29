@@ -10,5 +10,5 @@ if [ "$relevant_commands" == "" ] ; then
 else
     export DIRENV_FIX_PATH=1
     export DIRENV_OLD_PATH="$PATH"
-    echo "export PATH='${PATH}'" > "${HOME}/.path"
+    echo "export PATH='${PATH}'" > "${APPA_SCRIPT_HOME}/.path"
 fi

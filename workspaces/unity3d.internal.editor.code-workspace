@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\unity3d\\internal.editor\\Assets\\auto-save"
+		},
+		{
+			"path": "..\\unity3d\\internal.editor\\Assets\\dependency-manager"
+		},
+		{
+			"path": "..\\unity3d\\internal.editor\\Assets\\wakatime"
+		}
+	]
+}

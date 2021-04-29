@@ -1,2 +1,6 @@
 #!/bin/bash
 eval "$(gh completion -s bash)"
+
+name=$(cat "${APPA_SCRIPT_HOME}/.name")
+banner=$(figlet "${name}" -f Sub-Zero --horiziontal-layout fitted | sed -e 1's/.*'"/\\${FG_RED} &/" -e 2's/.*'"/\\${FG_YELLOW} &/" -e 3's/.*'"/\\${FG_GREEN} &/" -e 4's/.*'"/\\${FG_CYAN} &/" -e 5's/.*'"/\\${FG_BLUE} &/")
+echo -n -e "${banner}"$'\n'
