@@ -11,8 +11,12 @@
   "category": "Tool",
   "license": "!!licenseid!!",
   "author": {
-    "name": "!!author!!"
+    "name": "!!owner!!"
   },
+  "contributors": [
+    {"name": "!!owner!!"},
+    {"name": "!!author!!"}
+  ],
   "dependencies": {
   },
   "repository": {

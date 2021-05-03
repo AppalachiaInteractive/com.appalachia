@@ -25,11 +25,11 @@ fi
 
 attempt "Renaming package [${1}] to [${2}]..."
 
-note "Renaming github repository..."
-gh api -X PATCH "repos/AppalachiaInteractive/${1}" -f "name=${2}" || exit
-
 pattern="s/${1}/${2}/g"
 find . -mindepth 1 -maxdepth 3 -type f -name '*' -exec grep -Iq . {} \; -exec sed -i "${pattern}" {} \;
+
+note "Renaming github repository..."
+gh api -X PATCH "repos/AppalachiaInteractive/${1}" -f "name=${2}" || exit
 
 git fetch -p
 git status
