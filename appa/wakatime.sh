@@ -12,9 +12,9 @@
 wakatime_preprompt_command() {
     version="1.0.0"
     entity=$(echo $(fc -ln -0) | cut -d ' ' -f1)
-    [ -z "$entity" ] && return # $entity is empty or only whitespace
+    [ -z "${entity}" ] && return # ${entity} is empty or only whitespace
     $(git rev-parse --is-inside-work-tree 2> /dev/null) && local project="$(basename $(git rev-parse --show-toplevel))" || local project="Terminal"
-    (wakatime --write --plugin "bash-wakatime/$version" --entity-type app --project "$project" --entity "$entity" --language "Bash" 2>&1 > /dev/null &)
+    (wakatime --write --plugin "bash-wakatime/${version}" --entity-type app --project "${project}" --entity "${entity}" --language "Bash" 2>&1 > /dev/null &)
 }
 
-PROMPT_COMMAND=$'\n'"wakatime_preprompt_command;$PROMPT_COMMAND"
+PROMPT_COMMAND=$'\n'"wakatime_preprompt_command;${PROMPT_COMMAND}"

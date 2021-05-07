@@ -1,9 +1,9 @@
 #!/bin/bash
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-package="$REPO_HOME"/package.json
+package="${REPO_HOME}"/package.json
 
-if [ -f "$package" ] ; then
+if [ -f "${package}" ] ; then
 
     package_name=$(cat package.json \
     | grep \"name\" \
@@ -12,7 +12,7 @@ if [ -f "$package" ] ; then
     | sed 's/[",]//g' \
     | tr -d '[[:space:]]')
 
-    echo $package_name
+    echo ${package_name}
 
 fi
 #    package = (absolute.replace(home, '')

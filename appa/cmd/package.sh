@@ -11,11 +11,11 @@ note "Executing packaging ${C_FUNC}${1}..."
 python -m 'appapy' packaging "$@"
 
 res=$?
-if [ $res -eq 0 ]
+if [ ${res} -eq 0 ]
 then
     #rm -- "$0"
     success "Packaging ${1} completed!"
 else
     error "Issue packaging!"
-    exit $res
+    exit ${res}
 fi

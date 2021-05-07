@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "${APPA_DEBUG}" == "1" ] || [ "${APPA_DEBUG_ENTRY}" == "1" ] ; then echo "${C_FUNC}$0${RESET}"; fi
-if [ "${APPA_DEBUG}" == "1" ] ; then echo "${C_ARGS}[ARGS] [#: $#] $@${RESET}"; fi
+if [ "${APPA_DEBUG}" == "1" ] ; then echo "${C_ARGS}[ARGS] [#: $#] $* ${RESET}"; fi
 
 if [ "${APPA_DEBUG}" == "1" ] ; then echo "APPA_HOME: ${APPA_HOME}"; fi
 if [ "${APPA_DEBUG}" == "1" ] ; then echo "APPA_SCRIPT_HOME: ${APPA_SCRIPT_HOME}"; fi

@@ -13,7 +13,7 @@ fi
 
 package=$(appa vars package)
 
-if [ "$package" == "" ] ; then 
+if [ "${package}" == "" ] ; then 
     argserror $"Execute from a directory with package.json."
     exit 1
 fi

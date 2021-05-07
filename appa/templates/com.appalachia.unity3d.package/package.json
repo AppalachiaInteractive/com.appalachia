@@ -4,9 +4,13 @@
   "version": "!!version!!",
   "unity": "2020.3",
   "description": "!!description!!",
+  "library": "!!library!!",
+  "csrootnamespace": "!!csrootnamespace!!",
+  "tagline": "!!tagline!!",
   "keywords": [
     "Scripts",
-    "Tool"
+    "Tool",
+    "Unity3D"
   ],
   "category": "Tool",
   "license": "!!licenseid!!",

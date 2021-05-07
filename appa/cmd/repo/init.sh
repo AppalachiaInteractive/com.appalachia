@@ -19,8 +19,8 @@ path="$1"
 pubpri="--$2"
 description="$3"
 
-gh repo create $path $pubpri -d "$description"
-gh repo clone $path tmp
+gh repo create ${path} ${pubpri} -d "${description}"
+gh repo clone ${path} tmp
 mv tmp/* tmp/.* .
 rmdir tmp
 git add README.md

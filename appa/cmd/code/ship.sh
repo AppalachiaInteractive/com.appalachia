@@ -8,7 +8,7 @@ fi
 
 attempt 'Attempting to ship...'
 
-if [ "$REPO_HOME" == "${HOME}/com.appalachia" ] ; then
+if [ "${REPO_HOME}" == "${HOME}/com.appalachia" ] ; then
     error 'Check your directory...'
     exit 1
 fi
@@ -16,25 +16,25 @@ fi
 git add .
 result=$?
 
-if [ $result -ne 0 ] ; then
-    echo $result
-    exit $result
+if [ ${result} -ne 0 ] ; then
+    echo ${result}
+    exit ${result}
 fi
 
 git commit -m "$1"
 result=$?
 
-if [ $result -gt 1 ] ; then
-    echo $result
-    exit $result
+if [ ${result} -gt 1 ] ; then
+    echo ${result}
+    exit ${result}
 fi
 
 git push
 result=$?
 
-if [ $result -ne 0 ] ; then
-    echo $result
-    exit $result
+if [ ${result} -ne 0 ] ; then
+    echo ${result}
+    exit ${result}
 fi
 
 source appa.sh code publish "$2"

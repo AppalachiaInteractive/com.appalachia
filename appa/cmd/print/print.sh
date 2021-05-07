@@ -10,4 +10,4 @@ message=$1
 shift
 font=$1
 shift
-figlet "$message" -f "$font" "$@"
+figlet "${message}" -f "${font}" "$@"

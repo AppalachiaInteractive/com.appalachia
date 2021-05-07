@@ -6,10 +6,10 @@ repos=($(find . -type d -name .git|sed 's/.git//g'))
 for repo in "${repos[@]}" ; do
     echo
     highlight '-------------------------------------'
-    highlight "Repository : $repo"
+    highlight "Repository : ${repo}"
     highlight '-------------------------------------'
-    note "Executing command: [git -C \'$repo\" $*]"
+    note "Executing command: [git -C \'${repo}\" $*]"
 
-    git -C "$repo" "$@"
+    git -C "${repo}" "$@"
     
 done

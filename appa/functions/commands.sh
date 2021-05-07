@@ -74,7 +74,7 @@ clean_subcommand()
 
     out=$(echo $2 | sed 's/\.sh//g' | sed "s|$3/||g")
     if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[RETURN]${C_RST} ${C_VAL}${out}${C_RST}"; fi
-    eval $1='$out'
+    eval $1='${out}'
 }
 clean_command()
 {
@@ -84,7 +84,7 @@ clean_command()
 
     out=$(echo -e "$2" | sed 's/\.sh//g' | sed "s|${APPA_COMMAND_HOME}/||g")
     if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[RETURN] ${C_RST}${C_VAL}${out}${C_RST}"; fi
-    eval $1='$out'
+    eval $1='${out}'
 }
 print_commands()
 {
@@ -95,7 +95,7 @@ print_commands()
     if [ "${APPA_DEBUG}" == "1" ] ; then 
         for command_file in "${commands[@]}"
         do
-            echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[FILE]${C_RST} ${C_VAL}$command_file${C_RST}"
+            echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[FILE]${C_RST} ${C_VAL}${command_file}${C_RST}"
         done
     fi
 
@@ -108,12 +108,12 @@ print_commands()
 
     for command_file in "${commands[@]}"
     do
-        if [ "${APPA_DEBUG}" == "1" ] ; then echo -e  "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-S]${C_RST} ${C_VAL}$command_file${C_RST}"; fi
+        if [ "${APPA_DEBUG}" == "1" ] ; then echo -e  "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-S]${C_RST} ${C_VAL}${command_file}${C_RST}"; fi
 
-        clean_command printable_command_name "$command_file"
+        clean_command printable_command_name "${command_file}"
         echo -e  "${C_CMD}>  appa ${printable_command_name}${C_RST}"
 
-        if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-E]${C_RST} ${C_VAL}$command_file${C_RST}"; fi
+        if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-E]${C_RST} ${C_VAL}${command_file}${C_RST}"; fi
     done
 
     for command_family in "${command_families[@]}"
@@ -197,7 +197,8 @@ process_commands()
 
             # ai/cmd/do/run.sh exists
             script="${d}/${1}.sh"
-            echo -e "${script}"
+
+            if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${script}"; fi 
 
             if [ -f "${script}" ] ; then
                 if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST}: ${C_NOTE}[PATH]${C_RST} ${C_VAL}"'[ $# -gt 0 ] '"ai/cmd/do/run.sh exists${C_RST}"; fi
