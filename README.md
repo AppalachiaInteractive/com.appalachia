@@ -42,3 +42,6 @@ github.com
 ```
 
 For the above to work, there is a `login` directory added to the `cmd` directory.  This creates a `command family`.  Then any shell scripts placed within that `login` directory become subcommands.  
+
+## Legal and Licensing
+For legal and licensing information please see [LEGAL.md](./LEGAL.md).
