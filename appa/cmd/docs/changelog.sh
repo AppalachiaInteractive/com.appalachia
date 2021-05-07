@@ -14,8 +14,8 @@ content=$(git log --pretty='| %H | %as | %an | %s |')
 debug '------------------------- "${content}"'
 debug "${content}"
 
-readarray tag_commits < <(git log --tags --no-walk --pretty='| %h'|sed -e 's/v//g')
-readarray tag_displays < <(git log --tags --no-walk --pretty='%d'|sed -e 's/ (//g' -e 's/HEAD -> //g' -e 's/main, //g' -e 's/master, //g' -e 's/tag: v//g' -e 's/)//g')
+readarray tag_commits < <(git log --exclude="*upm*" --tags --no-walk --pretty='| %h'|sed -e 's/v//g')
+readarray tag_displays < <(git log --exclude="*upm*" --tags --no-walk --pretty='%d'|sed -e 's/ (//g' -e 's/HEAD -> //g' -e 's/main, //g' -e 's/master, //g' -e 's/tag: v//g' -e 's/)//g')
 
 if [ "${APPA_DEBUG}" == "1" ] ; then 
     printf '%s\n' "${tag_commits[@]}"

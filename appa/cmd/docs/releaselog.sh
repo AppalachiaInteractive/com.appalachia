@@ -10,16 +10,16 @@ font='Sub-Zero'
 attempt "Attempting to update release log..."
 
 tag="${npm_package_version}"; 
-previous_tag=$(git describe --abbrev=0 --tags)
+previous_tag=$(git describe --exclude upm --abbrev=0 --tags)
 
 if [ "${tag}" == "" ] && [ $# -ge 1 ] ; then
     tag="$1"; 
-    previous_tag=$(git describe --abbrev=0 --tags "${tag}^")
+    previous_tag=$(git describe --exclude upm --abbrev=0 --tags "${tag}^")
 fi
 
 if [ "${tag}" == "" ] ; then
-    tag=$(git describe --abbrev=0 --tags); 
-    previous_tag=$(git describe --abbrev=0 --tags "${tag}^")
+    tag=$(git describe --exclude upm --abbrev=0 --tags); 
+    previous_tag=$(git describe --exclude upm --abbrev=0 --tags "${tag}^")
 fi
 
 if [ "${tag}" == "" ] ; then
