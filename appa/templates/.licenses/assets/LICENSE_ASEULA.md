@@ -1,6 +1,5 @@
-Copyright © `!!year!!` `!!author!!`  
+Copyright (c) `!!year!!` `!!author!!`  
 Licensed under:
-
 
 Asset Store End User License Agreement
 =====================
