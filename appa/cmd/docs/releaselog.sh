@@ -28,19 +28,19 @@ if [ "${tag}" == "" ] ; then
     header=${unheader}
     echo "Tag: [${tag}]  | Previous Tag: [${previous_tag}]"
     
-    content=$(git log --pretty='| %h | %as | %an | %s |')
+    content=$(git log --pretty='| %H | %as | %an | %s |')
     
 elif [ "${previous_tag}" == "" ] ; then
     previous_tag="None"
     echo "Tag: [${tag}]  | Previous Tag: [${previous_tag}]"    
-    content=$(git log --pretty='| %h | %as | %an | %s |')
+    content=$(git log --pretty='| %H | %as | %an | %s |')
     
 else
     echo "Tag: [${tag}]  | Previous Tag: [${previous_tag}]"
 
     previous_tag_hash=$(git rev-list -n 1 ${previous_tag})
     commit_after_previous=$(git log --reverse --ancestry-path "${previous_tag_hash}..HEAD" | head -n 1 | cut -d \  -f 2)
-    content=$(git log --pretty='| %h | %as | %an | %s |' "${commit_after_previous}..HEAD")
+    content=$(git log --pretty='| %H | %as | %an | %s |' "${commit_after_previous}..HEAD")
 fi
 
 note "Starting release log updates..."
@@ -58,8 +58,8 @@ echo '```' > ${file_name}
 echo "`appa print "${header}" "${font}" --horizontal-layout fitted`" >> ${file_name}
 echo '```' >> ${file_name}
 echo $'\n' >> ${file_name}
-echo "# ${release_header}" >> ${file_name}
-echo "## ${tag}" >> ${file_name}
+echo "## ${release_header}" >> ${file_name}
+echo "`${tag}`" >> ${file_name}
 echo "${table_header}" >> ${file_name}
 echo "${content}" >> ${file_name}
 sed -i '/| 0\./d' ${file_name}

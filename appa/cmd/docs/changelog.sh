@@ -9,7 +9,7 @@ attempt "Starting changelog updates..."
 
 table_header=$'| Hash | Date | Author | Changes |\n|------|------|--------|---------|'
 
-content=$(git log --pretty='| %h | %as | %an | %s |')
+content=$(git log --pretty='| %H | %as | %an | %s |')
 
 debug '------------------------- "${content}"'
 debug "${content}"
@@ -31,7 +31,7 @@ for i in "${!tag_commits[@]}"; do
     debug "${tag_commit}"
     debug "${tag_display}"    
 
-    replace=$'\n\n ## Tag: v'"${tag_display}"$'\n'"${table_header}"$'\n'"${tag_commit}"
+    replace=$'\n\n ## Tag: '"\`v${tag_display}\`"$'\n'"${table_header}"$'\n'"${tag_commit}"
     
     debug "Replacement: [${replace}]"    
 
