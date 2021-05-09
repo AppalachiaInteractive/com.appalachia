@@ -1,5 +1,7 @@
 # Legal Information
 
+The most recent version of this document can be found [here](https://github.com/AppalachiaInteractive/com.appalachia.legal/blob/main/project-template/LEGAL.md).
+
 This document will cover several topics:
 
 - [Copyright](#copyright)

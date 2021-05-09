@@ -2,12 +2,12 @@
 
 source_configs()
 {  
-    mapfile -t configs < <(find "${root}/appa/configs" -mindepth 1 -type f -name '*.sh')
+    mapfile -t source_configs_array < <(find "${APPA_HOME}/appa/configs" -mindepth 1 -type f -name '*.sh')
     
-    for config in "${configs[@]}"; 
+    for scf in "${source_configs_array[@]}"; 
     do 
-        # echo "$config"
-        source "${config}" "$@"; 
+        # echo "$scf"
+        source "${scf}" "$@"; 
     done;
 
     # note "COLORS:  ${APPA_CONFIG_COLORS-NOT LOADED}"
@@ -17,12 +17,12 @@ source_configs()
 
 source_functions()
 {  
-    mapfile -t functions < <(find "${APPA_FUNCTIONS_HOME}" -mindepth 1 -type f -name '*.sh')
+    mapfile -t source_functions_array < <(find "${APPA_FUNCTIONS_HOME}" -mindepth 1 -type f -name '*.sh')
     
-    for function in "${functions[@]}"; 
+    for sff in "${source_functions_array[@]}"; 
     do 
-        # echo_func "$function"
-        source  "${function}" "$@"; 
+        #echo_func "$sff"
+        source "${sff}" "$@"; 
     done;
 }
 

@@ -111,7 +111,7 @@ print_commands()
         if [ "${APPA_DEBUG}" == "1" ] ; then echo -e  "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-S]${C_RST} ${C_VAL}${command_file}${C_RST}"; fi
 
         clean_command printable_command_name "${command_file}"
-        echo -e  "${C_CMD}>  appa ${printable_command_name}${C_RST}"
+        echo_cmd ">  appa ${printable_command_name}"
 
         if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-E]${C_RST} ${C_VAL}${command_file}${C_RST}"; fi
     done
@@ -121,7 +121,12 @@ print_commands()
         if [ "${APPA_DEBUG}" == "1" ] ; then echo -e  "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ITER-S]${C_RST} ${C_VAL}${command_family}${C_RST}"; fi
 
         clean_command printable_command_family "${command_family}"
-        echo -e  "${C_CMDF}>  appa ${printable_command_family}${C_RST}"
+                     
+        echo_cmd_header "> appa ${printable_command_family}"
+
+        if  [ ! -f "${command_family}/_" ] ; then
+            echo_cmd_family  ">  appa ${printable_command_family}"
+        fi
         
         get_subcommands subcommands "${command_family}"
 
@@ -130,7 +135,7 @@ print_commands()
             if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ . ITER-S]${C_RST} ${C_VAL}${subcommand}${C_RST}"; fi 
 
             clean_subcommand printable_subcommand "${subcommand}" "${command_family}"
-            echo -e "${C_CMD}>  appa ${printable_command_family} ${printable_subcommand}${C_RST}"
+            echo_cmd ">   appa ${printable_command_family} ${printable_subcommand}"
 
             if [ "${APPA_DEBUG}" == "1" ] ; then echo -e "${C_FUNC}[${FUNCNAME[0]}]${C_RST} ${C_NOTE}[ . ITER-E]${C_RST} ${C_VAL}${subcommand}${C_RST}"; fi     
         done
@@ -179,6 +184,13 @@ process_commands()
                 return $?
 
             else # ai/cmd/do/*.sh - run all scripts in do folder
+
+                # UNLESS there is a '_' file preventing us.                
+                if  [ -f "${d}/_" ] ; then
+                    warn "This command does not allow all subcommands to be executed."
+                    exit 1
+                fi
+
                 get_subcommands subcommands ${d}
                 for subcommand in "${subcommands[@]}"
                 do

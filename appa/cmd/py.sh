@@ -1,24 +1,26 @@
 #!/bin/bash
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-original_pwd="${PWD}"
-echo "${original_pwd}"
+cmd_py() {
+    local opwd="${PWD}"
+    echo "${opwd}"
 
-note 'Moving to python path directory to activate environment...'
+    note 'Moving to python path directory to activate environment...'
 
-cd "${PYTHONPATH}"
-note 'Invoking environment change...'
-source appa.sh venv activate
+    cd "${PYTHONPATH}"
+    note 'Invoking environment change...'
+    source appa.sh venv activate
 
-cd "${original_pwd}"
-note 'Executing...'
-python -m appapy "$*"
-res=$?
+    cd "${opwd}"
+    note 'Executing...'
+    python -m appapy "$*"
+    res=$?
 
-if [ ${res} -eq 0 ] ; then
-    success 'Success!'
-else
-    error 'Failure! :('
-fi
+    if [ ${res} -eq 0 ] ; then
+        success 'Success!'
+    else
+        error 'Failure! :('
+    fi
 
-exit $?
+    exit $?
+}

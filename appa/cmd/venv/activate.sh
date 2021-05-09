@@ -8,14 +8,14 @@ activate_file="${venv_dir}/Scripts/activate"
 req_file="${REPO_HOME}/requirements.txt"
 
 if [ -d "${venv_dir}" ] ; then
-    note "$PATH"
+    #note "$PATH"
 
-    note "Activating virtual environment..."        
+    #note "Activating virtual environment..."        
     . "${activate_file}"
 
     if [ -f "${req_file}" ] ; then
-        note "Installing requirements..."
-        pip install -r "${req_file}"
+        #note "Installing requirements..."
+        pip install -r "${req_file}" 1> /dev/null
     fi
 fi
 

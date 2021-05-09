@@ -181,7 +181,7 @@ __bp_in_prompt_command() {
 # environment to attempt to detect if the current command is being invoked
 # interactively, and invoke 'preexec' if so.
 __bp_preexec_invoke_exec() {
-
+    
     # Save the contents of $_ so that it can be restored later on.
     # https://stackoverflow.com/questions/40944532/bash-preserve-in-a-debug-trap#40944702
     __bp_last_argument_prev_command="${1:-}"
@@ -225,11 +225,14 @@ __bp_preexec_invoke_exec() {
         return
     fi
 
-    local this_command
-    this_command=$(
-        export LC_ALL=C
-        HISTTIMEFORMAT= builtin history 1 | sed '1 s/^ *[0-9][0-9]*[* ] //'
-    )
+    if command sed &> /dev/null
+    then
+        local this_command
+        this_command=$(
+            export LC_ALL=C
+            HISTTIMEFORMAT= builtin history 1 | sed '1 s/^ *[0-9][0-9]*[* ] //'
+        )
+    fi
 
     # Sanity check to make sure we have something to invoke our function with.
     if [[ -z "$this_command" ]]; then
@@ -241,7 +244,6 @@ __bp_preexec_invoke_exec() {
     local preexec_function_ret_value
     local preexec_ret_value=0
     for preexec_function in "${preexec_functions[@]:-}"; do
-
         # Only execute each function if it actually exists.
         # Test existence of function with: declare -[fF]
         if type -t "$preexec_function" 1>/dev/null; then

@@ -55,10 +55,8 @@ cechon() { echo -e -n "$(c $1)${2}\e[0m"; }
 debug_cat() { if [ "${APPA_DEBUG}" == "1" ] ; then cat "${1}"; fi; }
 
 debug(){ if [ "${APPA_DEBUG}" == "1" ] ; then cecho "dXy" "${1}"; fi; }
-C_DEBUG="${ST_DIM}${FG_DEFAULT}${BG_YELLOW}"
 
 attempt() { cecho "sCx" "${1}"; }
-C_ATTEMPT="${ST_BOLD}${FG_CYAN}${BG_DEFAULT}"
 
 warn() { cecho "uYx" "${1}"; }
 C_WARN="${ST_UNDERLINE}${FG_YELLOW}${BG_DEFAULT}"
@@ -77,8 +75,9 @@ C_HEADER="${ST_BOLD}${FG_YELLOW}${BG_DEFAULT}";
 echo_cmd() { cecho "sXc" "${1}"; }
 C_CMD="${ST_BOLD}${FG_CYAN}${BG_DEFAULT}";
 
-echo_cmd_family() { cecho "sXg" "${1} "; }
-C_CMDF="${ST_BOLD}${FG_BLACK}${BG_CYAN}";
+echo_cmd_header() { cecho "sKb" "${1} "; }
+
+echo_cmd_family() { cecho "sKc" "${1} "; }
 
 echo_func() { cecho "iYx" "${1}"; }
 C_FUNC="${ST_ITALIC}${FG_YELLOW}${BG_DEFAULT}";
@@ -90,10 +89,8 @@ args() { cecho "sWb" "${1}"; }
 C_ARGS="${ST_BOLD}${FG_WHITE}${BG_BLUE}";
 
 argserror() { cecho "sXr" "${1}"; }
-C_ARGSERR="${ST_BOLD}${FG_DEFAULT}${BG_RED}";
 
 highlight() { cecho "sYx" "${1}"; }
-C_HIGHLIGHT="${ST_BOLD}${FG_YELLOW}${BG_DEFAULT}";
 
 
 C_RST="${RESET}";

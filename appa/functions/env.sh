@@ -3,9 +3,9 @@
 check_node()
 {
     for x in "${APPA_NODE_HOME}/.bin"; do
-    case ":${PATH}:" in
+    case ":$PATH:" in
         *":$x:"*) :;; # already there
-        *) PATH="$x:${PATH}";;
+        *) PATH="$x:$PATH";;
     esac
     done
 }

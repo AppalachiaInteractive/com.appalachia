@@ -1,7 +1,7 @@
 #!/bin/bash
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-changed_opwd="${PWD}"
+local opwd="${PWD}"
 
 type=$1
 shift
@@ -25,7 +25,7 @@ for directory in "${directories[@]}" ; do
     echo     
     highlight '-------------------------------------'
     note "Moving into directory [${directory}]..."
-    cd "${changed_opwd}" || exit
+    cd "${opwd}" || exit
     cd "${directory}" || exit
 
     header="Directory : ${directory}"
@@ -48,4 +48,4 @@ for directory in "${directories[@]}" ; do
     "$@"    
 done
 
-cd "${changed_opwd}"
+cd "${opwd}"
