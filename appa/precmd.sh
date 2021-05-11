@@ -21,7 +21,7 @@ precmd() {
         source "${APPA_SCRIPT_HOME}/.path"
         PATH=$(echo "${direnv_new_path}" | sed -e 's_\\_/_g' -e 's_A:_/a_g' -e 's_B:_/b_g' -e 's_C:_/c_g' -e 's_D:_/d_g' -e 's_E:_/e_g' -e 's_;_:_g' -e 's_/c/Program Files/Git/_/_g' -e 's_:/usr/bin:/usr/bin:_:/usr/bin:/bin:_g' )
         export PATH
-        echo "Did we save it?"
+        #echo "Did we save it?"
         ls &> /dev/null
     }
     
