@@ -101,3 +101,4 @@ Documentation~/manual/changelog.*
 /*/*.uasset.venv
 bash-preexec
 github
+.backup-files
