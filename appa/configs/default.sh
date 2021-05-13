@@ -24,6 +24,10 @@ APPA_SETUP="${APPA_SCRIPT_HOME}/.setup"
 APPA_CONFIG_HOME="${APPA_SCRIPT_HOME}/configs"
 APPA_FUNCTIONS_HOME="${APPA_SCRIPT_HOME}/functions"
 
+APPA_DESIGN="${APPA_HOME}/design"
+APPA_WEB="${APPA_HOME}/web"
+APPA_WEB_PUBLIC="${APPA_WEB}/public"
+
 if git rev-parse --git-dir > /dev/null 2>&1; then
   : 
     REPO_HOME="$(git rev-parse --show-toplevel)"
