@@ -1,4 +1,5 @@
  #!/bin/bash
+# shellcheck source=./../../functions/cmd_start.sh
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 mapfile -t git_dirs < <(find "${APPA_HOME}" -mindepth 2 -maxdepth 8 -type d -name .git)

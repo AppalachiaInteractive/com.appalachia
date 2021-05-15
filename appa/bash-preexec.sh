@@ -62,6 +62,7 @@ __bp_install_string=$'__bp_trap_string="$(trap -p DEBUG)"\ntrap - DEBUG\n__bp_in
 # Fails if any of the given variables are readonly
 # Reference https://stackoverflow.com/a/4441178
 __bp_require_not_readonly() {
+    #echo "*-__bp_require_not_readonly"
   local var
   for var; do
     if ! ( unset "$var" 2> /dev/null ); then
@@ -75,6 +76,7 @@ __bp_require_not_readonly() {
 # so we can accurately invoke preexec with a command from our
 # history even if it starts with a space.
 __bp_adjust_histcontrol() {
+    #echo "*-__bp_adjust_histcontrol"
     local histcontrol
     histcontrol="${HISTCONTROL//ignorespace}"
     # Replace ignoreboth with ignoredups
@@ -94,6 +96,7 @@ __bp_preexec_interactive_mode=""
 # Trims leading and trailing whitespace from $2 and writes it to the variable
 # name passed as $1
 __bp_trim_whitespace() {
+    #echo "*-__bp_trim_whitespace"
     local var=${1:?} text=${2:-}
     text="${text#"${text%%[![:space:]]*}"}"   # remove leading whitespace characters
     text="${text%"${text##*[![:space:]]}"}"   # remove trailing whitespace characters
@@ -105,6 +108,7 @@ __bp_trim_whitespace() {
 # writes the resulting string to the variable name passed as $1. Used for
 # manipulating substrings in PROMPT_COMMAND
 __bp_sanitize_string() {
+    #echo "*-__bp_sanitize_string"
     local var=${1:?} text=${2:-} sanitized
     __bp_trim_whitespace sanitized "$text"
     sanitized=${sanitized%;}
@@ -117,6 +121,7 @@ __bp_sanitize_string() {
 # It sets a variable to indicate that the prompt was just displayed,
 # to allow the DEBUG trap to know that the next command is likely interactive.
 __bp_interactive_mode() {
+    #echo "*-__bp_interactive_mode"
     __bp_preexec_interactive_mode="on";
 }
 
@@ -124,6 +129,7 @@ __bp_interactive_mode() {
 # This function is installed as part of the PROMPT_COMMAND.
 # It will invoke any functions defined in the precmd_functions array.
 __bp_precmd_invoke_cmd() {
+    #echo "*-__bp_precmd_invoke_cmd"
     # Save the returned value from our last command, and from each process in
     # its pipeline. Note: this MUST be the first thing done in this function.
     __bp_last_ret_value="$?" BP_PIPESTATUS=("${PIPESTATUS[@]}")
@@ -154,10 +160,12 @@ __bp_precmd_invoke_cmd() {
 # precmd functions. This is available for instance in zsh. We can simulate it in bash
 # by setting the value here.
 __bp_set_ret_value() {
+    #echo "*-__bp_set_ret_value"
     return ${1:-}
 }
 
 __bp_in_prompt_command() {
+    #echo "*-__bp_in_prompt_command"
 
     local prompt_command_array
     IFS=$'\n;' read -rd '' -a prompt_command_array <<< "$PROMPT_COMMAND"
@@ -181,12 +189,13 @@ __bp_in_prompt_command() {
 # environment to attempt to detect if the current command is being invoked
 # interactively, and invoke 'preexec' if so.
 __bp_preexec_invoke_exec() {
-    
+    #echo "*-__bp_preexec_invoke_exec"
     # Save the contents of $_ so that it can be restored later on.
     # https://stackoverflow.com/questions/40944532/bash-preserve-in-a-debug-trap#40944702
     __bp_last_argument_prev_command="${1:-}"
     # Don't invoke preexecs if we are inside of another preexec.
     if (( __bp_inside_preexec > 0 )); then
+        #echo "*--We are inside of another preexec"
       return
     fi
     local __bp_inside_preexec=1
@@ -195,17 +204,20 @@ __bp_preexec_invoke_exec() {
     # __bp_delay_install checks if we're in test. Needed for bats to run.
     # Prevents preexec from being invoked for functions in PS1
     if [[ ! -t 1 && -z "${__bp_delay_install:-}" ]]; then
+        #echo "*--We're in test"
         return
     fi
 
     if [[ -n "${COMP_LINE:-}" ]]; then
         # We're in the middle of a completer. This obviously can't be
         # an interactively issued command.
+        #echo "*--We're in the middle of a completer"
         return
     fi
     if [[ -z "${__bp_preexec_interactive_mode:-}" ]]; then
         # We're doing something related to displaying the prompt.  Let the
         # prompt set the title instead of me.
+        #echo "*--We're doing something related to displaying the prompt"
         return
     else
         # If we're in a subshell, then the prompt won't be re-displayed to put
@@ -222,8 +234,11 @@ __bp_preexec_invoke_exec() {
         # If we're executing something inside our prompt_command then we don't
         # want to call preexec. Bash prior to 3.1 can't detect this at all :/
         __bp_preexec_interactive_mode=""
+        #echo "*--We're executing something inside our prompt_command"
         return
     fi
+
+    #echo "*-Roll it!"
 
     if command sed &> /dev/null
     then
@@ -234,6 +249,7 @@ __bp_preexec_invoke_exec() {
         )
     fi
 
+    #echo "*-Sanity check to make sure we have something to invoke our function with"
     # Sanity check to make sure we have something to invoke our function with.
     if [[ -z "$this_command" ]]; then
         return
@@ -267,6 +283,7 @@ __bp_preexec_invoke_exec() {
 }
 
 __bp_install() {
+    #echo "*-__bp_install"
     # Exit if we already have this installed.
     if [[ "${PROMPT_COMMAND:-}" == *"__bp_precmd_invoke_cmd"* ]]; then
         return 1;
@@ -331,6 +348,7 @@ __bp_install() {
 # after our session has started. This allows bash-preexec to be included
 # at any point in our bash profile.
 __bp_install_after_session_init() {
+    #echo "*-__bp_install_after_session_init"
     # bash-preexec needs to modify these variables in order to work correctly
     # if it can't, just stop the installation
     __bp_require_not_readonly PROMPT_COMMAND HISTCONTROL HISTTIMEFORMAT || return

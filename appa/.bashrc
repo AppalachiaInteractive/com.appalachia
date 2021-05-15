@@ -9,9 +9,6 @@ source "${APPA_HOME}/appa/.apparc"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------caching path'; fi
 
-filepath="${APPA_SCRIPT_HOME}/.path"
-echo "export PATH='$PATH'" > "${filepath}"
-
 export EDITOR=vim
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------going home'; fi
@@ -20,8 +17,7 @@ cd "${APPA_HOME}"
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------activating environment'; fi
 source "${APPA_HOME}/.venv/Scripts/activate"
 
-source "${APPA_SCRIPT_HOME}/preexec.sh" 
-source "${APPA_SCRIPT_HOME}/precmd.sh"
+source "${APPA_SCRIPT_HOME}/.direnv-fix.sh"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------direnv hook bash'; fi
 eval "$(direnv hook bash)"

@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck source=./../../functions/cmd_start.sh
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 echo "You will be prompted to setup a key.  Use your full name and your @appalachiainteractive.com email address."
