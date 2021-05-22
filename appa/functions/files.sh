@@ -5,5 +5,5 @@ copyfile() {
     if [ ! -d "$dir" ]; then
         mkdir -p "$dir"
     fi
-    cp -R "$1" "$2"
+    cp -Ru "$1" "$2"
 }

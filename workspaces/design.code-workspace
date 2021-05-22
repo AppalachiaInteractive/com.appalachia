@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\design"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iosfwd": "cpp",
+			"xlocale": "cpp",
+			"xstring": "cpp",
+			"cmath": "cpp"
+		}
+	}
+}

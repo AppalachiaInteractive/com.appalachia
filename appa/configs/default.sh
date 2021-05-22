@@ -27,6 +27,7 @@ APPA_FUNCTIONS_HOME="${APPA_SCRIPT_HOME}/functions"
 APPA_DESIGN="${APPA_HOME}/design"
 APPA_WEB="${APPA_HOME}/web"
 APPA_WEB_PUBLIC="${APPA_WEB}/public"
+APPA_SVGO_CONFIG="${APPA_DESIGN}/scripts/svgo/config.js"
 
 if git rev-parse --git-dir > /dev/null 2>&1; then
   : 

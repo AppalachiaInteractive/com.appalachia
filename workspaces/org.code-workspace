@@ -1,7 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "..\\org\\legal"
+			"path": "..\\org"
+		},
+		{
+			"path": "..\\web\\public"
 		}
 	]
 }
