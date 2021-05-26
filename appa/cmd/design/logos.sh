@@ -3,52 +3,34 @@
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
 
-current_logos="${APPA_DESIGN}/"
-web_logos="${APPA_WEB_PUBLIC}/wp-content/uploads/"
+design="${APPA_DESIGN}/"
+web="${APPA_WEB_PUBLIC}/wp-content/uploads/"
+mapfile -t result < <(find "${design}" -mindepth 1 -type f -not -path '*/.*' -not -path '*/_*' \( -path '*.png' -or -path '*.svg' \) )
 
-mapfile -t result < <(find "${current_logos}" -mindepth 1 -type f -not -path '*/.*' -not -path '*/_*' \( -path '*.png' -or -path '*.svg' \) )
+copy_logos "$design" "$web" "${result[@]}"
 
-length=${#result[@]}
+logos="${design}logos/"
+web_logos="${web}logos/"
+mapfile -t result < <(find "${logos}" -mindepth 1 -type f -not -path '*/.*' -not -path '*/_*' \( -path '*.ai' -or -path '*.pdf' -or -path '*.png' -or -path '*.svg' \) )
 
-clearPids
+copy_logos "$logos" "$web_logos" "${result[@]}"
 
-for ((index=0; index < length; index++)); do
+output_zip="${logos}logos.zip"
 
-    progressStep=$((index+1))
-    progressLength=$((length+1))
+final_zip="$(echo -e "${output_zip}" | sed -e "s|$logos|$web_logos|g")"
 
-    item="${result[index]}"
+if [ -f "$output_zip" ] ; then
+    rm "$output_zip"
+fi
 
-    if [ "${item}" == "" ] ;
-    then
-        progressBar "Copy logo:" ${progressStep} ${progressLength}
-        continue
-    fi    
-    
-    newpath="${item//$current_logos/$web_logos}"
-    filename=$(basename "$newpath")
+7z a -r "${output_zip}" "${logos}"
 
-    copyfile "${item}" "${newpath}"    
+echo copyfile "${output_zip}" "${final_zip}"
+copyfile "${output_zip}" "${final_zip}"
 
-    if [ "${item: -4}" == ".svg" ] ; then
-
-        svgo -i "${newpath}" --config "${APPA_SVGO_CONFIG}" &
-        addPid $! "${newpath}"
-    fi
-
-    progressBar "${filename}" ${progressStep} ${progressLength}
-
-done
-
-waitPids 3
-
-echo
-echo
-note "Finished copying $length logos!"
-
-git --git-dir ${APPA_DESIGN}/.git --work-tree ${APPA_DESIGN} add "${current_logos}"
-git --git-dir ${APPA_DESIGN}/.git --work-tree ${APPA_DESIGN} commit -m "Updating logos"
-git --git-dir ${APPA_DESIGN}/.git --work-tree ${APPA_DESIGN} push
+git --git-dir "${APPA_DESIGN}/.git" --work-tree "${APPA_DESIGN}" add "${design}"
+git --git-dir "${APPA_DESIGN}/.git" --work-tree "${APPA_DESIGN}" commit -m "Updating logos"
+git --git-dir "${APPA_DESIGN}/.git" --work-tree "${APPA_DESIGN}" push
 
 git_command="git --git-dir ${APPA_WEB_PUBLIC}/.git --work-tree ${APPA_WEB_PUBLIC}"
 if ! $git_command add "${APPA_WEB_PUBLIC}" ; then

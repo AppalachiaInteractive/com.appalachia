@@ -16,18 +16,23 @@ if [ "$2" != "private" ] && [ "$2" != "public" ] ; then
     exit 2
 fi
 
-path="$1"
-pubpri="--$2"
-description="$3"
+do_repo_init() {
+    local repo_path="$1"
+    local pubpri="--$2"
+    local repo_description="$3"    
+    
+    gh repo create $repo_path ${pubpri} -d "${repo_description}"
+    gh repo clone $repo_path tmp
+    mv tmp/* tmp/.* .
+    rmdir tmp
+    git add README.md
+    git commit -m 'Added README.md'
+    git add .
+    git commit -m "Initializing organization repository for project."
+    git push -u origin main
 
-gh repo create $PATH ${pubpri} -d "${description}"
-gh repo clone $PATH tmp
-mv tmp/* tmp/.* .
-rmdir tmp
-git add README.md
-git commit -m 'Added README.md'
-git add .
-git commit -m "Initializing organization repository for project."
-git push -u origin main
+    success "Initialized repo!"
 
-success "Initialized repo!"
+}
+
+do_repo_init "$@"
