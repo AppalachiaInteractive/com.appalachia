@@ -4,6 +4,9 @@ shopt -s nullglob
 
 DEBUG_TIMING_OF_BASHRC=0
 APPA_HOME="${HOME}/com.appalachia"
+
+export PATH="$PATH:$APPA_HOME"
+
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------.apparc'; fi
 source "${APPA_HOME}/appa/.apparc"
 

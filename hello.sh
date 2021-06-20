@@ -17,7 +17,7 @@ then
     exit 1
 fi
 
-echo '. "${HOME}/com.appalachia/appa/.bashrc"' >> "${HOME}/.bashrc"
+echo '. "$HOME/com.appalachia/appa/.bashrc"' >> "${HOME}/.bashrc"
 
 note "What is your name?"
 
