@@ -6,7 +6,7 @@
 echo "This will modify your .bashrc file.  Press CTRL+C now to cancel, or enter 'x'.  Just hit enter to continue."
 read throwaway
 
-if [ "${throwaway}" == "x" || "${throwaway}" == "X" ] ; then
+if [ "${throwaway}" == "x" ] || [ "${throwaway}" == "X" ] ; then
     echo "Sorry about that.  Exiting now."
     exit 1
 fi
