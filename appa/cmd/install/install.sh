@@ -13,43 +13,36 @@ if ! appa install python; then
 fi
 
 echo "> appa install node"
-appa install node
-if ! appa install python; then
+if ! appa install node; then
     log_error
 fi
 
 echo "> appa install php"
-appa install php
-if ! appa install python; then
+if ! appa install php; then
     log_error
 fi
 
 echo "> appa install github"
-appa install github
-if ! appa install python; then
+if ! appa install github; then
     log_error
 fi
 
 echo "> appa install inkscape"
-appa install inkscape
-if ! appa install python; then
+if ! appa install inkscape; then
     log_error
 fi
 echo "> appa install wordpress"
-appa install wordpress
-if ! appa install python; then
+if ! appa install wordpress; then
     log_error
 fi
 
 echo "> appa install filezilla"
-appa install filezilla
-if ! appa install python; then
+if ! appa install filezilla; then
     log_error
 fi
 
 echo "> appa install imagemagick"
-appa install imagemagick
-if ! appa install python; then
+if ! appa install imagemagick; then
     log_error
 fi
 

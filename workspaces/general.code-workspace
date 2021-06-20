@@ -15,12 +15,6 @@
 		{
 			"name": "design",
 			"path": "..\\design"
-		},
-		{
-			"path": "..\\blog"
-		},
-		{
-			"path": "..\\temp\\git-it-write"
 		}
 	]
 }

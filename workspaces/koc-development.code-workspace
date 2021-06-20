@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"name": "analytics",
+			"path": "..\\koc\\analytics"
+		},
+		{
+			"name": "animations",
+			"path": "..\\koc\\animations"
+		},
+		{
+			"name": "art",
+			"path": "..\\koc\\art"
+		},
+		{
+			"name": "audio",
+			"path": "..\\koc\\audio"
+		},
+		{
+			"name": "code",
+			"path": "..\\koc\\code"
+		},
+		{
+			"name": "design",
+			"path": "..\\koc\\design"
+		},
+		{
+			"name": "game-design",
+			"path": "..\\koc\\game-design"
+		},
+		{
+			"name": "localization",
+			"path": "..\\koc\\localization"
+		},
+		{
+			"name": "media",
+			"path": "..\\koc\\media"
+		},
+		{
+			"name": "models",
+			"path": "..\\koc\\models"
+		},
+		{
+			"name": "research",
+			"path": "..\\koc\\research"
+		},
+		{
+			"name": "ui",
+			"path": "..\\koc\\ui"
+		}
+	]
+}
