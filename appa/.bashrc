@@ -5,7 +5,7 @@ shopt -s nullglob
 DEBUG_TIMING_OF_BASHRC=0
 APPA_HOME="${HOME}/com.appalachia"
 
-export PATH="$PATH:$APPA_HOME"
+export PATH="$APPA_HOME/appa:$PATH"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------echoing path'; fi
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo "$PATH"; fi
