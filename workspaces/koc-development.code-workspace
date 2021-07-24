@@ -1,52 +1,61 @@
 {
 	"folders": [
 		{
-			"name": "analytics",
+			"path": "..\\koc\\3d_modeling"
+		},
+		{
 			"path": "..\\koc\\analytics"
 		},
 		{
-			"name": "animations",
 			"path": "..\\koc\\animations"
 		},
 		{
-			"name": "art",
 			"path": "..\\koc\\art"
 		},
 		{
-			"name": "audio",
 			"path": "..\\koc\\audio"
 		},
 		{
-			"name": "code",
 			"path": "..\\koc\\code"
 		},
 		{
-			"name": "design",
 			"path": "..\\koc\\design"
 		},
 		{
-			"name": "game-design",
 			"path": "..\\koc\\game-design"
 		},
 		{
-			"name": "localization",
 			"path": "..\\koc\\localization"
 		},
 		{
-			"name": "media",
 			"path": "..\\koc\\media"
 		},
 		{
-			"name": "models",
-			"path": "..\\koc\\models"
+			"path": "..\\koc\\packages"
 		},
 		{
-			"name": "research",
+			"path": "..\\koc\\production"
+		},
+		{
+			"path": "..\\koc\\quality-control"
+		},
+		{
 			"path": "..\\koc\\research"
 		},
 		{
-			"name": "ui",
+			"path": "..\\koc\\technology"
+		},
+		{
+			"path": "..\\koc\\texturing"
+		},
+		{
 			"path": "..\\koc\\ui"
+		},
+		{
+			"path": "..\\koc\\unity3d"
+		},
+		{
+			"path": "..\\koc\\vfx"
 		}
 	]
 }

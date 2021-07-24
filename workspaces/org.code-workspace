@@ -21,6 +21,9 @@
 		},
 		{
 			"path": "..\\temp\\git-it-write"
+		},
+		{
+			"path": "..\\web\\youtrack"
 		}
 	]
 }
