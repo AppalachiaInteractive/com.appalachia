@@ -3,7 +3,7 @@
     "displayName": "!!display!!",
     "version": "!!version!!",
     "description": "!!description!!",
-    "category": "Tool",       
+    "category": "Tool",
     "keywords": [
         "Scripts",
         "Tool"
@@ -23,7 +23,7 @@
     },
     "icon": "media/icon.png",
     "publishConfig": {
-      "registry": "http://localhost:4873/"
+      "registry": "http://35.211.123.13:4873/"
     },
     "repository": {
       "url": "https://github.com/AppalachiaInteractive/!!package!!.git",
@@ -35,7 +35,7 @@
       "preversion" : "bash ~/com.appalachia/appa/appa package node preversion",
       "version" : "bash ~/com.appalachia/appa/appa package node version",
       "postversion" : "bash ~/com.appalachia/appa/appa package node postversion",
-      "prepack" : "bash ~/com.appalachia/appa/appa package node prepack",      
+      "prepack" : "bash ~/com.appalachia/appa/appa package node prepack",
       "package" : "bash ~/com.appalachia/appa/appa package node package",
       "postpack" : "bash ~/com.appalachia/appa/appa package node postpack",
       "vscode:prepublish" : "bash ~/com.appalachia/appa/appa package node vscode_prepublish",

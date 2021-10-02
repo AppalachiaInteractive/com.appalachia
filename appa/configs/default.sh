@@ -12,7 +12,7 @@ APPA_DEBUG_ENTRY=0
 
 if [ "${APPA_DEBUG}" == "1" ] ; then echo "${C_FUNC}"'Loading default configuration'"${C_RST}"; fi
 
-APPA_HOME="${HOME}/com.appalachia"
+APPA_HOME=$(realpath "${HOME}/com.appalachia")
 
 APPA_SCRIPT_HOME="${APPA_HOME}/appa"
 APPA_SERVERS_HOME="${APPA_HOME}/servers"

@@ -60,7 +60,7 @@ echo "`appa print "${header}" "${font}" --horizontal-layout fitted`" >> ${file_n
 echo '```' >> ${file_name}
 echo $'\n' >> ${file_name}
 echo "## ${release_header}" >> ${file_name}
-echo "`${tag}`" >> ${file_name}
+echo '`'"${tag}"'`' >> ${file_name}
 echo "${table_header}" >> ${file_name}
 echo "${content}" >> ${file_name}
 sed -i '/| 0\./d' ${file_name}

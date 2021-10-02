@@ -22,7 +22,7 @@ else
     exit 2
 fi
 
-for directory in "${directories[@]}" ; do
+function executeDirectory () {
     echo     
     highlight '-------------------------------------'
     note "Moving into directory [${directory}]..."
@@ -36,7 +36,7 @@ for directory in "${directories[@]}" ; do
         count=$(git status --porcelain=v1 2>/dev/null | wc -l)
         if [ "${count}" == "0" ] ; then
             note "Skipping - no changes."
-            continue
+            return
         fi
         header="Directory : ${directory} - [${count} changes]"
     fi
@@ -46,7 +46,40 @@ for directory in "${directories[@]}" ; do
     highlight '-------------------------------------'
     note "Executing command: [$*]"
 
-    "$@"    
+    "$@"
+
+    res=$?
+    if [ ${res} -ne 0 ] ; then
+        note "Failed.  Will attempt to process again."
+        failed_directories+=("${directory}")   
+        ((failure_count += 1))       
+    fi
+
+    ((iteration_count++))    
+    echo
+    note "Completing ${iteration_count} of ${directory_count}"
+}
+
+failed_directories=()
+failure_count=0
+iteration_count=0
+directory_count=${#directories[@]}
+
+
+for directory in "${directories[@]}" ; do
+    executeDirectory "$@" 
 done
+
+failed_directories2=("${failed_directories[@]}")
+
+if (( failure_count > 0 )); then
+    highlight '-------------------------------------'
+    highlight "Need to process ${failure_count} failures again."
+    highlight '-------------------------------------'
+    
+    for directory in "${failed_directories2[@]}" ; do
+        executeDirectory "$@" 
+    done
+fi
 
 cd "${opwd}"

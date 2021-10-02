@@ -14,7 +14,7 @@ cmd_py() {
 
     cd "${opwd}"
     note 'Executing...'
-    python -m appapy "$*"
+    python -m appapy $*
     res=$?
 
     if [ ${res} -eq 0 ] ; then
@@ -25,3 +25,5 @@ cmd_py() {
 
     exit $?
 }
+
+cmd_py "$@"

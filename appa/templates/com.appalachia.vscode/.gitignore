@@ -1,3 +1,5 @@
+
+.backup-files
 lib-cov
 *.seed
 *.log

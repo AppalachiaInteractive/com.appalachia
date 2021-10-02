@@ -105,4 +105,6 @@ VSCode/*
 Documentation~/api/*
 Documentation~/manual/changelog.*
 
-/*/*.uasset.venv
+/*/*.uasset.venv.name
+appa/.name
+ml

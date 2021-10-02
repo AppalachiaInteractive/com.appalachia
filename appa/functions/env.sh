@@ -8,6 +8,8 @@ check_node()
         *) PATH="$x:$PATH";;
     esac
     done
+
+    npm -g install npm-cli-login &> /dev/null
 }
 check_python()
 {

@@ -8,9 +8,9 @@ if  [ $# -eq 0 ] || [ $# -gt 2 ] ; then
 fi
 
 if [ $# -eq 1 ] ; then
-    npm --registry http://localhost:4873 unpublish "com.appalachia.${1}" --force
+    npm --registry "${NPM_REGISTRY}" unpublish "com.appalachia.${1}" --force
 else
-    npm --registry http://localhost:4873 unpublish "com.appalachia.${1}@${2}"
+    npm --registry "${NPM_REGISTRY}" unpublish "com.appalachia.${1}@${2}"
 fi
 
 

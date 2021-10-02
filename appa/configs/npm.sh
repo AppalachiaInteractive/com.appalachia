@@ -6,10 +6,10 @@ set -a
 APPA_CONFIG_NPM='LOADED'
 ## ------------------------------------
 
-NPM_USER="admin"
-NPM_PASS="Ty!72*@PBcFG"
-NPM_EMAIL="admin@appalachiainteractive.com"
-NPM_REGISTRY="http://localhost:4873"
+NPM_USER="chris"
+NPM_EMAIL="chris@appalachiainteractive.com"
+NPM_REGISTRY="http://35.211.123.13:4873/"
+
 
 ## ------------------------------------
 if [ "${APPA_DEBUG}" == "1" ] ; then echo "${suc}Completed loading ${name} configuration.${rst}"; fi

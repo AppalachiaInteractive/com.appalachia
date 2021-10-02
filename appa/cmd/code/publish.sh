@@ -2,6 +2,11 @@
 # shellcheck source=./../../functions/cmd_start.sh
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
+if  [ $# -ne 1 ] ; then 
+    argserror $'[PARAMS] [major/minor/patch/current/existing]'
+    exit 1
+fi
+
 code_publish() {
     attempt "Attempting to publish..."
 
@@ -28,15 +33,13 @@ code_publish() {
     python -m appapy publish ${bump}
     res=$?
 
-
-
     if [ ${res} -eq 0 ] ; then
         success 'Published successfully!'
     else
         error 'Failed to publish!'
     fi
 
-    exit $?
+    exit $res
 }
 
 code_publish "$@"

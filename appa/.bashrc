@@ -3,7 +3,7 @@
 shopt -s nullglob
 
 DEBUG_TIMING_OF_BASHRC=0
-APPA_HOME="${HOME}/com.appalachia"
+APPA_HOME=$(realpath "${HOME}/com.appalachia")
 
 export PATH="$APPA_HOME/appa:$PATH"
 
@@ -28,6 +28,7 @@ source "${APPA_SCRIPT_HOME}/.direnv-fix.sh"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------direnv hook bash'; fi
 eval "$(direnv hook bash)"
+
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------source bash-preexec.sh'; fi
 source "${APPA_SCRIPT_HOME}/bash-preexec.sh"

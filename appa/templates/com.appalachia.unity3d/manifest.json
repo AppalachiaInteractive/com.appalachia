@@ -49,7 +49,7 @@
   "scopedRegistries": [
     {
       "name": "Appalachia Interactive",
-      "url": "http://localhost:4873",
+      "url": "http://35.211.123.13:4873",
       "scopes": ["com.appalachia.unity3d"]
     },
     {

@@ -40,4 +40,9 @@ fi
 
 source appa.sh code publish "$2"
 
+if [ ${result} -ne 0 ] ; then
+    echo ${result}
+    exit ${result}
+fi
+
 success 'Shipped!'
