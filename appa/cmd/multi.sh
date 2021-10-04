@@ -50,10 +50,15 @@ function executeDirectory () {
 
     res=$?
     if [ ${res} -ne 0 ] ; then
-        note "Failed.  Will attempt to process again."
+        error "Failed.  Will attempt to process again."
         failed_directories+=("${directory}")   
         ((failure_count += 1))       
     fi
+
+    if (( failure_count > 0 )); then
+        warn "Experienced errors in ${failure_count} iterations."
+    fi
+    
 
     ((iteration_count++))    
     echo

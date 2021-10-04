@@ -52,45 +52,45 @@ c() { [ $# == 0 ] && printf "\e[0m" || printf "$1" | sed 's/\(.\)/\1;/g;s/\([SDI
 cecho() { echo -e "$(c $1)${2}\e[0m"; }
 cechon() { echo -e -n "$(c $1)${2}\e[0m"; }
 
-debug_cat() { if [ "${APPA_DEBUG}" == "1" ] ; then cat "${1}"; fi; }
+debug_cat() { if [ "${APPA_DEBUG}" == "1" ] ; then cat " ${1}  "; fi; }
 
-debug(){ if [ "${APPA_DEBUG}" == "1" ] ; then cecho "dXy" "${1}"; fi; }
+debug(){ if [ "${APPA_DEBUG}" == "1" ] ; then cecho "dXy" " ${1}  "; fi; }
 
-attempt() { cecho "sCx" "${1}"; }
+attempt() { cecho "sCx" " ${1}  "; }
 
-warn() { cecho "uYx" "${1}"; }
-C_WARN="${ST_UNDERLINE}${FG_YELLOW}${BG_DEFAULT}"
+warn() { cecho "sKy" "\n\n ${1}\n "; sleep .35; }
+C_WARN="${ST_BOLD}${FG_DEFAULT}${BG_YELLOW}"
 
-error() { cecho "fXr" "${1}"; }
-C_ERR="${ST_BLINK}${FG_DEFAULT}${BG_RED}";
+error() { cecho "sXr" "\n\n ${1}\n "; sleep .5; }
+C_ERR="${ST_BOLD}${FG_DEFAULT}${BG_RED}";
 
-note() { cecho "Mx" "${1}"; }
+note() { cecho "Mx" " ${1}  "; }
 C_NOTE="${FG_MAGENTA}${BG_DEFAULT}";
 
-success() { cecho "sGx" "${1}"; }
+success() { cecho "sGx" " ${1}  "; }
 
-header() { cecho "sYx" "${1}"; }
+header() { cecho "sYx" " ${1}  "; }
 C_HEADER="${ST_BOLD}${FG_YELLOW}${BG_DEFAULT}";
 
-echo_cmd() { cecho "sXc" "${1}"; }
+echo_cmd() { cecho "sXc" " ${1}  "; }
 C_CMD="${ST_BOLD}${FG_CYAN}${BG_DEFAULT}";
 
-echo_cmd_header() { cecho "sKb" "${1} "; }
+echo_cmd_header() { cecho "sKb" " ${1}  "; }
 
-echo_cmd_family() { cecho "sKc" "${1} "; }
+echo_cmd_family() { cecho "sKc" " ${1}  "; }
 
-echo_func() { cecho "iYx" "${1}"; }
+echo_func() { cecho "iYx" " ${1}  "; }
 C_FUNC="${ST_ITALIC}${FG_YELLOW}${BG_DEFAULT}";
 
-value() { cecho "dXm" "${1}"; }
+value() { cecho "dXm" " ${1}  "; }
 C_VAL="${ST_DIM}${FG_DEFAULT}${BG_MAGENTA}";
 
-args() { cecho "sWb" "${1}"; }
+args() { cecho "sWb" " ${1}  "; }
 C_ARGS="${ST_BOLD}${FG_WHITE}${BG_BLUE}";
 
-argserror() { cecho "sXr" "${1}"; }
+argserror() { cecho "sXr" " ${1}  "; }
 
-highlight() { cecho "sYx" "${1}"; }
+highlight() { cecho "sYx" " ${1}  "; }
 
 
 C_RST="${RESET}";
