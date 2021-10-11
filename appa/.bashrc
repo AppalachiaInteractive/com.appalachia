@@ -24,11 +24,11 @@ cd "${APPA_HOME}"
 git fetch -p
 
 if [[ -n "$(git status -s)" ]]; then
-    git stash
-    git pull
-    git stash apply
+    git stash -q 
+    git pull -q
+    git stash apply -q 
 else
-    git pull
+    git pull -q
 fi
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------activating environment'; fi
