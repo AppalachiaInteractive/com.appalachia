@@ -21,4 +21,3 @@ if [ -d "${venv_dir}" ] ; then
 
     success "Virtual environment active!"
 fi
-

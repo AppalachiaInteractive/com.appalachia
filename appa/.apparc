@@ -26,5 +26,24 @@ source_functions()
     done;
 }
 
+download_repos()
+{        
+    if [ ! -d "${APPA_HOME}/python" ]; then
+        mkdir "${APPA_HOME}/python"
+    fi
+
+    if [ ! -d "${APPA_HOME}/python/appapy" ]; then
+        mkdir "${APPA_HOME}/python/appapy"
+        git clone https://github.com/AppalachiaInteractive/com.appalachia.python.appapy "${APPA_HOME}/python/appapy"
+    fi
+
+    if [ ! -d "${APPA_HOME}/python/appablend" ]; then
+        mkdir "${APPA_HOME}/python/appablend"
+        git clone https://github.com/AppalachiaInteractive/com.appalachia.python.appablend "${APPA_HOME}/python/appablend"
+    fi
+}
+
 source_configs "$@"
 source_functions "$@"
+
+download_repos
