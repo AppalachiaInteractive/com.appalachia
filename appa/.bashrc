@@ -5,17 +5,6 @@ shopt -s nullglob
 DEBUG_TIMING_OF_BASHRC=0
 APPA_HOME=$(realpath "${HOME}/com.appalachia")
 
-git fetch -p
-
-if [[ -n "$(git status -s)" ]]; then
-    git stash
-    git pull
-    git stash apply
-else
-    git pull
-fi
-
-
 export PATH="$APPA_HOME/appa:$PATH"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------echoing path'; fi
@@ -31,6 +20,16 @@ export EDITOR=vim
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------going home'; fi
 cd "${APPA_HOME}"
+
+git fetch -p
+
+if [[ -n "$(git status -s)" ]]; then
+    git stash
+    git pull
+    git stash apply
+else
+    git pull
+fi
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------activating environment'; fi
 source "${APPA_HOME}/.venv/Scripts/activate"
