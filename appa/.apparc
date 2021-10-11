@@ -33,13 +33,9 @@ download_repos()
     fi
 
     if [ ! -d "${APPA_HOME}/python/appapy" ]; then
+        note "Downloading com.appalachia.python.appapy to enable packaging from this machine."
         mkdir "${APPA_HOME}/python/appapy"
         git clone https://github.com/AppalachiaInteractive/com.appalachia.python.appapy "${APPA_HOME}/python/appapy"
-    fi
-
-    if [ ! -d "${APPA_HOME}/python/appablend" ]; then
-        mkdir "${APPA_HOME}/python/appablend"
-        git clone https://github.com/AppalachiaInteractive/com.appalachia.python.appablend "${APPA_HOME}/python/appablend"
     fi
 }
 
