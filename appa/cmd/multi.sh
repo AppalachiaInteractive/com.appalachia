@@ -50,7 +50,7 @@ function executeDirectory () {
 
     res=$?
     if [ ${res} -ne 0 ] ; then
-        error "Failed.  Will attempt to process again."
+        error "Failed [${*}].  Will attempt to process again."
         failed_directories+=("${directory}")   
         ((failure_count += 1))       
     fi
