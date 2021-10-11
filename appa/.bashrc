@@ -5,6 +5,17 @@ shopt -s nullglob
 DEBUG_TIMING_OF_BASHRC=0
 APPA_HOME=$(realpath "${HOME}/com.appalachia")
 
+git fetch -p
+
+if [[ -n "$(git status -s)" ]]; then
+    git stash
+    git pull
+    git stash apply
+else
+    git pull
+fi
+
+
 export PATH="$APPA_HOME/appa:$PATH"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------echoing path'; fi
