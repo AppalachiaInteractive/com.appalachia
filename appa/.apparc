@@ -9,10 +9,6 @@ source_configs()
         # echo "$scf"
         source "${scf}" "$@"; 
     done;
-
-    # note "COLORS:  ${APPA_CONFIG_COLORS-NOT LOADED}"
-    # note "DEFAULT: ${APPA_CONFIG_DEFAULT-NOT LOADED}"
-    # note "NPM:     ${APPA_CONFIG_NPM-NOT LOADED}"
 }
 
 source_functions()

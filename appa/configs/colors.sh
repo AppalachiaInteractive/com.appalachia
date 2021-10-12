@@ -82,8 +82,8 @@ echo_cmd_family() { cecho "sKc" " ${1}  "; }
 echo_func() { cecho "iYx" " ${1}  "; }
 C_FUNC="${ST_ITALIC}${FG_YELLOW}${BG_DEFAULT}";
 
-value() { cecho "dXm" " ${1}  "; }
-C_VAL="${ST_DIM}${FG_DEFAULT}${BG_MAGENTA}";
+value() { cecho "sKm" " ${1}  "; }
+C_VAL="${ST_BOLD}${FG_BLACK}${BG_MAGENTA}";
 
 args() { cecho "sWb" " ${1}  "; }
 C_ARGS="${ST_BOLD}${FG_WHITE}${BG_BLUE}";
@@ -91,6 +91,13 @@ C_ARGS="${ST_BOLD}${FG_WHITE}${BG_BLUE}";
 argserror() { cecho "sXr" " ${1}  "; }
 
 highlight() { cecho "sYx" " ${1}  "; }
+highlight1() { cecho "sYx" " ${1}  "; }
+
+highlight2() { cecho "sBx" " ${1}  "; }
+
+highlight3() { cecho "sCx" " ${1}  "; }
+
+subtle() { cecho "dXx" " ${1}  "; }
 
 
 C_RST="${RESET}";
