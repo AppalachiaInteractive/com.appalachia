@@ -14,7 +14,7 @@ for repo in "${repos[@]}" ; do
 
         subtle '-------------------------------------'
         highlight2 "Repository : ${repo}"
-        highlight1 "${log}"
+        git -C "${repo}" diff --stat
         ((changedCount += 1))
 
     fi
