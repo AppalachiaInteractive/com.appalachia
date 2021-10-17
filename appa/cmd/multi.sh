@@ -52,11 +52,13 @@ function executeDirectory () {
     if [ ${res} -ne 0 ] ; then
         error "Failed [${*}].  Will attempt to process again."
         failed_directories+=("${directory}")   
+        failed_directories_echo+=("${directory}, ")
         ((failure_count += 1))       
     fi
 
     if (( failure_count > 0 )); then
         warn "Experienced errors in ${failure_count} iterations."
+        echo "${failed_directories[@]}"
     fi
     
 
@@ -65,7 +67,10 @@ function executeDirectory () {
     note "Completing ${iteration_count} of ${directory_count}"
 }
 
+
+
 failed_directories=()
+failed_directories_echo=()
 failure_count=0
 iteration_count=0
 directory_count=${#directories[@]}
