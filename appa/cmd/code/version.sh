@@ -2,13 +2,13 @@
 # shellcheck source=./../../functions/cmd_start.sh
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-if  [ $# -ne 0 ] ; then 
-    argserror $'No parameters necessary!'
+if  [ $# -ne 1 ] ; then 
+    argserror $'[PARAMS] [major/minor/patch/current/existing]'
     exit 1
 fi
 
 code_publish() {
-    attempt "Attempting to publish..."
+    attempt "Attempting to version..."
 
     win_home=$(echo "${HOME}/com.appalachia"|sed -e 's_/c/_C:/_g')
 
@@ -16,6 +16,8 @@ code_publish() {
         error 'Check your directory...'
         exit 1
     fi
+
+    bump="$1"
 
     local opwd="${PWD}"
     echo "${opwd}"
@@ -28,13 +30,13 @@ code_publish() {
 
     cd "${opwd}"
     note 'Executing...'
-    python -m appapy publish
+    python -m appapy version ${bump}
     res=$?
 
     if [ ${res} -eq 0 ] ; then
-        success 'Published successfully!'
+        success 'Versioned successfully!'
     else
-        error 'Failed to publish!'
+        error 'Failed to version!'
     fi
 
     exit $res

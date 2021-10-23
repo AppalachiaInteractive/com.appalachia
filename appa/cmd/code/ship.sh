@@ -2,8 +2,8 @@
 # shellcheck source=./../../functions/cmd_start.sh
 source "${APPA_FUNCTIONS_HOME}/cmd_start.sh"
 
-if  [ $# -ne 2 ] ; then 
-    argserror $'[PARAMS] [commit message] [major/minor/patch]'
+if  [ $# -ne 1 ] ; then 
+    argserror $'[PARAMS] [commit message]'
     exit 2
 fi
 
@@ -38,7 +38,7 @@ if [ ${result} -ne 0 ] ; then
     exit ${result}
 fi
 
-source appa.sh code publish "$2"
+source appa.sh code publish
 
 if [ ${result} -ne 0 ] ; then
     echo ${result}
