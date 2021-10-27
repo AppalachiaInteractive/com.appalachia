@@ -26,10 +26,10 @@ do_repo_init() {
     mv tmp/* tmp/.* .
     rmdir tmp
     git add README.md
-    git commit -m 'Added README.md'
+    git commit -q -m 'Added README.md'
     git add .
-    git commit -m "Initializing organization repository for project."
-    git push -u origin main
+    git commit -q -m "Initializing organization repository for project."
+    git push -q -u origin main
 
     success "Initialized repo!"
 
