@@ -17,6 +17,11 @@ code_publish() {
         exit 1
     fi
 
+    if [ ! -f "package.json" ]; then
+        warn 'No package.json in this directory...'
+        exit 0
+    fi
+    
     local opwd="${PWD}"
     echo "${opwd}"
 

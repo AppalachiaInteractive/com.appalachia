@@ -61,6 +61,8 @@ attempt() { cecho "sCx" " ${1}  "; }
 warn() { cecho "sKy" "\n\n ${1}\n "; sleep .35; }
 C_WARN="${ST_BOLD}${FG_DEFAULT}${BG_YELLOW}"
 
+warning() { cecho "sKy" "\n\n ${1}\n "; sleep .35; }
+
 error() { cecho "sXr" "\n\n ${1}\n "; sleep .5; }
 C_ERR="${ST_BOLD}${FG_DEFAULT}${BG_RED}";
 
