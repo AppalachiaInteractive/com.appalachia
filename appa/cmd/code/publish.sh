@@ -23,17 +23,17 @@ code_publish() {
     fi
     
     local opwd="${PWD}"
-    echo "${opwd}"
 
     note 'Moving to python path directory to activate environment...'
 
     cd "${PYTHONPATH}"
     note 'Invoking environment change...'
-    source appa.sh venv activate
+    source "${APPA_COMMAND_HOME}/venv/activate.sh"
 
     cd "${opwd}"
+    echo "opwd: ${opwd}"
     note 'Executing...'
-    python -m appapy publish
+    "${PYTHONPATH}/.venv/Scripts/python.exe" -m appapy publish
     res=$?
 
     if [ ${res} -eq 0 ] ; then

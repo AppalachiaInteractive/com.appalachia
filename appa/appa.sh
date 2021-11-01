@@ -3,7 +3,12 @@
 shopt -s nullglob
 
 root="${HOME}/com.appalachia"
-source "${root}/appa/.apparc"
+
+if [[ "${APPA_LOAD_BASHRC}" == "1" ]]; then
+    source "${root}/appa/.bashrc"
+else    
+    source "${root}/appa/.apparc"
+fi
 
 if [ "$#" -eq 0 ] ; then
     print_header
