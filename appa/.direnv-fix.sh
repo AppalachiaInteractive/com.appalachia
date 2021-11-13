@@ -52,6 +52,9 @@ dfx_log() { (( enable_debug_logging == 1)) && dfx_echo "\e[34m" "${1}"; }
 dfx_path() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[36m" "${1}"; }
 dfx_error() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[31m" "${1}"; }
 dfx_test() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[33m" "${1}"; }
+dfx_eatline() { 
+    echo -e "\e[1A- - - - - - - - - - - - - - ";
+    }
 
 dfx_event '[.direnv-fix.sh] [ENTER]'
 
@@ -144,7 +147,8 @@ preexec()
 # RETURN:
 #   0 if we succeed, non-zero on error.
 #######################################
-precmd() {    
+precmd() {        
+    dfx_eatline
     dfx_event '[.direnv-fix.sh] [precmd()] [ENTER]'
 
     trap 'direnv_fix_catch' ERR    

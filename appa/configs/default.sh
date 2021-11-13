@@ -10,6 +10,8 @@ APPA_DEBUG=0
 APPA_DEBUG_TIMING=0
 APPA_DEBUG_ENTRY=0
 
+DIRENV_WARN_TIMEOUT="15s"
+
 if [ "${APPA_DEBUG}" == "1" ] ; then echo "${C_FUNC}"'Loading default configuration'"${C_RST}"; fi
 
 APPA_HOME=$(realpath "${HOME}/com.appalachia")

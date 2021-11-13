@@ -11,6 +11,7 @@ if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '-------------------------
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo "$PATH"; fi
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------.apparc'; fi
+# shellcheck source=./.apparc
 source "${APPA_HOME}/appa/.apparc"
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------caching path'; fi
@@ -18,7 +19,7 @@ if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '-------------------------
 export EDITOR=vim
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------going home'; fi
-cd "${APPA_HOME}"
+cd "${APPA_HOME}" || exit
 
 git fetch -p
 
@@ -31,6 +32,7 @@ git fetch -p
 #fi
 
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------activating environment'; fi
+# shellcheck source=../.venv/Scripts/activate
 source "${APPA_HOME}/.venv/Scripts/activate"
 
 source "${APPA_SCRIPT_HOME}/.direnv-fix.sh"
@@ -61,10 +63,13 @@ else
     export PYTHONPATH="${APPA_HOME}/python/appapy"
 fi
 
-
 if [[ -n "${APPA_PWD}" ]]; then
     echo "${APPA_PWD}"
     cd "${APPA_PWD}" || exit $?    
+fi
+
+if [ "$APPA_FAST" != "1" ] ; then
+    source "${APPA_SCRIPT_HOME}/welcome.sh";
 fi
 
 success "Let's go!"
