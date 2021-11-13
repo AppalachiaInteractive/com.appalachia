@@ -51,27 +51,28 @@ RESET="\e[0m"
 c() { [ $# == 0 ] && printf "\e[0m" || printf "$1" | sed 's/\(.\)/\1;/g;s/\([SDIUFNHT]\)/2\1/g;s/\([KRGYBMCWX]\)/3\1/g;s/\([krgybmcwx]\)/4\1/g;y/SDIUFNHTsdiufnhtKRGYBMCWXkrgybmcwx/1234578912345789012345679012345679/;s/^\(.*\);$/\\e[\1m/g'; }
 cecho() { if [ "$APPA_FAST" != "1" ] ; then echo -e "$(c $1)${2}\e[0m"; else echo "${2}"; fi }
 cechon() { if [ "$APPA_FAST" != "1" ] ; then echo -e -n "$(c $1)${2}\e[0m"; else echo "${2}"; fi }
-warn() { cecho "sKy" "\n\n ${1}\n "; if [ "$APPA_FAST" != "1" ] ; then sleep .35; fi }
+warn() { cecho "sKy" "\n\n${1}\n "; if [ "$APPA_FAST" != "1" ] ; then sleep .35; fi }
 warning() { warn "$1"; }
-error() { cecho "sXr" "\n\n ${1}\n "; if [ "$APPA_FAST" != "1" ] ; then sleep .5; fi }
-debug_cat() { if [ "${APPA_DEBUG}" == "1" ] ; then cat " ${1}  "; fi; }
-debug(){ if [ "${APPA_DEBUG}" == "1" ] ; then cecho "dXy" " ${1}  "; fi; }
-attempt() { cecho "sCx" " ${1}  "; }
-note() { cecho "Mx" " ${1}  "; }
-success() { cecho "sGx" " ${1}  "; }
-header() { cecho "sYx" " ${1}  "; }
-echo_cmd() { cecho "sXc" " ${1}  "; }
-echo_cmd_header() { cecho "sKb" " ${1}  "; }
-echo_cmd_family() { cecho "sKc" " ${1}  "; }
-echo_func() { cecho "iYx" " ${1}  "; }
-value() { cecho "sKm" " ${1}  "; }
-args() { cecho "sWb" " ${1}  "; }
-argserror() { cecho "sXr" " ${1}  "; }
-highlight() { cecho "sYx" " ${1}  "; }
-highlight1() { cecho "sYx" " ${1}  "; }
-highlight2() { cecho "sBx" " ${1}  "; }
-highlight3() { cecho "sCx" " ${1}  "; }
-subtle() { cecho "dXx" " ${1}  "; }
+error() { cecho "sXr" "\n\n${1}\n "; if [ "$APPA_FAST" != "1" ] ; then sleep .5; fi }
+debug_cat() { if [ "${APPA_DEBUG}" == "1" ] ; then cat "${1}  "; fi; }
+debug(){ if [ "${APPA_DEBUG}" == "1" ] ; then cecho "dXy" "${1}  "; fi; }
+attempt() { cecho "sCx" "${1}  "; }
+note() { cecho "Mx" "${1}  "; }
+success() { cecho "sGx" "${1}  "; }
+header() { cecho "sYx" "${1}  "; }
+echo_cmd() { cecho "sXc" "${1}  "; }
+echo_cmd_header() { cecho "sKb" "${1}  "; }
+echo_cmd_family() { cecho "sKc" "${1}  "; }
+echo_func() { cecho "iYx" "${1}  "; }
+value() { cecho "sKm" "${1}  "; }
+args() { cecho "sWb" "${1}  "; }
+argserror() { cecho "sXr" "${1}  "; }
+highlight() { cecho "sYx" "${1}  "; }
+highlight1() { cecho "sYx" "${1}  "; }
+highlight2() { cecho "sBx" "${1}  "; }
+highlight3() { cecho "sCx" "${1}  "; }
+highlight4() { cecho "sMx" "${1}  "; }
+subtle() { cecho "dXx" "${1}  "; }
 
 ## ------------------------------------
 if [ "${APPA_DEBUG}" == "1" ] ; then success "Completed loading ${name} configuration."; fi
