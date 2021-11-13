@@ -1,0 +1,149 @@
+Conversion #1 - 18 tracks
+
+Client:  fre:ac - free audio converter
+Version: v1.1.5 (x86-64)
+
+System:  Windows 10 Pro (Release 2009, Build 19043)
+CPU:     AMD Ryzen 9 3900X 12-Core Processor            
+RAM:     64 GB
+
+Date:    2021-11-02
+Time:    14:23:06
+
+hh:mm:ss.fff
+------------
+00:00:00.000 Starting conversion process...
+00:00:00.000     Selected encoder:     LAME MP3 Encoder v3.100
+00:00:00.001     Parallel processing:  Enabled (up to 18 threads)
+00:00:00.001         SuperFast mode:   Enabled
+00:00:00.001 
+00:00:00.001     Output settings:      Multiple files
+00:00:00.001         Filename pattern: <albumartist> - <album>\<track> - <artist> - <title>
+00:00:00.001 
+00:00:00.008     Converting: sfx_enviro_blizzard.wav
+00:00:00.008             to: Weather - unknown album\00 - Weather - sfx enviro blizzard.mp3
+00:00:00.008         Decoder: SndFile Input Component v1.0.31
+00:00:00.008 
+00:00:00.023     Converting: sfx_enviro_wind_rain.wav
+00:00:00.023             to: Weather - unknown album\00 - Weather - sfx enviro wind rain.mp3
+00:00:00.023         Decoder: SndFile Input Component v1.0.31
+00:00:00.023 
+00:00:00.024     Converting: sfx_envirolightrain2.wav
+00:00:00.024             to: unknown album artist - unknown album\00 - unknown artist - sfx enviro light rain.mp3
+00:00:00.024         Decoder: SndFile Input Component v1.0.31
+00:00:00.024 
+00:00:00.024     Converting: sfx_enviro_liightrain.wav
+00:00:00.025             to: unknown album artist - unknown album\00 - unknown artist - sfx enviro light rain 2.mp3
+00:00:00.025         Decoder: SndFile Input Component v1.0.31
+00:00:00.025 
+00:00:00.025     Converting: SFX_Thunder_6.wav
+00:00:00.025             to: Thunder - unknown album\00 - Thunder - SFX Thunder 6.mp3
+00:00:00.025         Decoder: SndFile Input Component v1.0.31
+00:00:00.025 
+00:00:00.025     Converting: SFX_Thunder_3.wav
+00:00:00.025             to: Thunder - unknown album\00 - Thunder - SFX Thunder 3.mp3
+00:00:00.025         Decoder: SndFile Input Component v1.0.31
+00:00:00.025 
+00:00:00.026     Converting: SFX_Thunder_8.wav
+00:00:00.026             to: Thunder - unknown album\00 - Thunder - SFX Thunder 8.mp3
+00:00:00.026         Decoder: SndFile Input Component v1.0.31
+00:00:00.026 
+00:00:00.027     Converting: SFX_Thunder_2.wav
+00:00:00.027             to: Thunder - unknown album\00 - Thunder - SFX Thunder 2.mp3
+00:00:00.027         Decoder: SndFile Input Component v1.0.31
+00:00:00.027 
+00:00:00.027     Converting: SFX_Thunder_7.wav
+00:00:00.027             to: Thunder - unknown album\00 - Thunder - SFX Thunder 7.mp3
+00:00:00.027         Decoder: SndFile Input Component v1.0.31
+00:00:00.027 
+00:00:00.027     Converting: SFX_Thunder_4.wav
+00:00:00.028             to: Thunder - unknown album\00 - Thunder - SFX Thunder 4.mp3
+00:00:00.028         Decoder: SndFile Input Component v1.0.31
+00:00:00.028 
+00:00:00.028     Converting: SFX_Thunder_5.wav
+00:00:00.028             to: Thunder - unknown album\00 - Thunder - SFX Thunder 5.mp3
+00:00:00.028         Decoder: SndFile Input Component v1.0.31
+00:00:00.028 
+00:00:00.028     Converting: sfx_enviro_heavyrain.wav
+00:00:00.028             to: Weather - unknown album\00 - Weather - sfx enviro heavyrain.mp3
+00:00:00.028         Decoder: SndFile Input Component v1.0.31
+00:00:00.028 
+00:00:00.029     Converting: sfx_enviro_storm.wav
+00:00:00.029             to: Weather - unknown album\00 - Weather - sfx enviro storm.mp3
+00:00:00.029         Decoder: SndFile Input Component v1.0.31
+00:00:00.029 
+00:00:00.029     Converting: SFX_Thunder_1.wav
+00:00:00.029             to: Thunder - unknown album\00 - Thunder - SFX Thunder 1.mp3
+00:00:00.029         Decoder: SndFile Input Component v1.0.31
+00:00:00.029 
+00:00:00.029     Converting: sfx_enviro_heavyrain2.wav
+00:00:00.029             to: Weather - unknown album\00 - Weather - sfx enviro heavyrain2.mp3
+00:00:00.029         Decoder: SndFile Input Component v1.0.31
+00:00:00.029 
+00:00:00.030     Converting: tree_fall_down.mp3
+00:00:00.030             to: Misc - unknown album\00 - Misc - tree fall down.mp3
+00:00:00.030         Decoder: mpg123 Decoder
+00:00:00.030 
+00:00:00.030     Converting: sfx_enviro_ambient_night.ogg
+00:00:00.030             to: Ambient - unknown album\00 - Ambient - sfx enviro ambient night.mp3
+00:00:00.030         Decoder: Ogg Vorbis Decoder
+00:00:00.030 
+00:00:00.030     Converting: sfx_enviro_ambient_day.ogg
+00:00:00.030             to: Ambient - unknown album\00 - Ambient - sfx enviro ambient day.mp3
+00:00:00.030         Decoder: Ogg Vorbis Decoder
+00:00:00.030 
+00:00:00.031     Finished converting: sfx_enviro_heavyrain2.wav
+00:00:00.032         Duration: 00:00.003 (546.0x speed)
+00:00:00.032 
+00:00:00.066     Finished converting: tree_fall_down.mp3
+00:00:00.066         Duration: 00:00.036 (232.3x speed)
+00:00:00.066 
+00:00:00.113     Finished converting: sfx_enviro_storm.wav
+00:00:00.114         Duration: 00:00.085 (353.3x speed)
+00:00:00.114 
+00:00:00.280     Finished converting: SFX_Thunder_5.wav
+00:00:00.280         Duration: 00:00.252 (83.3x speed)
+00:00:00.280 
+00:00:00.284     Finished converting: SFX_Thunder_1.wav
+00:00:00.284         Duration: 00:00.255 (83.8x speed)
+00:00:00.284 
+00:00:00.291     Finished converting: sfx_enviro_heavyrain.wav
+00:00:00.291         Duration: 00:00.263 (94.6x speed)
+00:00:00.291 
+00:00:00.302     Finished converting: SFX_Thunder_4.wav
+00:00:00.302         Duration: 00:00.274 (84.1x speed)
+00:00:00.302 
+00:00:00.311     Finished converting: SFX_Thunder_2.wav
+00:00:00.311         Duration: 00:00.284 (88.6x speed)
+00:00:00.311 
+00:00:00.311     Finished converting: SFX_Thunder_8.wav
+00:00:00.311         Duration: 00:00.285 (88.7x speed)
+00:00:00.311 
+00:00:00.319     Finished converting: SFX_Thunder_7.wav
+00:00:00.320         Duration: 00:00.292 (86.5x speed)
+00:00:00.320 
+00:00:00.327     Finished converting: SFX_Thunder_3.wav
+00:00:00.327         Duration: 00:00.302 (89.8x speed)
+00:00:00.327 
+00:00:00.336     Finished converting: SFX_Thunder_6.wav
+00:00:00.337         Duration: 00:00.312 (93.5x speed)
+00:00:00.337 
+00:00:00.461     Finished converting: sfx_enviro_ambient_night.ogg
+00:00:00.461         Duration: 00:00.431 (66.5x speed)
+00:00:00.461 
+00:00:00.514     Finished converting: sfx_enviro_ambient_day.ogg
+00:00:00.514         Duration: 00:00.484 (126.5x speed)
+00:00:00.514 
+00:00:00.553     Finished converting: sfx_envirolightrain2.wav
+00:00:00.553         Duration: 00:00.529 (107.9x speed)
+00:00:00.553 
+00:00:00.557     Finished converting: sfx_enviro_liightrain.wav
+00:00:00.557         Duration: 00:00.532 (108.2x speed)
+00:00:00.557 
+00:00:00.687     Finished converting: sfx_enviro_wind_rain.wav
+00:00:00.687         Duration: 00:00.664 (115.4x speed)
+00:00:00.687 
+00:00:01.476     Finished converting: sfx_enviro_blizzard.wav
+00:00:01.476         Duration: 00:01.468 (140.1x speed)
+00:00:01.476 
+00:00:01.520     Total duration: 00:01.519 (493.2x speed)

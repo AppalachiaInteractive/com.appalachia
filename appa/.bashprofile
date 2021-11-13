@@ -1,12 +1,17 @@
 #!/bin/bash
-eval "$(gh completion -s bash)"
 
-if [ -f "${APPA_SCRIPT_HOME}/.name" ]; then
-    name=$(cat "${APPA_SCRIPT_HOME}/.name")
-else
-    name=$(whoami)
-    echo "$name" > "${APPA_SCRIPT_HOME}/.name"
+if [ "$APPA_FAST" != "1" ] ; then
+
+    eval "$(gh completion -s bash)"
+
+    if [ -f "${APPA_SCRIPT_HOME}/.name" ]; then
+        name=$(cat "${APPA_SCRIPT_HOME}/.name")
+    else
+        name=$(whoami)
+        echo "$name" > "${APPA_SCRIPT_HOME}/.name"
+    fi
+
+    banner=$(figlet "${name}" -f Sub-Zero --horiziontal-layout fitted | sed -e 1's/.*'"/\\${FG_RED} &/" -e 2's/.*'"/\\${FG_YELLOW} &/" -e 3's/.*'"/\\${FG_GREEN} &/" -e 4's/.*'"/\\${FG_CYAN} &/" -e 5's/.*'"/\\${FG_BLUE} &/")
+    echo -n -e "${banner}"$'\n'
+
 fi
-
-banner=$(figlet "${name}" -f Sub-Zero --horiziontal-layout fitted | sed -e 1's/.*'"/\\${FG_RED} &/" -e 2's/.*'"/\\${FG_YELLOW} &/" -e 3's/.*'"/\\${FG_GREEN} &/" -e 4's/.*'"/\\${FG_CYAN} &/" -e 5's/.*'"/\\${FG_BLUE} &/")
-echo -n -e "${banner}"$'\n'
