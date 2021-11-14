@@ -21,7 +21,7 @@ export EDITOR=vim
 if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------going home'; fi
 cd "${APPA_HOME}" || exit
 
-git pull
+git pull -q
 
 #if [[ -n "$(git status -s)" ]]; then
 #    git stash -q 
