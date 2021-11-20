@@ -7,57 +7,55 @@ APPA_HOME=$(realpath "${HOME}/com.appalachia")
 
 export PATH="$APPA_HOME/appa:$PATH"
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------echoing path'; fi
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo "$PATH"; fi
+debug_log() {
+    if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------'"${1}"; fi
+}
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------.apparc'; fi
+debug_log 'echoing path'
+debug_log "$PATH";
+debug_log '.apparc'
+
 # shellcheck source=./.apparc
 source "${APPA_HOME}/appa/.apparc"
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------caching path'; fi
-
+debug_log 'caching path'
 export EDITOR=vim
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------going home'; fi
+debug_log 'going home'
 cd "${APPA_HOME}" || exit
 
 git pull -q
 
-#if [[ -n "$(git status -s)" ]]; then
-#    git stash -q 
-#    git pull -q
-#    git stash apply -q 
-#else
-#    git pull -q
-#fi
-
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------activating environment'; fi
+debug_log 'activating environment'
 # shellcheck source=../.venv/Scripts/activate
 source "${APPA_HOME}/.venv/Scripts/activate"
 
 source "${APPA_SCRIPT_HOME}/.direnv-fix.sh"
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------direnv hook bash'; fi
+debug_log 'direnv hook bash'
 eval "$(direnv hook bash)"
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------source bash-preexec.sh'; fi
+debug_log 'source bash-preexec.sh'
 source "${APPA_SCRIPT_HOME}/bash-preexec.sh"
 
-if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------source .bashprofile'; fi
+debug_log 'source .bashprofile'
 source "${APPA_SCRIPT_HOME}/.bashprofile"
 
 if [ "$APPA_FAST" != "1" ] ; then
 
-    if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------source wakatime.sh'; fi
+    debug_log 'source wakatime.sh'
     source "${APPA_SCRIPT_HOME}/wakatime.sh"
 
-    if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------check_node'; fi
+    debug_log 'check_node_paths'
+    check_node_paths
+
+    debug_log 'check_node'
     check_node
 
-    #if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------check_python'; fi
+    #debug_log 'check_python'
     #check_python
 
-    if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------reading secrets'; fi
+    debug_log 'reading secrets'
     eval "$(read_secrets | export_secrets)"
 else
     export PYTHONPATH="${APPA_HOME}/python/appapy"
@@ -72,4 +70,4 @@ if [ "$APPA_FAST" != "1" ] ; then
     source "${APPA_SCRIPT_HOME}/welcome.sh";
 fi
 
-success "Let's go!"
+success "Development environment loaded!"

@@ -1,15 +1,23 @@
 #!/bin/bash
 
-check_node()
+check_node_paths()
 {
-    for x in "${APPA_NODE_HOME}/.bin"; do
-    case ":$PATH:" in
-        *":$x:"*) :;; # already there
-        *) PATH="$x:$PATH";;
-    esac
+    # Make sure path ends with /
+    for directory in "${APPA_NODE_HOME}/.bin/"*; do
+        if [[ -d "${directory}" && ! -L "${directory}" ]]; then
+            case ":$PATH:" in
+                *":$directory:"*) :;; # already there
+                *) PATH="$directory:$PATH";;
+            esac
+        fi
     done
+}
 
-    npm -g install npm-cli-login &> /dev/null
+check_node()
+{   
+    if [ ! "$(command -v npm-cli-login)" ]; then
+        npm -g install npm-cli-login &> /dev/null
+    fi  
 }
 check_python()
 {
