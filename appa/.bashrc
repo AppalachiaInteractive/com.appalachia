@@ -24,6 +24,7 @@ export EDITOR=vim
 debug_log 'going home'
 cd "${APPA_HOME}" || exit
 
+git fetch
 git pull -q
 
 debug_log 'activating environment'
