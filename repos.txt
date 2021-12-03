@@ -1,0 +1,1053 @@
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 1 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/appa/.test/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/appa/.test/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 2 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/blog/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/blog/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 3 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/design/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/design/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 4 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/3d_modeling/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/3d_modeling/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 5 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/analytics/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/analytics/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 6 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/animations/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/animations/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 7 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/art/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/art/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 8 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/art/Texturing/animal_tracks/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/art/Texturing/animal_tracks/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 9 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/audio/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/audio/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 10 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/code/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/code/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 11 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/design/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/design/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 12 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/game-design/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/game-design/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 13 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/localization/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/localization/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 14 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/media/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/media/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 15 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/packages/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/packages/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 16 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/production/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/production/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 17 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/quality-control/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/quality-control/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 18 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/research/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/research/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 19 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/technology/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/technology/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 20 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/texturing/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/texturing/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 21 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/ui/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/ui/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 22 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/unity3d/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/unity3d/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 23 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/koc/vfx/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/koc/vfx/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 24 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/ml/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/ml/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 25 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/ml/ontology/HumanDiseaseOntology/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/ml/ontology/HumanDiseaseOntology/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 26 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/ml/ontology/SymptomOntology/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/ml/ontology/SymptomOntology/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 27 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/node/html-diff/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/node/html-diff/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 28 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/node/zenhub/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/node/zenhub/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 29 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/org/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/org/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 30 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/python/appablend/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/python/appablend/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 31 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/python/appapy/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/python/appapy/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 32 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/servers/verdaccio/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/servers/verdaccio/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 33 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Audio/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Audio/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 34 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.CI/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.CI/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 35 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Core/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Core/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 36 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Data/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Data/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 37 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Editing/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Editing/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 38 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Editor/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Editor/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 39 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Globals/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Globals/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 40 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Jobs/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Jobs/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 41 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Prototype/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Prototype/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 42 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Rendering/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Rendering/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 43 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Simulation/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Simulation/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 44 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Spatial/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Spatial/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 45 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.UI/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.UI/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 46 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Appalachia.Utility/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Appalachia.Utility/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 47 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Amplify~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Amplify~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 48 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/AronGranberg~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/AronGranberg~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 49 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/AwesomeTechnologies~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/AwesomeTechnologies~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 50 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/ChristianWoltering~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/ChristianWoltering~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 51 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Demigiant~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Demigiant~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 52 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Dogmatic~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Dogmatic~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 53 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Doozy/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Doozy/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 54 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/GurBu~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/GurBu~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 55 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/HendrikHaupt~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/HendrikHaupt~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 56 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/JasonBooth~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/JasonBooth~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 57 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Kronnect~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Kronnect~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 58 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/MDabros~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/MDabros~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 59 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/MichaelJiminez~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/MichaelJiminez~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 60 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/NatureManufacture~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/NatureManufacture~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 61 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/qq_d_y~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/qq_d_y~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 62 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/RLabrecque~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/RLabrecque~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 63 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Rootmotion~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Rootmotion~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 64 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Sirenix~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Sirenix~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 65 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Sycoforge~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Sycoforge~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 66 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/TerrainComposer~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/TerrainComposer~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 67 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/UltimateGameTools~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/UltimateGameTools~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 68 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/Unity~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/Unity~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 69 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/appa/Assets/Third-Party/VirtualMethod~/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/appa/Assets/Third-Party/VirtualMethod~/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 70 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/amplify/impostors/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/amplify/impostors/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 71 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/amplify/shader-editor/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/amplify/shader-editor/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 72 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/aron-granberg/astar-pathfinding/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/aron-granberg/astar-pathfinding/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 73 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/awesome-technologies/vegetation-studio/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/awesome-technologies/vegetation-studio/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 74 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/demigiant/dotween/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/demigiant/dotween/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 75 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/dogmatic/aquas/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/dogmatic/aquas/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 76 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/doozy/doozy-ui/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/doozy/doozy-ui/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 77 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/dotnet/christian-woltering/triangledotnet/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/dotnet/christian-woltering/triangledotnet/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 78 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/dotnet/mdabros/sharp-learning/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/dotnet/mdabros/sharp-learning/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 79 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/gurbu/gpu-instancer/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/gurbu/gpu-instancer/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 80 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/hendrik-haupt/enviro/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/hendrik-haupt/enviro/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 81 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/jason-booth/megasplat/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/jason-booth/megasplat/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 82 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/jason-booth/microsplat/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/jason-booth/microsplat/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 83 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/jason-booth/one-batch/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/jason-booth/one-batch/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 84 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/kronnect/beautify/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/kronnect/beautify/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 85 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/kronnect/dynamic-fog/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/kronnect/dynamic-fog/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 86 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/kronnect/volumetric-fog/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/kronnect/volumetric-fog/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 87 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/michael-jiminez/horizon-based-ambient-occlusion/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/michael-jiminez/horizon-based-ambient-occlusion/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 88 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/nature-manufacture/river-auto-material/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/nature-manufacture/river-auto-material/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 89 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/qq_d_y/occlusion_fx/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/qq_d_y/occlusion_fx/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 90 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/rlabrecque/Steamworks/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/rlabrecque/Steamworks/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 91 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/rootmotion/common/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/rootmotion/common/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 92 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/rootmotion/finalik/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/rootmotion/finalik/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 93 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/rootmotion/puppetmaster/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/rootmotion/puppetmaster/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 94 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/sirenix.odin/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/sirenix.odin/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 95 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/sycoforge-technologies/easy-decal/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/sycoforge-technologies/easy-decal/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 96 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/terraincomposer/mesh-combine-studio/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/terraincomposer/mesh-combine-studio/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 97 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/ultimate-game-tools/automatic-lod/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/ultimate-game-tools/automatic-lod/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 98 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/ultimate-game-tools/mesh-simplify/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/ultimate-game-tools/mesh-simplify/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 99 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/external/Assets/virtual-method/obi-physics/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/external/Assets/virtual-method/obi-physics/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 100 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/unity/Assets/cinemachine/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/unity/Assets/cinemachine/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 101 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/unity/Assets/nav-mesh-components/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/unity/Assets/nav-mesh-components/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 102 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/archived/unity/Assets/postprocessing/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/archived/unity/Assets/postprocessing/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 103 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/demos/FontainebleauDemo/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/demos/FontainebleauDemo/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 104 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3d/demos/input-system/]...  [0m
+[1;33;49m-------------------------------------  [0m
+[1;33;49mDirectory : /d/com.appalachia/unity3d/demos/input-system/  [0m
+[1;33;49m-------------------------------------  [0m
+[35;49mExecuting command: [echo .]  [0m
+.
+
+[35;49mCompleting 105 of 114  [0m
+
+[1;33;49m-------------------------------------  [0m
+[35;49mMoving into directory [/d/com.appalachia/unity3dhub_repos/gameplay-ingredients/]...  [0m
