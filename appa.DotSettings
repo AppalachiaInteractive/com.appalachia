@@ -2049,6 +2049,7 @@ Sirenix.OdinInspector.ShowIfAttribute.ShowIfAttribute</s:String>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpUseContinuousIndentInsideBracesMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAlwaysTreatStructAsNotReorderableMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002ERider_002EBackend_002EFeatures_002EDebugger_002ESettings_002EMigration_002ERiderSymbolServersSettingsUpgrade/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/TextControl/HighlightCurrentLine/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/TypeNameHintsOptions/ShowTypeNameHintsForLambdaExpressionParameters/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/TypeNameHintsOptions/ShowTypeNameHintsForLinqQueryRangeVariables/@EntryValue">False</s:Boolean>
@@ -2959,6 +2960,7 @@ public static implicit operator $myType$($otherType$ o) =&gt; new $myType$(o);
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6227C5DA577814CADA18A3369FCC33A/Shortcut/@EntryValue">prfrc</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6227C5DA577814CADA18A3369FCC33A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6227C5DA577814CADA18A3369FCC33A/Text/@EntryValue">using(_PRF_$method$_$custom$.Auto())</s:String>
+	<s:Boolean x:Key="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/SymbolServers/RestoreDecompileSetting/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Atlassed/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Colliders/@EntryIndexedValue">True</s:Boolean>
