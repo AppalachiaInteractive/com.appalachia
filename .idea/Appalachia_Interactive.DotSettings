@@ -1869,19 +1869,27 @@
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PublicFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/UserRules/=5f0fdb63_002Dc892_002D4d2c_002D9324_002D15c80b22a7ef/@EntryIndexedValue">&lt;Policy&gt;&lt;Descriptor Staticness="Instance" AccessRightKinds="Any" Description="Unity serialized field"&gt;&lt;ElementKinds&gt;&lt;Kind Name="UNITY_SERIALISED_FIELD" /&gt;&lt;/ElementKinds&gt;&lt;/Descriptor&gt;&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb_aaBb" /&gt;&lt;/Policy&gt;</s:String>
 	<s:String x:Key="/Default/CustomTools/CustomToolsData/@EntryValue"></s:String>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=ch_002Esycoforge_002EDecal_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Codice_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=log4net_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Mono_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Newtonsoft_002EJsonPort_002ESerialization_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Plastic_002EGUI_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=PlasticGUI_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=PlasticGui_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EComponentModel/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EComponentModel_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EDrawing/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EDrawing_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENet_002EMime_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENumerics/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENumerics_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEngine_002EUIElements_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Unity_002ECollections_002EReadOnlyAttribute/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Unity_002EPlastic_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEditor/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEditor_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/Environment/Editor/StructuralNavigationIsEnabled/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/Editor/QuickInfo/EnableQuickInfo/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/ErrorStripe/ErrorStripeWidth/@EntryValue">Wide</s:String>
@@ -2007,6 +2015,7 @@ Sirenix.OdinInspector.ShowIfAttribute.ShowIfAttribute</s:String>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpUseContinuousIndentInsideBracesMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAlwaysTreatStructAsNotReorderableMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002ERider_002EBackend_002EFeatures_002EDebugger_002ESettings_002EMigration_002ERiderSymbolServersSettingsUpgrade/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/TextControl/HighlightCurrentLine/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/TypeNameHintsOptions/ShowTypeNameHintsForLambdaExpressionParameters/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/TypeNameHintsOptions/ShowTypeNameHintsForLinqQueryRangeVariables/@EntryValue">False</s:Boolean>
@@ -2074,6 +2083,11 @@ private static $TYPE$ _$FIELDNAME$
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09C4D87A41F8B94FB3CA0156607D821E/Scope/=F6DC4348B6859C41B67D990E3252B534/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09C4D87A41F8B94FB3CA0156607D821E/Scope/=F6DC4348B6859C41B67D990E3252B534/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09C4D87A41F8B94FB3CA0156607D821E/Scope/=F6DC4348B6859C41B67D990E3252B534/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0BF6D9D7980BF649BCE6D1A9A748E35A/Scope/=1D4D41B7323FF64E8C31CC470CF1E9AE/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0BF6D9D7980BF649BCE6D1A9A748E35A/Text/@EntryValue">
+#if UNITY_EDITOR
+[UnityEngine.CreateAssetMenu(fileName = $FILENAME$, menuName = $MENUNAME$, order = $ORDER$)]
+#endif</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C311F10AFD9DA4F9020F6564CDF0DD1/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C311F10AFD9DA4F9020F6564CDF0DD1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C311F10AFD9DA4F9020F6564CDF0DD1/Description/@EntryValue">Create a private static readonly field for a TraceMarker (custom level 3</s:String>
@@ -2156,6 +2170,36 @@ private static $TYPE$ _$FIELDNAME$
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1736496E94FB6E498561CAFC86253264/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1736496E94FB6E498561CAFC86253264/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1736496E94FB6E498561CAFC86253264/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Field/=type/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Field/=type/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Shortcut/@EntryValue">appaoverride</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Text/@EntryValue">[System.Serializable]
+public class Overridable$type$ : Overridable&lt;$type$, Overridable$type$&gt;
+{
+    public Overridable$type$($type$ value) : base(false, value)
+    {
+    }
+    
+    public Overridable$type$(bool overrideEnabled, $type$ value) : base(overrideEnabled, value)
+    {
+    }
+
+    public Overridable$type$(Overridable&lt;$type$, Overridable$type$&gt; value) : base(value)
+    {
+    }
+
+    public Overridable$type$() : base(false, null)
+    {
+    }
+}
+    </s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5EB6F741B02D49A2732E604C851BBA/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5EB6F741B02D49A2732E604C851BBA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5EB6F741B02D49A2732E604C851BBA/Description/@EntryValue">Creates explicit casts to another type</s:String>
@@ -2240,12 +2284,14 @@ public static explicit operator $myType$($otherType$ o) =&gt; new $myType$(o);</
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Reformat/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Shortcut/@EntryValue">menuAsset</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Text/@EntryValue">[UnityEditor.MenuItem(PKG.Menu.Assets.Base + nameof($type$), priority = PKG.Menu.Assets.Priority)]
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Shortcut/@EntryValue">appaCreateAsset</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Text/@EntryValue">#if UNITY_EDITOR
+[UnityEditor.MenuItem(PKG.Menu.Assets.Base + nameof($type$), priority = PKG.Menu.Assets.Priority)]
 public static void CreateAsset()
 {
     CreateNew&lt;$type$&gt;();
-}</s:String>
+}
+#endif</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Field/=type/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Field/=type/Expression/@EntryValue">typeName()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2928F8174B2F3048903126E79C2B6179/Field/=type/InitialRange/@EntryValue">-1</s:Int64>
@@ -2352,6 +2398,14 @@ private static readonly TraceMarker _TRACE_OnDrawGizmosSelected = new TraceMarke
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=541DB50E5F134A4FA2D65925BA28870C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=541DB50E5F134A4FA2D65925BA28870C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=541DB50E5F134A4FA2D65925BA28870C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B88D3F624462942A0741CE5749A0FE2/Shortcut/@EntryValue">appaMenuitem</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B88D3F624462942A0741CE5749A0FE2/Text/@EntryValue">#if UNITY_EDITOR
+[UnityEditor.MenuItem($MENUNAME$)]
+public static void $NAME$()
+{
+  $END$
+}
+#endif</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5BCD34F83246E7499381D292DF91230A/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5BCD34F83246E7499381D292DF91230A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5BCD34F83246E7499381D292DF91230A/Reformat/@EntryValue">True</s:Boolean>
@@ -2760,6 +2814,122 @@ $private$ $RETURN$ $METHOD$($ARGS$)
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AB52191ED48AC549B058DB86777346D2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AB52191ED48AC549B058DB86777346D2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AB52191ED48AC549B058DB86777346D2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=component/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=COMPONENT/@KeyIndexDefined">True</s:Boolean>
+	
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=COMPONENT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=interface/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=INTERFACE/@KeyIndexDefined">False</s:Boolean>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=override/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=OVERRIDE/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FNAME_005FL/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FNAME_005FL/Expression/@EntryValue">decapitalize(PROP_NAME)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FNAME_005FL/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FTYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FTYPE_005FU/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FTYPE_005FU/Expression/@EntryValue">capitalize(PROP_TYPE)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=PROP_005FTYPE_005FU/Order/@EntryValue">4</s:Int64>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=style/@KeyIndexDefined">False</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=STYLE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=STYLE/Expression/@EntryValue">getAlphaNumericFileNameWithoutExtension()</s:String>
+	
+	
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Field/=STYLE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Shortcut/@EntryValue">appastyle</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AC6375DCC37BD54093BF75C6F2BE585A/Text/@EntryValue">public interface I$STYLE$ : Appalachia.Prototype.KOC.Application.Styling.Base.IApplicationStyle
+    {
+        public $PROP_TYPE$ $PROP_NAME$ { get; }
+        
+        public void Apply($COMPONENT$ component)
+        {
+            using (_PRF_Apply.Auto())
+            {
+            }
+        }
+
+        #region Profiling
+
+        private const string _PRF_PFX = nameof(I$STYLE$) + ".";
+
+        private static readonly Unity.Profiling.ProfilerMarker _PRF_Apply = new Unity.Profiling.ProfilerMarker(_PRF_PFX + nameof(Apply));
+
+        #endregion
+    }
+    
+    [System.Serializable]
+    public class $STYLE$ : Appalachia.Prototype.KOC.Application.Styling.Base.ApplicationStyleElementDefault&lt;$STYLE$, $STYLE$Override, I$STYLE$&gt;, I$STYLE$
+    {
+        #region Fields and Autoproperties
+
+        private $PROP_TYPE$ _$PROP_NAME_L$;
+
+        #endregion
+
+        #region I$STYLE$ Members
+        
+        public $PROP_TYPE$ $PROP_NAME$ =&gt; _$PROP_NAME_L$;
+
+        #endregion
+
+        #region Profiling
+
+        private const string _PRF_PFX = nameof($STYLE$) + ".";
+
+        private static readonly Unity.Profiling.ProfilerMarker _PRF_RegisterOverride =
+            new Unity.Profiling.ProfilerMarker(_PRF_PFX + nameof(RegisterOverride));
+
+        #endregion
+    }
+
+
+    [System.Serializable]
+    public class $STYLE$Override : Appalachia.Prototype.KOC.Application.Styling.Base.ApplicationStyleElementOverride&lt;$STYLE$, $STYLE$Override, I$STYLE$&gt;, I$STYLE$
+    {
+        #region Fields and Autoproperties
+    
+        private Overridable$PROP_TYPE_U$ _$PROP_NAME_L$;
+
+        #endregion
+
+        public override void SyncWithDefault()
+        {
+            using (_PRF_SyncWithDefault.Auto())
+            {
+                if (!_$PROP_NAME_L$.overrideEnabled)
+                {
+                    _$PROP_NAME_L$.value = Defaults.Font;
+                }
+            }
+        }
+
+        #region I$STYLE$ Members
+        
+        public $PROP_TYPE$ $PROP_NAME$ =&gt; _$PROP_NAME_L$.Get(Defaults.$PROP_NAME$);
+        #endregion
+
+        #region Profiling
+
+        private const string _PRF_PFX = nameof($STYLE$Override) + ".";
+
+        private static readonly Unity.Profiling.ProfilerMarker _PRF_SyncWithDefault =
+            new Unity.Profiling.ProfilerMarker(_PRF_PFX + nameof(SyncWithDefault));
+
+        #endregion
+    }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B1D807EBC4DC2642A2DC38CC8E5A6FE3/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B1D807EBC4DC2642A2DC38CC8E5A6FE3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B1D807EBC4DC2642A2DC38CC8E5A6FE3/Description/@EntryValue">Begin a TraceMarker</s:String>
@@ -2913,6 +3083,7 @@ public static implicit operator $myType$($otherType$ o) =&gt; new $myType$(o);
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6227C5DA577814CADA18A3369FCC33A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6227C5DA577814CADA18A3369FCC33A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F6227C5DA577814CADA18A3369FCC33A/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/SymbolServers/RestoreDecompileSetting/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Atlassed/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Colliders/@EntryIndexedValue">True</s:Boolean>
@@ -2925,5 +3096,6 @@ public static implicit operator $myType$($otherType$ o) =&gt; new $myType$(o);
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=rigidbody/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Scriptable/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=specularity/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=substate/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Unclamped/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Voxel/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
