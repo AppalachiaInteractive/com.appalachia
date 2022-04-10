@@ -1,7 +1,12 @@
 #!/bin/bash
 
+debug_log() {
+    if [ "${DEBUG_TIMING_OF_BASHRC}" == "1" ] ; then echo '------------------------------'"${1}"; fi
+}
+
 source_configs()
 {  
+    debug_log 'apparc.source_configs'
     mapfile -t source_configs_array < <(find "${APPA_HOME}/appa/configs" -mindepth 1 -type f -name '*.sh')
     
     for scf in "${source_configs_array[@]}"; 
@@ -13,6 +18,7 @@ source_configs()
 
 source_functions()
 {  
+    debug_log 'apparc.source_functions'
     mapfile -t source_functions_array < <(find "${APPA_FUNCTIONS_HOME}" -mindepth 1 -type f -name '*.sh')
     
     for sff in "${source_functions_array[@]}"; 
@@ -24,6 +30,7 @@ source_functions()
 
 download_repos()
 {        
+    debug_log 'apparc.download_repos'
     if [ ! -d "${APPA_HOME}/python" ]; then
         mkdir "${APPA_HOME}/python"
     fi

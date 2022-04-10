@@ -18,13 +18,21 @@ test_command='ls'
 recovery_path='/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin'
 
 # Logging to diagnose issues.
-enable_debug_logging=0
-#enable_debug_logging=1
+#DEBUG_TIMING_OF_BASHRC=0
+#DEBUG_TIMING_OF_BASHRC=1
 
 #######################################
 # End: User modifiable params
 #######################################
 
+dfx_echo() { echo -e "\e[0m${1}${2}\e[0m"; }
+dfx_event() { (( DEBUG_TIMING_OF_BASHRC == 1)) && dfx_echo "\e[1m\e[32m"  "${1}"; }
+dfx_log() { (( DEBUG_TIMING_OF_BASHRC == 1)) && dfx_echo "\e[34m" "${1}"; }
+dfx_path() { (( DEBUG_TIMING_OF_BASHRC == 1)) && dfx_echo "\e[1m\e[36m" "${1}"; }
+dfx_error() { (( DEBUG_TIMING_OF_BASHRC == 1)) && dfx_echo "\e[1m\e[31m" "${1}"; }
+dfx_test() { (( DEBUG_TIMING_OF_BASHRC == 1)) && dfx_echo "\e[1m\e[33m" "${1}"; }
+
+dfx_event 'Inside direnv-fxh.sh'
 
 get_log_width() {
     local  __resultvar=$1
@@ -46,12 +54,6 @@ get_log_width() {
     eval $__resultvar="'$resulting_width'"
 }
 
-dfx_echo() { echo -e "\e[0m${1}${2}\e[0m"; }
-dfx_event() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[32m"  "${1}"; }
-dfx_log() { (( enable_debug_logging == 1)) && dfx_echo "\e[34m" "${1}"; }
-dfx_path() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[36m" "${1}"; }
-dfx_error() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[31m" "${1}"; }
-dfx_test() { (( enable_debug_logging == 1)) && dfx_echo "\e[1m\e[33m" "${1}"; }
 
 dfx_event '[.direnv-fix.sh] [ENTER]'
 
@@ -131,6 +133,8 @@ preexec()
     dfx_test '[.direnv-fix.sh] [preexec()] [TEST] Executing test command and exiting.'
     # Execute test_command to set the exit code appropriately.
     $test_command &> /dev/null
+    
+    dfx_event '[.direnv-fix.sh] [preexec()] [EXIT]'
 }
 
 #######################################
@@ -152,6 +156,8 @@ precmd() {
     dfx_test '[.direnv-fix.sh] [precmd()] [TEST] Executing test command and exiting.'
     # Execute test_command to set the exit code appropriately.
     $test_command &> /dev/null
+    
+    dfx_event '[.direnv-fix.sh] [precmd()] [EXIT]'
 }
 
 dfx_log '[.direnv-fix.sh] [LOG] eval "$('"${direnv_path}"' hook bash)"'

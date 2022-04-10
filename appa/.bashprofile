@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+debug_log 'bashprofile'
+
 if [ "$APPA_FAST" != "1" ] ; then
 
     eval "$(gh completion -s bash)"
