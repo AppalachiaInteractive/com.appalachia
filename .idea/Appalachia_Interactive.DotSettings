@@ -810,6 +810,36 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=FAF16A2B_002D2325_002D836E_002DA393_002DD8F724B38DB0_002Fd_003APackages_002Fd_003Acom_002Eunity_002Epostprocessing_002Fd_003APostProcessing/@EntryIndexedValue">ExplicitlyExcluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=FD024929_002DE9DB_002D02AC_002D94CF_002DE1D4B1ACCECA_002Fd_003AAssets_002Fd_003APlugins_002Fd_003ASteamworks_002ENET/@EntryIndexedValue">ExplicitlyExcluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=FD4568FC_002D1179_002DC1AA_002D7B75_002DB55928F0FB05_002Fd_003AAssets_002Fd_003ABOTD_002Fd_003AHapkiLibs/@EntryIndexedValue">ExplicitlyExcluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=005D870D_002D3646_002DB32D_002DC2AA_002D35CA51017F57/@EntryIndexedValue">005D870D-3646-B32D-C2AA-35CA51017F57</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=08432B22_002D9AE2_002D25AF_002D0E27_002DE37D24F6CC85_002Fd_003AAssets/@EntryIndexedValue">08432B22-9AE2-25AF-0E27-E37D24F6CC85/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=0C718D51_002D90A7_002DE37E_002D3AC3_002DD3BF3A60A4A0_002Fd_003AAssets/@EntryIndexedValue">0C718D51-90A7-E37E-3AC3-D3BF3A60A4A0/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=0C7C5F43_002DABE1_002D222C_002D5326_002D9068A9FE5F88_002Fd_003AAssets/@EntryIndexedValue">0C7C5F43-ABE1-222C-5326-9068A9FE5F88/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=1BCEC6EF_002D712E_002D0767_002DBCDE_002D6AEC37C16D7E/@EntryIndexedValue">1BCEC6EF-712E-0767-BCDE-6AEC37C16D7E</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=1DDDD7BB_002DF9FB_002DEA07_002DAB8F_002DD4C7E1C14557_002Fd_003AAssets/@EntryIndexedValue">1DDDD7BB-F9FB-EA07-AB8F-D4C7E1C14557/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=217C2B6F_002D4AE4_002D1B49_002DA9DD_002D0EB9B067E715/@EntryIndexedValue">217C2B6F-4AE4-1B49-A9DD-0EB9B067E715</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=3741DD97_002D22AA_002D289E_002D4082_002DDD949EF98D21/@EntryIndexedValue">3741DD97-22AA-289E-4082-DD949EF98D21</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=43A0FE13_002D8668_002D3182_002D9E30_002D0B4E5FEFAEDB_002Fd_003AAssets/@EntryIndexedValue">43A0FE13-8668-3182-9E30-0B4E5FEFAEDB/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=43C40CD2_002DCFAA_002D05C6_002D2CAA_002D82539CED303A_002Fd_003AAssets/@EntryIndexedValue">43C40CD2-CFAA-05C6-2CAA-82539CED303A/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=4446B6D0_002DBE7E_002DAD91_002DE3B5_002DC53B922C94AA_002Fd_003AAssets/@EntryIndexedValue">4446B6D0-BE7E-AD91-E3B5-C53B922C94AA/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=485249C0_002DADE4_002DEC0F_002D23EA_002D21EF0A6791C3_002Fd_003AAssets/@EntryIndexedValue">485249C0-ADE4-EC0F-23EA-21EF0A6791C3/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=4B877895_002D23A9_002DE8EE_002D183E_002D2D3951568E29_002Fd_003AAssets/@EntryIndexedValue">4B877895-23A9-E8EE-183E-2D3951568E29/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=55211217_002D2315_002DC7E8_002D2752_002D906CF96F5CCC_002Fd_003AAssets/@EntryIndexedValue">55211217-2315-C7E8-2752-906CF96F5CCC/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=64826B7B_002D92EF_002DCFCF_002DF701_002D84EB52402958/@EntryIndexedValue">64826B7B-92EF-CFCF-F701-84EB52402958</s:String>
+	
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=8CCF57DC_002DC39B_002D28E2_002D2293_002D1D883922BCFE_002Fd_003AAssets/@EntryIndexedValue">8CCF57DC-C39B-28E2-2293-1D883922BCFE/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=8D0459F9_002DCF89_002D6FE9_002D211B_002DD155C79E2311_002Fd_003AAssets/@EntryIndexedValue">8D0459F9-CF89-6FE9-211B-D155C79E2311/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=924E41E0_002DD4BD_002D0EAE_002D42CC_002D62B119BECFA7_002Fd_003AAssets/@EntryIndexedValue">924E41E0-D4BD-0EAE-42CC-62B119BECFA7/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=924E41E0_002DD4BD_002D0EAE_002D42CC_002D62B119BECFA7_002Fd_003AAssets_002Fd_003AThird_002DParty_002Fd_003AAronGranberg/@EntryIndexedValue">924E41E0-D4BD-0EAE-42CC-62B119BECFA7/d:Assets/d:Third-Party/d:AronGranberg</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=924E41E0_002DD4BD_002D0EAE_002D42CC_002D62B119BECFA7_002Fd_003AAssets_002Fd_003AThird_002DParty_002Fd_003ADemigiant/@EntryIndexedValue">924E41E0-D4BD-0EAE-42CC-62B119BECFA7/d:Assets/d:Third-Party/d:Demigiant</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=946F797A_002DD4BB_002D313C_002DD3D6_002D7006B51ADADF/@EntryIndexedValue">946F797A-D4BB-313C-D3D6-7006B51ADADF</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=9D823C01_002DD5CB_002DF0E9_002D72F2_002DA3F8B790052B_002Fd_003AAssets/@EntryIndexedValue">9D823C01-D5CB-F0E9-72F2-A3F8B790052B/d:Assets</s:String>
+	
+	
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=Assets_005CThird_002DParty_005C_002A/@EntryIndexedValue">Assets\Third-Party\*</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=C4BC29F7_002DF1DF_002DC9D2_002DF3C2_002D17CD22A24E74_002Fd_003AAssets/@EntryIndexedValue">C4BC29F7-F1DF-C9D2-F3C2-17CD22A24E74/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=D5E4FF0A_002D20CD_002D89D1_002DB58A_002DB41B41F5BADC/@EntryIndexedValue">D5E4FF0A-20CD-89D1-B58A-B41B41F5BADC</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/GeneratedFilesAndFolders/=E8BC7F19_002DE0D2_002DC956_002D936B_002D7528F417A14F_002Fd_003AAssets/@EntryIndexedValue">E8BC7F19-E0D2-C956-936B-7528F417A14F/d:Assets</s:String>
+	<s:String x:Key="/Default/CodeInspection/GeneratedCode/GeneratedFileMasks/=PKG_002Ecs/@EntryIndexedValue">PKG.cs</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">SOLUTION</s:String>
 	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IdentifierHighlightingEnabled/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AccessRightsInText/@EntryIndexedValue">ERROR</s:String>
@@ -820,12 +850,19 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AnnotationConflictInHierarchy/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeMissingParentheses/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeModifiersOrder/@EntryIndexedValue">ERROR</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeNamespaceBody/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ArrangeVarKeywordsInDeconstructingDeclaration/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AssignmentInConditionalExpression/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AssignNullToNotNullAttribute/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AsyncIteratorInvocationWithoutAwaitForeach/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AsyncVoidLambda/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=AsyncVoidMethod/@EntryIndexedValue">ERROR</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadDeclarationBracesIndent/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadExpressionBracesIndent/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadIndent/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadNamespaceBracesIndent/@EntryIndexedValue">ERROR</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadPreprocessorIndent/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BadSwitchBracesIndent/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BaseMethodCallWithDefaultParameter/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BaseObjectEqualsIsObjectEquals/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BaseObjectGetHashCodeCallInGetHashCode/@EntryIndexedValue">ERROR</s:String>
@@ -966,6 +1003,7 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MethodHasAsyncOverloadWithCancellation/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MethodOverloadWithOptionalParameter/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingBlankLines/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingIndent/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MultipleOrderBy/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MultipleResolveCandidatesInText/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MustUseReturnValue/@EntryIndexedValue">ERROR</s:String>
@@ -981,6 +1019,7 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=OperatorIsCanBeUsed/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=OptionalParameterHierarchyMismatch/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=OptionalParameterRefOut/@EntryIndexedValue">ERROR</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=OutdentIsOffPrevLevel/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ParameterHidesMember/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=PartialMethodParameterNameMismatch/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=PartialMethodWithSinglePart/@EntryIndexedValue">ERROR</s:String>
@@ -1039,6 +1078,7 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuppressNullableWarningExpressionAsInvertedIsExpression/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuspiciousTypeConversion_002EGlobal/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SymbolFromNotCopiedLocallyReferenceUsedWarning/@EntryIndexedValue">ERROR</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=TabsAndSpacesMismatch/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=TailRecursiveCall/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ThreadStaticAtInstanceField/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ThreadStaticFieldHasInitializer/@EntryIndexedValue">ERROR</s:String>
@@ -1074,6 +1114,7 @@
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=VirtualMemberCallInConstructor/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=VoidMethodWithMustUseReturnValueAttribute/@EntryIndexedValue">ERROR</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=WithExpressionInsteadOfInitializer/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=WrongIndentSize/@EntryIndexedValue">WARNING</s:String>
 	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/SuppressVsSquiggles/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=Appalachia/@EntryIndexedValue">&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Profile name="Appalachia"&gt;&lt;XMLReformatCode&gt;True&lt;/XMLReformatCode&gt;&lt;CSCodeStyleAttributes ArrangeTypeAccessModifier="True" ArrangeTypeMemberAccessModifier="True" SortModifiers="True" RemoveRedundantParentheses="True" AddMissingParentheses="True" ArrangeBraces="True" ArrangeAttributes="False" ArrangeArgumentsStyle="True" ArrangeCodeBodyStyle="True" ArrangeVarStyle="True" /&gt;&lt;HtmlReformatCode&gt;True&lt;/HtmlReformatCode&gt;&lt;VBReformatCode&gt;True&lt;/VBReformatCode&gt;&lt;CSOptimizeUsings&gt;&lt;OptimizeUsings&gt;True&lt;/OptimizeUsings&gt;&lt;EmbraceInRegion&gt;False&lt;/EmbraceInRegion&gt;&lt;RegionName&gt;&lt;/RegionName&gt;&lt;/CSOptimizeUsings&gt;&lt;CSReformatCode&gt;True&lt;/CSReformatCode&gt;&lt;CSReorderTypeMembers&gt;True&lt;/CSReorderTypeMembers&gt;&lt;RemoveCodeRedundancies&gt;True&lt;/RemoveCodeRedundancies&gt;&lt;CSArrangeQualifiers&gt;True&lt;/CSArrangeQualifiers&gt;&lt;CSFixBuiltinTypeReferences&gt;True&lt;/CSFixBuiltinTypeReferences&gt;&lt;CSharpFormatDocComments&gt;True&lt;/CSharpFormatDocComments&gt;&lt;IDEA_SETTINGS&gt;&amp;lt;profile version="1.0"&amp;gt;&#xD;
   &amp;lt;option name="myName" value="Appalachia" /&amp;gt;&#xD;
@@ -1122,7 +1163,7 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_CHAINED_BINARY_EXPRESSIONS/@EntryValue">CHOP_IF_LONG</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_CHAINED_METHOD_CALLS/@EntryValue">CHOP_IF_LONG</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_EXTENDS_LIST_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
-	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LIMIT/@EntryValue">110</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LIMIT/@EntryValue">120</s:Int64>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_MULTIPLE_TYPE_PARAMEER_CONSTRAINTS_STYLE/@EntryValue">CHOP_ALWAYS</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_PARAMETERS_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_VERBATIM_INTERPOLATED_STRINGS/@EntryValue">CHOP_IF_LONG</s:String>
@@ -1896,9 +1937,14 @@
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EComponentModel_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EDrawing/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EDrawing_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ELinq_002EExpressions_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENet_002EMime_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENewsStyleUri/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENewsStyleUriParser/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENew_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENumerics/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENumerics_002E_002A/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEditorInternal_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEngine_002EUIElements_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Unity_002ECollections_002EReadOnlyAttribute/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=Unity_002EPlastic_002A/@EntryIndexedValue">True</s:Boolean>
@@ -2219,7 +2265,7 @@ private static $TYPE$ _$FIELDNAME$
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Shortcut/@EntryValue">appaoverride</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Shortcut/@EntryValue">appaOverride</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1995BB8377F1064DA51E724D05EDC4A5/Text/@EntryValue">[System.Serializable]
 public class Overridable$type$ : Overridable&lt;$type$, Overridable$type$&gt;
@@ -2236,7 +2282,7 @@ public class Overridable$type$ : Overridable&lt;$type$, Overridable$type$&gt;
     {
     }
 
-    public Overridable$type$() : base(false, null)
+    public Overridable$type$() : base(false, default)
     {
     }
 }
@@ -2261,7 +2307,7 @@ public class Overridable$type$ : Overridable&lt;$type$, Overridable$type$&gt;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5C1010A9C9E74EA9968AD8BEBBE4C8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5C1010A9C9E74EA9968AD8BEBBE4C8/Shortcut/@EntryValue">sngConstructor</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5C1010A9C9E74EA9968AD8BEBBE4C8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5C1010A9C9E74EA9968AD8BEBBE4C8/Text/@EntryValue">// [CallStaticConstructorInEditor] should be added to the class (initsingletonattribute)
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5C1010A9C9E74EA9968AD8BEBBE4C8/Text/@EntryValue">// TODO: [CallStaticConstructorInEditor] should be added to the class (initsingletonattribute)
 static $type$()
 {
     $TARGET$.InstanceAvailable += i =&gt; _$target$ = i;
@@ -2340,6 +2386,7 @@ private static $WIDGET2$ _$widget2$;
 
 #endregion
 
+/// &lt;inheritdoc /&gt;
 protected override void OnHide()
 {
     using (_PRF_OnHide.Auto())
@@ -2349,6 +2396,7 @@ protected override void OnHide()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnShow()
 {
     using (_PRF_OnShow.Auto())
@@ -2358,6 +2406,7 @@ protected override void OnShow()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnValidateAppearance()
 {
     using (_PRF_OnValidateAppearance.Auto())
@@ -2405,7 +2454,8 @@ protected override void OnValidateAppearance()
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=258E1C71E9F1394BAC87AB87B86461E5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=258E1C71E9F1394BAC87AB87B86461E5/Shortcut/@EntryValue">appaWhenDisabled</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=258E1C71E9F1394BAC87AB87B86461E5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=258E1C71E9F1394BAC87AB87B86461E5/Text/@EntryValue">protected override async Appalachia.Utility.Async.AppaTask WhenDisabled()
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=258E1C71E9F1394BAC87AB87B86461E5/Text/@EntryValue">/// &lt;inheritdoc /&gt;
+protected override async Appalachia.Utility.Async.AppaTask WhenDisabled()
 {
     await base.WhenDisabled();
 
@@ -2472,7 +2522,7 @@ protected override void OnValidateAppearance()
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27E32B4C4913FE439856FBA3D8FE8A40/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27E32B4C4913FE439856FBA3D8FE8A40/Shortcut/@EntryValue">sngInitialize</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27E32B4C4913FE439856FBA3D8FE8A40/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27E32B4C4913FE439856FBA3D8FE8A40/Text/@EntryValue">// [CallStaticConstructorInEditor] should be added to the class (initsingletonattribute)
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=27E32B4C4913FE439856FBA3D8FE8A40/Text/@EntryValue">// TODO: [CallStaticConstructorInEditor] should be added to the class (initsingletonattribute)
 static $type$()
 {
     RegisterDependency&lt;$TARGET$&gt;(i =&gt; _$target$ = i);
@@ -2528,8 +2578,8 @@ public static void CreateAsset()
 using Appalachia.CI.Constants;
 using Appalachia.Core.Attributes.Editing;
 using Appalachia.Core.Objects.Sets;
+using Appalachia.UI.Core.Components.Data;
 using Appalachia.UI.Core.Components.Sets.Contracts;
-using Appalachia.UI.Core.Components.Sets.Data;
 using Appalachia.UI.Core.Components.Sets;
 using Appalachia.Utility.Extensions;
 using UnityEngine;
@@ -2541,16 +2591,16 @@ using System;
     /// the components of a $Name$ component set. 
     /// &lt;/summary&gt;
     /// &lt;typeparam name="TSet"&gt;The component set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TSetStyle"&gt;Styling metadata for the set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TISetStyle"&gt;The interface that the style implements.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TSetData"&gt;Styling metadata for the set.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TISetData"&gt;The interface that the data implements.&lt;/typeparam&gt;
     [Serializable]
     [SmartLabelChildren]
     public abstract class
-        Base$Name$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt; : Base$Other$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt;,
+        Base$Name$ComponentSet&lt;TSet, TSetData, TISetData&gt; : Base$Other$ComponentSet&lt;TSet, TSetData, TISetData&gt;,
                                                               I$Name$ComponentSet
-        where TSet : Base$Name$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt;, new()
-        where TSetStyle : Base$Name$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt;, TISetStyle
-        where TISetStyle : I$Name$ComponentSetStyle
+        where TSet : Base$Name$ComponentSet&lt;TSet, TSetData, TISetData&gt;, new()
+        where TSetData : Base$Name$ComponentSetData&lt;TSet, TSetData, TISetData&gt;, TISetData
+        where TISetData : I$Name$ComponentSetData
     {
         // TODO: Define serialized private fields for the set, as follows:
         [SerializeField] private $Component$ _$component$;
@@ -2558,14 +2608,59 @@ using System;
         // TODO: Expose fields via public properties, as follows:
         public $Component$ $Component$ =&gt; _$component$;
 
-        public override void GetOrAddComponents(
+        
+/// &lt;inheritdoc /&gt;
+        public override void DestroySet()
+        {
+            using (_PRF_Destroy.Auto())
+            {
+                base.DestroySet();
+
+                if (_$component$)
+                {
+                    _$component$.DestroySafely();
+                }
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        public override void DisableSet()
+        {
+            using (_PRF_Disable.Auto())
+            {
+                base.DisableSet();
+
+                if (_$component$)
+                {
+                    _$component$.enabled = false;
+                }
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        public override void EnableSet()
+        {
+            using (_PRF_Enable.Auto())
+            {
+                base.EnableSet();
+
+                if (_$component$)
+                {
+                    _$component$.enabled = true;
+                }
+            }
+        }
+        
+/// &lt;inheritdoc /&gt;
+        protected override void GetOrAddComponents(
+            ref TSetData data,
             GameObject parent,
-            string name,
-            TSetStyle data /*, string prefixOverride = null*/)
+            string name
+            )
         {
             using (_PRF_GetOrAddComponents.Auto())
             {
-                base.GetOrAddComponents(parent, name, data /*, prefixOverride*/);
+                base.GetOrAddComponents(ref data, parent, name);
 
                 // TODO: Implement this method to create or retrieve the necessary components.
 
@@ -2585,19 +2680,19 @@ using System;
 
     /// &lt;summary&gt; 
     /// Defines the metadata necessary for configuring a
-    /// &lt;see cref="Base$Name$ComponentSet{TSet, TSetStyle, TISetStyle}"/&gt;.
+    /// &lt;see cref="Base$Name$ComponentSet{TSet, TSetData, TISetData}"/&gt;.
     /// &lt;/summary&gt;
     /// &lt;typeparam name="TSet"&gt;The component set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TSetStyle"&gt;Styling metadata for the set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TISetStyle"&gt;The interface that the style implements.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TSetData"&gt;Styling metadata for the set.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TISetData"&gt;The interface that the data implements.&lt;/typeparam&gt;
     [Serializable]
     [SmartLabelChildren]
-    public abstract class Base$Name$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt; :
-        Base$Other$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt;,
-        I$Name$ComponentSetStyle
-        where TSet : Base$Name$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt;, new()
-        where TSetStyle : Base$Name$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt;, TISetStyle
-        where TISetStyle : I$Name$ComponentSetStyle
+    public abstract class Base$Name$ComponentSetData&lt;TSet, TSetData, TISetData&gt; :
+        Base$Other$ComponentSetData&lt;TSet, TSetData, TISetData&gt;,
+        I$Name$ComponentSetData
+        where TSet : Base$Name$ComponentSet&lt;TSet, TSetData, TISetData&gt;, new()
+        where TSetData : Base$Name$ComponentSetData&lt;TSet, TSetData, TISetData&gt;, TISetData
+        where TISetData : I$Name$ComponentSetData
     {
         // TODO: Define serialized private fields for the set, as follows:
         [SerializeField] private $Component$Data _$component$Data;
@@ -2605,39 +2700,31 @@ using System;
         // TODO: Expose fields via public properties, as follows:
         public $Component$Data $Component$Data =&gt; _$component$Data;
         
-        protected override void InitializeMetadata()
+       
+/// &lt;inheritdoc /&gt;
+        protected override void ApplyMetadataToComponentSet(TSet componentSet)
         {
-            using (_PRF_InitializeMetadata.Auto())
+            using (_PRF_ApplyMetadataToComponentSet.Auto())
             {
-                base.InitializeMetadata();
+                base.ApplyMetadataToComponentSet(componentSet);
 
-                $Component$Data.CreateOrRefresh(ref _$component$Data, this);
-            }
-        }
-        
-        public override void ConfigureComponents(TSet componentSet)
-        {
-            using (_PRF_ConfigureComponents.Auto())
-            {
-                base.ConfigureComponents(componentSet);
-
-                // TODO: Apply the style data to the components.
-                _$component$Data.ConfigureComponent(componentSet.$Component$);
+                // TODO: Apply the data to the components.
+                $Component$Data.UpdateComponent(ref _$component$Data, componentSet.$Component$, this);
             }
         }
     }
 
-    public interface I$Name$ComponentSetStyle : I$Other$ComponentSetStyle
+    public interface I$Name$ComponentSetData : I$Other$ComponentSetData
     {
-        // TODO: Add public properties from the style here.
+        // TODO: Add public properties from the data here.
         $Component$Data $Component$Data { get; }
     }
 
-    /// &lt;inheritdoc cref="Base$Name$ComponentSet{TSet,TSetStyle,TISetStyle}"/&gt;
+    /// &lt;inheritdoc cref="Base$Name$ComponentSet{TSet,TSetData,TISetData}"/&gt;
     [Serializable]
     [SmartLabelChildren]
     public sealed class $Name$ComponentSet : Base$Name$ComponentSet&lt;$Name$ComponentSet,
-        $Name$ComponentSetStyle, I$Name$ComponentSetStyle&gt;
+        $Name$ComponentSetData, I$Name$ComponentSetData&gt;
     {
         /// &lt;summary&gt;
         /// Defines the name of the component set.
@@ -2645,17 +2732,147 @@ using System;
         /// &lt;/summary&gt;
         public override string ComponentSetName =&gt; APPASTR.$Name$;
 
+/// &lt;inheritdoc /&gt;
         public override ComponentSetSorting DesiredComponentOrder =&gt; ComponentSetSorting.Anywhere;
     }
 
-    /// &lt;inheritdoc cref="Base$Name$ComponentSetStyle{TSet,TSetStyle,TISetStyle}"/&gt;
+    /// &lt;inheritdoc cref="Base$Name$ComponentSetData{TSet,TSetData,TISetData}"/&gt;
     [Serializable]
     [SmartLabelChildren]
-    public sealed class $Name$ComponentSetStyle : Base$Name$ComponentSetStyle&lt;$Name$ComponentSet,
-        $Name$ComponentSetStyle, I$Name$ComponentSetStyle&gt;
+    public sealed class $Name$ComponentSetData : Base$Name$ComponentSetData&lt;$Name$ComponentSet,
+        $Name$ComponentSetData, I$Name$ComponentSetData&gt;
     {
     }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Description/@EntryValue">Creates a template for a new area widget.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=AREA/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=AREA/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=AREAVERSION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=AREAVERSION/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=FEATURE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=FEATURE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=WIDGET_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Field/=WIDGET_005FNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Scope/=558F05AA0DE96347816FF785232CFB2A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Scope/=558F05AA0DE96347816FF785232CFB2A/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Scope/=558F05AA0DE96347816FF785232CFB2A/Type/@EntryValue">InCSharpTypeAndNamespace</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Shortcut/@EntryValue">appaFunctionalityWidgetArea</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=29E2BAD5FB1D1E46902836111D4CC14A/Text/@EntryValue">using Appalachia.Core.Attributes;
+using Appalachia.Core.Objects.Initialization;
+using Appalachia.Utility.Async;
+using Core.Attributes;
+using System.Collections.Generic;
+using System;
+using UI.Controls.Sets.Button;
+using Unity.Profiling;
+using UnityEngine;
+using Utility.Extensions;
+
+    
+    [CallStaticConstructorInEditor]
+    public sealed class $WIDGET_NAME$Widget : $AREA$Manager_V$AREAVERSION$.Widget&lt;$WIDGET_NAME$Widget,
+        $WIDGET_NAME$WidgetMetadata, $FEATURE$Feature, $FEATURE$FeatureMetadata&gt;
+    {
+        static $WIDGET_NAME$Widget()
+        {
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override async AppaTask Initialize(Initializer initializer)
+        {
+            await base.Initialize(initializer);
+
+            using (_PRF_Initialize.Auto())
+            {
+            }
+        }
+        
+/// &lt;inheritdoc /&gt;
+        protected override void OnApplyMetadataInternal()
+        {
+            using (_PRF_OnApplyMetadataInternal.Auto())
+            {
+                base.OnApplyMetadataInternal();
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void SubscribeToAllFunctionalties()
+        {
+            using (_PRF_SubscribeToAllFunctionalties.Auto())
+            {
+                base.SubscribeToAllFunctionalties();
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void UnsubscribeFromAllFunctionalities()
+        {
+            using (_PRF_UnsubscribeFromAllFunctionalities.Auto())
+            {
+                base.UnsubscribeFromAllFunctionalities();
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void UpdateSizeInternal()
+        {
+            using (_PRF_UpdateSizeInternal.Auto())
+            {
+                base.UpdateSizeInternal();
+            }
+        }
+    }
+    public sealed class $WIDGET_NAME$WidgetMetadata : $AREA$Metadata_V$AREAVERSION$.WidgetMetadata&lt;$WIDGET_NAME$Widget,
+        $WIDGET_NAME$WidgetMetadata, $FEATURE$Feature, $FEATURE$FeatureMetadata&gt;
+    {
+/// &lt;inheritdoc /&gt;
+        protected override async AppaTask Initialize(Initializer initializer)
+        {
+            await base.Initialize(initializer);
+
+            using (_PRF_Initialize.Auto())
+            {
+            }
+        }
+        
+/// &lt;inheritdoc /&gt;
+        public override void Apply($WIDGET_NAME$Widget functionality)
+        {
+        }
+    }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2E4FB00B1CBF9943A81A786EE21D46C5/@KeyIndexDefined">False</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F04F60C7BB4B046875F392778177E48/Description/@EntryValue">Creates a template for a new application service.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F04F60C7BB4B046875F392778177E48/Text/@EntryValue">    public class $type$Service : Appalachia.Prototype.KOC.Application.Services.Base.ApplicationService&lt;$type$Service,
+        $type$ServiceMetadata&gt;
+    {
+/// &lt;inheritdoc /&gt;
+        protected override void SubscribeToAllFunctionalties()
+        {
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void UnsubscribeFromAllFunctionalities()
+        {
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void OnApplyMetadataInternal()
+        {
+        }
+    }
+
+    public class $type$ServiceMetadata : Appalachia.Prototype.KOC.Application.Services.Base.ApplicationServiceMetadata&lt;$type$Service,
+        $type$ServiceMetadata&gt;
+    {
+/// &lt;inheritdoc /&gt;
+        public override void Apply($type$Service functionality)
+        {
+        }
+    }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2FCCC2DC9871FD4E960FF1D22569459A/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2FCCC2DC9871FD4E960FF1D22569459A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2FCCC2DC9871FD4E960FF1D22569459A/Description/@EntryValue">Registers a singleton dependency on a feature.</s:String>
@@ -2673,6 +2890,21 @@ using System;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2FCCC2DC9871FD4E960FF1D22569459A/Shortcut/@EntryValue">sngRegisterFeature</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2FCCC2DC9871FD4E960FF1D22569459A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2FCCC2DC9871FD4E960FF1D22569459A/Text/@EntryValue">FunctionalitySet.RegisterFeature&lt;$TARGET$&gt;(_dependencyTracker, i =&gt; _$target$ = i);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Applicability/=Surround/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Shortcut/@EntryValue">appaNotInPlayMode</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3536CCF0D7F0B847950BDEFE7F7E5721/Text/@EntryValue">#if UNITY_EDITOR
+if (!AppalachiaApplication.IsPlaying)
+{
+     $SELECTION$$END$    
+}
+#endif</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/Applicability/=Surround/@EntryIndexedValue">True</s:Boolean>
@@ -2682,7 +2914,8 @@ using System;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/Shortcut/@EntryValue">appaWhenEnabled</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/Text/@EntryValue">protected override async Appalachia.Utility.Async.AppaTask WhenEnabled()
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=38278C065CE1404294766030DC469761/Text/@EntryValue">/// &lt;inheritdoc /&gt;
+protected override async Appalachia.Utility.Async.AppaTask WhenEnabled()
 {
     await base.WhenEnabled();
 
@@ -2736,6 +2969,7 @@ private static $SERVICE$ _$service$;
 
 #endregion
 
+/// &lt;inheritdoc /&gt;
 protected override void OnHide()
 {
     using (_PRF_OnHide.Auto())
@@ -2744,6 +2978,7 @@ protected override void OnHide()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnShow()
 {
     using (_PRF_OnShow.Auto())
@@ -2752,6 +2987,7 @@ protected override void OnShow()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnValidateAppearance()
 {
     using (_PRF_OnValidateAppearance.Auto())
@@ -2870,16 +3106,19 @@ protected override void OnValidateAppearance()
     public class AppaLookup_$value$ : Appalachia.Core.Collections.AppaLookup&lt;$key$, $value$,
         AppaList_$key$, AppaList_$value$&gt;
     {
+/// &lt;inheritdoc /&gt;
         protected override string GetDisplayTitle($key$ key, $value$ value)
         {
             return $title$;
         }
 
+/// &lt;inheritdoc /&gt;
         protected override string GetDisplaySubtitle($key$ key, $value$ value)
         {
             return $subtitle$;
         }
 
+/// &lt;inheritdoc /&gt;
         protected override UnityEngine.Color GetDisplayColor($key$ key, $value$ value)
         {
             return Appalachia.Utility.Colors.Colors.WhiteSmokeGray96;
@@ -2932,8 +3171,8 @@ protected override void OnValidateAppearance()
 using Appalachia.CI.Constants;
 using Appalachia.Core.Attributes.Editing;
 using Appalachia.Core.Objects.Sets;
+using Appalachia.UI.Core.Components.Data;
 using Appalachia.UI.Core.Components.Sets.Contracts;
-using Appalachia.UI.Core.Components.Sets.Data;
 using Appalachia.UI.Core.Components.Sets;
 using Appalachia.Utility.Extensions;
 using UnityEngine;
@@ -2945,16 +3184,16 @@ using System;
     /// the components of a $Name$ component set. 
     /// &lt;/summary&gt;
     /// &lt;typeparam name="TSet"&gt;The component set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TSetStyle"&gt;Styling metadata for the set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TISetStyle"&gt;The interface that the style implements.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TSetData"&gt;Styling metadata for the set.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TISetData"&gt;The interface that the data implements.&lt;/typeparam&gt;
     [Serializable]
     [SmartLabelChildren]
     public abstract class
-        Base$Name$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt; : UIComponentSet&lt;TSet, TSetStyle&gt;,
+        Base$Name$ComponentSet&lt;TSet, TSetData, TISetData&gt; : UIComponentSet&lt;TSet, TSetData&gt;,
                                                               I$Name$ComponentSet
-        where TSet : Base$Name$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt;, new()
-        where TSetStyle : Base$Name$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt;, TISetStyle
-        where TISetStyle : I$Name$ComponentSetStyle
+        where TSet : Base$Name$ComponentSet&lt;TSet, TSetData, TISetData&gt;, new()
+        where TSetData : Base$Name$ComponentSetData&lt;TSet, TSetData, TISetData&gt;, TISetData
+        where TISetData : I$Name$ComponentSetData
     {
         // TODO: Define serialized private fields for the set, as follows:
         [SerializeField] private $Component$ _$component$;
@@ -2962,14 +3201,58 @@ using System;
         // TODO: Expose fields via public properties, as follows:
         public $Component$ $Component$ =&gt; _$component$;
 
-        public override void GetOrAddComponents(
+/// &lt;inheritdoc /&gt;
+        public override void DestroySet()
+        {
+            using (_PRF_Destroy.Auto())
+            {
+                base.DestroySet();
+
+                if (_$component$)
+                {
+                    _$component$.DestroySafely();
+                }
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        public override void DisableSet()
+        {
+            using (_PRF_Disable.Auto())
+            {
+                base.DisableSet();
+
+                if (_$component$)
+                {
+                    _$component$.enabled = false;
+                }
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        public override void EnableSet()
+        {
+            using (_PRF_Enable.Auto())
+            {
+                base.EnableSet();
+
+                if (_$component$)
+                {
+                    _$component$.enabled = true;
+                }
+            }
+        }
+        
+/// &lt;inheritdoc /&gt;
+        protected override void GetOrAddComponents(
+            ref TSetData data,
             GameObject parent,
-            string name,
-            TSetStyle data /*, string prefixOverride = null*/)
+            string name
+            )
         {
             using (_PRF_GetOrAddComponents.Auto())
             {
-                base.GetOrAddComponents(parent, name, data /*, prefixOverride*/);
+                base.GetOrAddComponents(ref data, parent, name);
 
                 // TODO: Implement this method to create or retrieve the necessary components.
 
@@ -2989,73 +3272,65 @@ using System;
 
     /// &lt;summary&gt; 
     /// Defines the metadata necessary for configuring a
-    /// &lt;see cref="Base$Name$ComponentSet{TSet, TSetStyle, TISetStyle}"/&gt;.
+    /// &lt;see cref="Base$Name$ComponentSet{TSet, TSetData, TISetData}"/&gt;.
     /// &lt;/summary&gt;
     /// &lt;typeparam name="TSet"&gt;The component set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TSetStyle"&gt;Styling metadata for the set.&lt;/typeparam&gt;
-    /// &lt;typeparam name="TISetStyle"&gt;The interface that the style implements.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TSetData"&gt;Styling metadata for the set.&lt;/typeparam&gt;
+    /// &lt;typeparam name="TISetData"&gt;The interface that the data implements.&lt;/typeparam&gt;
     [Serializable]
     [SmartLabelChildren]
-    public abstract class Base$Name$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt; :
-        UIComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt;,
-        I$Name$ComponentSetStyle
-        where TSet : Base$Name$ComponentSet&lt;TSet, TSetStyle, TISetStyle&gt;, new()
-        where TSetStyle : Base$Name$ComponentSetStyle&lt;TSet, TSetStyle, TISetStyle&gt;, TISetStyle
-        where TISetStyle : I$Name$ComponentSetStyle
+    public abstract class Base$Name$ComponentSetData&lt;TSet, TSetData, TISetData&gt; :
+        UIComponentSetData&lt;TSet, TSetData, TISetData&gt;,
+        I$Name$ComponentSetData
+        where TSet : Base$Name$ComponentSet&lt;TSet, TSetData, TISetData&gt;, new()
+        where TSetData : Base$Name$ComponentSetData&lt;TSet, TSetData, TISetData&gt;, TISetData
+        where TISetData : I$Name$ComponentSetData
     {
         // TODO: Define serialized private fields for the set, as follows:
         [SerializeField] private $Component$Data _$component$Data;
 
         // TODO: Expose fields via public properties, as follows:
         public $Component$Data $Component$Data =&gt; _$component$Data;
-
-        protected override void InitializeMetadata()
-        {
-            using (_PRF_InitializeMetadata.Auto())
-            {
-                base.InitializeMetadata();
-
-                $Component$Data.CreateOrRefresh(ref _$component$Data, this);
-            }
-        }
         
-        public override void ConfigureComponents(TSet componentSet)
+/// &lt;inheritdoc /&gt;
+        protected override void ApplyMetadataToComponentSet(TSet componentSet)
         {
-            using (_PRF_ConfigureComponents.Auto())
+            using (_PRF_ApplyMetadataToComponentSet.Auto())
             {
-                base.ConfigureComponents(componentSet);
+                base.ApplyMetadataToComponentSet(componentSet);
 
-                // TODO: Apply the style data to the components.
-                _$component$Data.ConfigureComponent(componentSet.$Component$);
+                // TODO: Apply the data to the components.
+                $Component$Data.UpdateComponent(ref _$component$Data, componentSet.$Component$, this);
             }
         }
     }
 
-    public interface I$Name$ComponentSetStyle : IUIComponentSetStyle
+    public interface I$Name$ComponentSetData : IUIComponentSetData
     {
-        // TODO: Add public properties from the style here.
+        // TODO: Add public properties from the data here.
         $Component$Data $Component$Data { get; }
     }
 
-    /// &lt;inheritdoc cref="Base$Name$ComponentSet{TSet,TSetStyle,TISetStyle}"/&gt;
+    /// &lt;inheritdoc cref="Base$Name$ComponentSet{TSet,TSetData,TISetData}"/&gt;
     [Serializable]
     [SmartLabelChildren]
     public sealed class $Name$ComponentSet : Base$Name$ComponentSet&lt;$Name$ComponentSet,
-        $Name$ComponentSetStyle, I$Name$ComponentSetStyle&gt;
+        $Name$ComponentSetData, I$Name$ComponentSetData&gt;
     {
         /// &lt;summary&gt;
         /// Defines the name of the component set.
         /// TODO: Choose an appropriate name.  The set will appear "$Name$ - {Owner Name}"
         /// &lt;/summary&gt;
         public override string ComponentSetName =&gt; APPASTR.$Name$;
+/// &lt;inheritdoc /&gt;
         public override ComponentSetSorting DesiredComponentOrder =&gt; ComponentSetSorting.Anywhere;
     }
 
-    /// &lt;inheritdoc cref="Base$Name$ComponentSetStyle{TSet,TSetStyle,TISetStyle}"/&gt;
+    /// &lt;inheritdoc cref="Base$Name$ComponentSetData{TSet,TSetData,TISetData}"/&gt;
     [Serializable]
     [SmartLabelChildren]
-    public sealed class $Name$ComponentSetStyle : Base$Name$ComponentSetStyle&lt;$Name$ComponentSet,
-        $Name$ComponentSetStyle, I$Name$ComponentSetStyle&gt;
+    public sealed class $Name$ComponentSetData : Base$Name$ComponentSetData&lt;$Name$ComponentSet,
+        $Name$ComponentSetData, I$Name$ComponentSetData&gt;
     {
     }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5080C698445FBA4C817875310F70A801/@KeyIndexDefined">True</s:Boolean>
@@ -3166,7 +3441,8 @@ public static void $NAME$()
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B95EC2C0326DB4B8752C1EE01A7319C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B95EC2C0326DB4B8752C1EE01A7319C/Shortcut/@EntryValue">appaWhenDestroyed</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B95EC2C0326DB4B8752C1EE01A7319C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B95EC2C0326DB4B8752C1EE01A7319C/Text/@EntryValue">protected override async Appalachia.Utility.Async.AppaTask WhenDestroyed()
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5B95EC2C0326DB4B8752C1EE01A7319C/Text/@EntryValue">/// &lt;inheritdoc /&gt;
+protected override async Appalachia.Utility.Async.AppaTask WhenDestroyed()
 {
     await base.WhenDestroyed();
     
@@ -3284,6 +3560,15 @@ public static void CreateAsset()
 {
   $SELECTION$$END$
 }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=69E6A187B3ECB843BEB4045773C14F61/@KeyIndexDefined">False</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C4A6B8703410C4B9B50D0E8175D8005/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C4A6B8703410C4B9B50D0E8175D8005/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6C4A6B8703410C4B9B50D0E8175D8005/Description/@EntryValue">Adds a generic AppaContext instance to a class, to enable logging, etc.</s:String>
@@ -3412,6 +3697,7 @@ private static $WIDGET$ _$widget$;
 
 #endregion
 
+/// &lt;inheritdoc /&gt;
 protected override void OnHide()
 {
     using (_PRF_OnHide.Auto())
@@ -3420,6 +3706,7 @@ protected override void OnHide()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnShow()
 {
     using (_PRF_OnShow.Auto())
@@ -3428,6 +3715,7 @@ protected override void OnShow()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnValidateAppearance()
 {
     using (_PRF_OnValidateAppearance.Auto())
@@ -3437,6 +3725,13 @@ protected override void OnValidateAppearance()
 }</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77A4D6FCEEDF4E4C8AD17A3D971A0BC4/Description/@EntryValue">Creates a constructor and field for initializing a singleton reference via a subscription.</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77A4D6FCEEDF4E4C8AD17A3D971A0BC4/Shortcut/@EntryValue">sngInitializeSubscribe</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77A4D6FCEEDF4E4C8AD17A3D971A0BC4/Text/@EntryValue">// TODO: [CallStaticConstructorInEditor] should be added to the class (initsingletonattribute)
+static $type$()
+{
+    $TARGET$.InstanceAvailable += i =&gt; _$target$ = i;
+}
+
+private static $TARGET$ _$target$;</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79ED69CBDF1ACC41B628E3991E389FB0/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79ED69CBDF1ACC41B628E3991E389FB0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=79ED69CBDF1ACC41B628E3991E389FB0/Field/=Context/@KeyIndexDefined">True</s:Boolean>
@@ -3587,6 +3882,98 @@ public $TYPE$ $FIELDNAME$
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D748DF8409204448ED136ABDF9350DB/Scope/=F6DC4348B6859C41B67D990E3252B534/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D748DF8409204448ED136ABDF9350DB/Scope/=F6DC4348B6859C41B67D990E3252B534/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D748DF8409204448ED136ABDF9350DB/Scope/=F6DC4348B6859C41B67D990E3252B534/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Description/@EntryValue">Creates a template for a new area service.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=AREA/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=AREA/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=AREAVERSION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=AREAVERSION/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=FEATURE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=FEATURE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=WIDGET_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Field/=WIDGET_005FNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Scope/=558F05AA0DE96347816FF785232CFB2A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Scope/=558F05AA0DE96347816FF785232CFB2A/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Scope/=558F05AA0DE96347816FF785232CFB2A/Type/@EntryValue">InCSharpTypeAndNamespace</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Shortcut/@EntryValue">appaFunctionalityServiceArea</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8D8BB8D5D60E8044A09FFDE333F5883F/Text/@EntryValue">using Appalachia.Core.Attributes;
+using Appalachia.Core.Objects.Initialization;
+using Appalachia.Utility.Async;
+using Core.Attributes;
+using System.Collections.Generic;
+using System;
+using UI.Controls.Sets.Button;
+using Unity.Profiling;
+using UnityEngine;
+using Utility.Extensions;
+
+    
+[CallStaticConstructorInEditor]
+public sealed class $WIDGET_NAME$Service : $AREA$Manager_V$AREAVERSION$.Service&lt;$WIDGET_NAME$Service,
+    $WIDGET_NAME$ServiceMetadata, $FEATURE$Feature, $FEATURE$FeatureMetadata&gt;
+{
+    static $WIDGET_NAME$Service()
+    {
+    }
+
+/// &lt;inheritdoc /&gt;
+    protected override async AppaTask Initialize(Initializer initializer)
+    {
+        await base.Initialize(initializer);
+
+        using (_PRF_Initialize.Auto())
+        {
+        }
+    }
+    
+/// &lt;inheritdoc /&gt;
+    protected override void OnApplyMetadataInternal()
+    {
+        using (_PRF_OnApplyMetadataInternal.Auto())
+        {
+            base.OnApplyMetadataInternal();
+        }
+    }
+
+/// &lt;inheritdoc /&gt;
+    protected override void SubscribeToAllFunctionalties()
+    {
+        using (_PRF_SubscribeToAllFunctionalties.Auto())
+        {
+            base.SubscribeToAllFunctionalties();
+        }
+    }
+
+/// &lt;inheritdoc /&gt;
+    protected override void UnsubscribeFromAllFunctionalities()
+    {
+        using (_PRF_UnsubscribeFromAllFunctionalities.Auto())
+        {
+            base.UnsubscribeFromAllFunctionalities();
+        }
+    }
+}
+public sealed class $WIDGET_NAME$ServiceMetadata : $AREA$Metadata_V$AREAVERSION$.ServiceMetadata&lt;$WIDGET_NAME$Service,
+    $WIDGET_NAME$ServiceMetadata, $FEATURE$Feature, $FEATURE$FeatureMetadata&gt;
+{
+/// &lt;inheritdoc /&gt;
+    protected override async AppaTask Initialize(Initializer initializer)
+    {
+        await base.Initialize(initializer);
+
+        using (_PRF_Initialize.Auto())
+        {
+        }
+    }
+    
+/// &lt;inheritdoc /&gt;
+    public override void Apply($WIDGET_NAME$Service functionality)
+    {
+    }
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FEC1DDAD3A33B4A9334DA25636C40C6/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FEC1DDAD3A33B4A9334DA25636C40C6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FEC1DDAD3A33B4A9334DA25636C40C6/Applicability/=Surround/@EntryIndexedValue">False</s:Boolean>
@@ -3681,6 +4068,28 @@ private static readonly Unity.Profiling.ProfilerMarker _PRF_OnDrawGizmosSelected
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BDB79E8BC07224DB6787D1471CBA505/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BDB79E8BC07224DB6787D1471CBA505/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BDB79E8BC07224DB6787D1471CBA505/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Description/@EntryValue">Encapsulate a codeblock with a ProfilerMarker</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Field/=method/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Field/=method/Expression/@EntryValue">typeMember()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Field/=method/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Field/=method/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Shortcut/@EntryValue">prfl</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9BEFA7E7E2102A4F971197C9AF1D834F/Text/@EntryValue">if (_PRF_$method$.Handle == IntPtr.Zero)
+{
+    _PRF_$method$ = new Unity.Profiling.ProfilerMarker(GetType().GetReadableName() + "." + nameof(OnChanged));
+}
+
+using(_PRF_$method$.Auto())
+{
+    $SELECTION$$END$
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C2AF4C66D38F14BA0D7C1E0AF3A81FD/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C2AF4C66D38F14BA0D7C1E0AF3A81FD/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C2AF4C66D38F14BA0D7C1E0AF3A81FD/Categories/=unity/@EntryIndexedValue">unity</s:String>
@@ -3837,7 +4246,7 @@ using Object = UnityEngine.Object;
 using System;
 
     [Serializable]
-    public class $TYPE$Data : ComponentData&lt;$TYPE$Data, $TYPE$&gt;
+    public class $TYPE$Data : ComponentData&lt;$TYPE$, $TYPE$Data&gt;
     {
         public $TYPE$Data()
         {
@@ -3849,26 +4258,41 @@ using System;
 
         #region Fields and Autoproperties
 
-        [SerializeField, OnValueChanged(nameof(InvokeSettingsChanged))]
+        [SerializeField, OnValueChanged(nameof(OnChanged))]
         public $FIELDTYPE$
          $FIELD$;
 
         #endregion
 
-
-        protected override void Configure($TYPE$ comp)
+/// &lt;inheritdoc /&gt;
+        protected override void ExecuteComponentDataApplication($TYPE$ comp)
         {
-            using (_PRF_Configure.Auto())
+            using (_PRF_ExecuteComponentDataApplication.Auto())
             {
-                comp.$FIELD$ = $FIELD$;
+                if ($FIELD$.Overriding)
+                {
+                    comp.$FIELD$ = $FIELD$;
+                }
             }
         }
 
-        protected override void OnInitializeFields(Initializer initializer)
+/// &lt;inheritdoc /&gt;
+        protected override void OnInitializeFields(Initializer initializer, Object owner)
         {
             using (_PRF_OnInitializeFields.Auto())
             {
                 $FIELD$ = default($FIELDTYPE$);
+            }
+        }        
+
+/// &lt;inheritdoc /&gt;
+        protected override void SubscribeResponsiveChildren()
+        {
+            using (_PRF_SubscribeResponsiveChildren.Auto())
+            {
+                base.SubscribeResponsiveChildren();
+                
+                $FIELD$.Changed.Event += OnChanged;
             }
         }
     }</s:String>
@@ -4096,7 +4520,7 @@ using System;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B9B6E5B4E0196D43A897D75769155B17/Text/@EntryValue">FunctionalitySet.RegisterWidget&lt;$TARGET$&gt;(_dependencyTracker, i =&gt; _$target$ = i);</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Description/@EntryValue">Creates a template for a new application feature.</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Description/@EntryValue">Creates a template for a new application widget.</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Field/=type/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Field/=type/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Reformat/@EntryValue">True</s:Boolean>
@@ -4105,25 +4529,63 @@ using System;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Scope/=558F05AA0DE96347816FF785232CFB2A/Type/@EntryValue">InCSharpTypeAndNamespace</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Shortcut/@EntryValue">appaFunctionalityWidgetApplication</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Text/@EntryValue">    public class $type$Widget : Appalachia.Prototype.KOC.Application.Widgets.Base.ApplicationWidget&lt;$type$Widget,
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC291DB71D888946996A74D3A9D8067E/Text/@EntryValue">using Appalachia.Core.Attributes;
+using Appalachia.Core.Objects.Initialization;
+using Appalachia.Utility.Async;
+using Core.Attributes;
+using System.Collections.Generic;
+using System;
+using UI.Controls.Sets.Button;
+using Unity.Profiling;
+using UnityEngine;
+using Utility.Extensions;
+
+
+public class $type$Widget : Appalachia.Prototype.KOC.Application.Widgets.Base.ApplicationWidget&lt;$type$Widget,
         $type$WidgetMetadata&gt;
     {
-        protected override void SubscribeToAllFunctionalties()
-        {
-        }
 
-        protected override void UnsubscribeFromAllFunctionalities()
-        {
-        }
-
+/// &lt;inheritdoc /&gt;
         protected override void OnApplyMetadataInternal()
         {
+            using (_PRF_OnApplyMetadataInternal.Auto())
+            {
+                base.OnApplyMetadataInternal();
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void SubscribeToAllFunctionalties()
+        {
+            using (_PRF_SubscribeToAllFunctionalties.Auto())
+            {
+                base.SubscribeToAllFunctionalties();
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void UnsubscribeFromAllFunctionalities()
+        {
+            using (_PRF_UnsubscribeFromAllFunctionalities.Auto())
+            {
+                base.UnsubscribeFromAllFunctionalities();
+            }
+        }
+
+/// &lt;inheritdoc /&gt;
+        protected override void UpdateSizeInternal()
+        {
+            using (_PRF_UpdateSizeInternal.Auto())
+            {
+                base.UpdateSizeInternal();
+            }
         }
     }
 
     public class $type$WidgetMetadata : Appalachia.Prototype.KOC.Application.Widgets.Base.ApplicationWidgetMetadata&lt;$type$Widget,
         $type$WidgetMetadata&gt;
     {
+/// &lt;inheritdoc /&gt;
         public override void Apply($type$Widget functionality)
         {
         }
@@ -4137,7 +4599,9 @@ using System;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C902032EB85B1F49ADD2747C9FBD7A9F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C902032EB85B1F49ADD2747C9FBD7A9F/Shortcut/@EntryValue">appaInitialize</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C902032EB85B1F49ADD2747C9FBD7A9F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C902032EB85B1F49ADD2747C9FBD7A9F/Text/@EntryValue">protected override async Appalachia.Utility.Async.AppaTask Initialize(Appalachia.Core.Objects.Initialization.Initializer initializer)
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C902032EB85B1F49ADD2747C9FBD7A9F/Text/@EntryValue">
+/// &lt;inheritdoc /&gt;
+protected override async Appalachia.Utility.Async.AppaTask Initialize(Appalachia.Core.Objects.Initialization.Initializer initializer)
 {
     await base.Initialize(initializer);
 
@@ -4193,17 +4657,31 @@ using System;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBC8F675EB5CBA439D4E82524F65AC2F/Scope/=558F05AA0DE96347816FF785232CFB2A/Type/@EntryValue">InCSharpTypeAndNamespace</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBC8F675EB5CBA439D4E82524F65AC2F/Shortcut/@EntryValue">appaFunctionalityFeatureApplication</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBC8F675EB5CBA439D4E82524F65AC2F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBC8F675EB5CBA439D4E82524F65AC2F/Text/@EntryValue">    public class $type$Feature : Appalachia.Prototype.KOC.Application.Features.Base.ApplicationFeature&lt;$type$Feature,
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CBC8F675EB5CBA439D4E82524F65AC2F/Text/@EntryValue">using Appalachia.Core.Attributes;
+using Appalachia.Core.Objects.Initialization;
+using Appalachia.Utility.Async;
+using Core.Attributes;
+using System.Collections.Generic;
+using System;
+using UI.Controls.Sets.Button;
+using Unity.Profiling;
+using UnityEngine;
+using Utility.Extensions;
+
+    public class $type$Feature : Appalachia.Prototype.KOC.Application.Features.Base.ApplicationFeature&lt;$type$Feature,
         $type$FeatureMetadata&gt;
     {
+/// &lt;inheritdoc /&gt;
         protected override void SubscribeToAllFunctionalties()
         {
         }
 
+/// &lt;inheritdoc /&gt;
         protected override void UnsubscribeFromAllFunctionalities()
         {
         }
 
+/// &lt;inheritdoc /&gt;
         protected override void OnApplyMetadataInternal()
         {
         }
@@ -4212,6 +4690,7 @@ using System;
     public class $type$FeatureMetadata : Appalachia.Prototype.KOC.Application.Features.Base.ApplicationFeatureMetadata&lt;$type$Feature,
         $type$FeatureMetadata&gt;
     {
+/// &lt;inheritdoc /&gt;
         public override void Apply($type$Feature functionality)
         {
         }
@@ -4355,6 +4834,7 @@ private static $SERVICE$ _$service$;
 
 #endregion
 
+/// &lt;inheritdoc /&gt;
 protected override void OnHide()
 {
     using (_PRF_OnHide.Auto())
@@ -4362,6 +4842,7 @@ protected override void OnHide()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnShow()
 {
     using (_PRF_OnShow.Auto())
@@ -4369,6 +4850,7 @@ protected override void OnShow()
     }
 }
 
+/// &lt;inheritdoc /&gt;
 protected override void OnValidateAppearance()
 {
     using (_PRF_OnValidateAppearance.Auto())
@@ -4511,15 +4993,20 @@ protected override void OnValidateAppearance()
 	<s:Boolean x:Key="/Default/SymbolServers/RestoreDecompileSetting/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Atlassed/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Colliders/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Decibals/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Doozy/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Emissive/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Enviro/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Gizmos/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Instancer/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=n_0020click_0020O/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Raycast/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=raycastable/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=rigidbody/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Scriptable/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=specularity/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=substate/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=subwidget/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=subwidgets/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Unclamped/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Voxel/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

@@ -31,13 +31,12 @@ debug_log 'activating environment'
 # shellcheck source=../.venv/Scripts/activate
 source "${APPA_HOME}/.venv/Scripts/activate"
 
-source "${APPA_SCRIPT_HOME}/.direnv-fix.sh"
+#source "${APPA_SCRIPT_HOME}/.direnv-fix.sh"
+#debug_log 'direnv hook bash'
+#eval "$(direnv hook bash)"
 
-debug_log 'direnv hook bash'
-eval "$(direnv hook bash)"
-
-debug_log 'source bash-preexec.sh'
-source "${APPA_SCRIPT_HOME}/bash-preexec.sh"
+#debug_log 'source bash-preexec.sh'
+#source "${APPA_SCRIPT_HOME}/bash-preexec.sh"
 
 debug_log 'source .bashprofile'
 source "${APPA_SCRIPT_HOME}/.bashprofile"
