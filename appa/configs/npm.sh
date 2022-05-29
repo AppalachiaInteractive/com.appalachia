@@ -6,9 +6,9 @@ set -a
 APPA_CONFIG_NPM='LOADED'
 ## ------------------------------------
 
-NPM_USER="chris"
-NPM_EMAIL="chris@appalachiainteractive.com"
-NPM_REGISTRY="http://35.211.123.13:4873/"
+#NPM_USER="chris"
+#NPM_EMAIL="chris@appalachiainteractive.com"
+#NPM_REGISTRY="http://35.211.123.13:4873/"
 
 
 ## ------------------------------------
